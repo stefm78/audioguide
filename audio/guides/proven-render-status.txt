@@ -1,2 +1,4 @@
-phase=started
+phase=finished
 source_commit=f919db547ba97d3752ba400c7b3201171ae3f7fc
+install=failure
+render=skipped
