@@ -1,6 +1,7 @@
 {
   "title": "Laboratoire de voix paramétriques — série 3",
   "method": "Deux corrections ciblées et huit nouveaux profils. Eloise est désormais testée comme voix enfant, pas comme jeune adulte.",
+  "trigger": "2026-08-19T17:03+02:00",
   "samples": [
     {"id":"01-femme-autorite-v3","intention":"Femme d'autorité — nette, décidée, légèrement plus aiguë que V2","voice":"fr-FR-DeniseNeural","rate":"+3%","pitch":"-4Hz","volume":"+7%","text":"Non. Nous ne recommencerons pas cette discussion. Les vivres seront comptés, les tours de garde respectés, et chacun prendra sa part du travail."},
     {"id":"02-aubergiste-v3","intention":"Aubergiste joviale — chaleureuse, truculente, légèrement plus rapide","voice":"fr-FR-DeniseNeural","rate":"+17%","pitch":"+8Hz","volume":"+8%","text":"Entrez donc ! Si vous cherchez le silence, vous vous êtes trompé de porte. Ici on mange, on discute, et quand l'histoire est bonne, on la raconte deux fois !"},
