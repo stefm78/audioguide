@@ -1,0 +1,72 @@
+[
+  {
+    "id": "01-narrateur",
+    "role": "Narrateur",
+    "archetype": "Conteur vif",
+    "voice": "fr-FR-RemyMultilingualNeural",
+    "rate": "+10%",
+    "pitch": "+14Hz",
+    "volume": "+5%",
+    "file": "audio/casting/01-narrateur.mp3"
+  },
+  {
+    "id": "02-sentinelle",
+    "role": "Sentinelle rochelaise",
+    "archetype": "Alerte, nerveux",
+    "voice": "fr-FR-HenriNeural",
+    "rate": "+22%",
+    "pitch": "+12Hz",
+    "volume": "+8%",
+    "file": "audio/casting/02-sentinelle.mp3"
+  },
+  {
+    "id": "03-marchande",
+    "role": "Marchande",
+    "archetype": "Truculente, énergique",
+    "voice": "fr-FR-DeniseNeural",
+    "rate": "+18%",
+    "pitch": "+20Hz",
+    "volume": "+10%",
+    "file": "audio/casting/03-marchande.mp3"
+  },
+  {
+    "id": "04-officier",
+    "role": "Officier royal",
+    "archetype": "Autorité froide",
+    "voice": "fr-FR-RemyMultilingualNeural",
+    "rate": "-20%",
+    "pitch": "-24Hz",
+    "volume": "+3%",
+    "file": "audio/casting/04-officier.mp3"
+  },
+  {
+    "id": "05-jeune",
+    "role": "Jeune messagère",
+    "archetype": "Rapide, clair, pressé",
+    "voice": "fr-FR-EloiseNeural",
+    "rate": "+28%",
+    "pitch": "+28Hz",
+    "volume": "+7%",
+    "file": "audio/casting/05-jeune.mp3"
+  },
+  {
+    "id": "06-ancienne",
+    "role": "Vieille Rochelaise",
+    "archetype": "Grave, mémoire de la ville",
+    "voice": "fr-FR-VivienneMultilingualNeural",
+    "rate": "-25%",
+    "pitch": "-20Hz",
+    "volume": "-5%",
+    "file": "audio/casting/06-ancienne.mp3"
+  },
+  {
+    "id": "07-narrateur",
+    "role": "Narrateur",
+    "archetype": "Conteur vif",
+    "voice": "fr-FR-RemyMultilingualNeural",
+    "rate": "+12%",
+    "pitch": "+16Hz",
+    "volume": "+6%",
+    "file": "audio/casting/07-narrateur.mp3"
+  }
+]
