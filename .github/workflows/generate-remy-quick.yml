@@ -1,0 +1,75 @@
+name: Generate Remy style comparison
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/generate-remy-quick.yml'
+      - 'scripts/demo-la-rochelle.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install Edge TTS
+        run: python -m pip install --disable-pip-version-check 'edge-tts==7.2.8'
+
+      - name: Generate four Remy variants
+        run: |
+          mkdir -p audio/expressive
+          python - <<'PY'
+          import asyncio
+          import pathlib
+          import re
+          import edge_tts
+
+          VOICE = 'fr-FR-RemyMultilingualNeural'
+          text = pathlib.Path('scripts/demo-la-rochelle.txt').read_text(encoding='utf-8').strip()
+
+          # Punctuation is used deliberately to encourage pauses without SSML.
+          storyteller_text = re.sub(r'\.\s+', '. … ', text)
+          dramatic_text = re.sub(r'\.\s+', '... ', text)
+          intimate_text = re.sub(r'\.\s+', '. … ', text)
+
+          variants = [
+              ('neutral', text, '-6%', '-4Hz', '+0%'),
+              ('storyteller', storyteller_text, '-9%', '-3Hz', '+1%'),
+              ('dramatic', dramatic_text, '-11%', '-7Hz', '+1%'),
+              ('intimate', intimate_text, '-13%', '-10Hz', '-10%'),
+          ]
+
+          async def main():
+              for name, source, rate, pitch, volume in variants:
+                  out = pathlib.Path('audio/expressive') / f'remy-{name}.mp3'
+                  print(f'Generating {name}')
+                  await edge_tts.Communicate(
+                      source, VOICE, rate=rate, pitch=pitch, volume=volume
+                  ).save(str(out))
+
+          asyncio.run(main())
+          PY
+
+      - name: Commit generated MP3 files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/expressive/remy-*.mp3
+          if git diff --cached --quiet; then
+            echo "Audio unchanged"
+          else
+            git commit -m "Generate Remy style comparison audio"
+            git push
+          fi
