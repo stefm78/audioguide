@@ -99,3 +99,5 @@ jobs:
       - name: Fail if generation failed
         if: steps.deps.outcome != 'success' || steps.synth.outcome != 'success'
         run: exit 1
+
+# trigger: 2026-08-19T15:31+02:00
