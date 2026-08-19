@@ -1,3 +1,5 @@
-phase=started
+phase=finished
 source_commit=a07b7f82c012093bb2905457293793a0fb01f94c
+install=success
+render=success
 episodes=02,03,04,05,06,07
