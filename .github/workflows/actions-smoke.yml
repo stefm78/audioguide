@@ -18,7 +18,7 @@ concurrency:
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
 
@@ -42,23 +42,19 @@ jobs:
         run: |
           mkdir -p audio/guides
           : > audio/guides/install.log
-          apt_rc=0
           pip_rc=0
-          if ! command -v ffmpeg >/dev/null 2>&1; then
-            timeout 90s bash -lc 'sudo apt-get update && sudo apt-get install -y ffmpeg' >> audio/guides/install.log 2>&1 || apt_rc=$?
-          else
-            echo "ffmpeg=$(command -v ffmpeg)" >> audio/guides/install.log
-          fi
-          timeout 90s python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'pydub==0.25.1' >> audio/guides/install.log 2>&1 || pip_rc=$?
-          printf '\napt_rc=%s\npip_rc=%s\n' "$apt_rc" "$pip_rc" >> audio/guides/install.log
-          test "$apt_rc" -eq 0 -a "$pip_rc" -eq 0
+          timeout 240s python -m pip install --disable-pip-version-check \
+            'edge-tts==7.2.8' 'imageio-ffmpeg==0.6.0' \
+            >> audio/guides/install.log 2>&1 || pip_rc=$?
+          printf '\npip_rc=%s\n' "$pip_rc" >> audio/guides/install.log
+          test "$pip_rc" -eq 0
 
       - name: Render Tour de la Lanterne
         id: render
         if: steps.install.outcome == 'success'
         continue-on-error: true
         run: |
-          timeout 180s python scripts/render_audioguide.py scripts/guides/tour-de-la-lanterne.json > audio/guides/render.log 2>&1
+          timeout 240s python scripts/render_audioguide.py scripts/guides/tour-de-la-lanterne.json > audio/guides/render.log 2>&1
 
       - name: Commit rendered guide and final diagnostic
         if: always()
