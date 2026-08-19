@@ -1,0 +1,37 @@
+[
+  {
+    "engine": "Microsoft Edge TTS",
+    "voice": "fr-FR-RemyMultilingualNeural",
+    "gender": "Male",
+    "locale": "fr-FR",
+    "file": "audio/benchmark/edge-remy-multilingual.mp3"
+  },
+  {
+    "engine": "Microsoft Edge TTS",
+    "voice": "fr-FR-VivienneMultilingualNeural",
+    "gender": "Female",
+    "locale": "fr-FR",
+    "file": "audio/benchmark/edge-vivienne-multilingual.mp3"
+  },
+  {
+    "engine": "Microsoft Edge TTS",
+    "voice": "fr-FR-HenriNeural",
+    "gender": "Male",
+    "locale": "fr-FR",
+    "file": "audio/benchmark/edge-henri.mp3"
+  },
+  {
+    "engine": "Microsoft Edge TTS",
+    "voice": "fr-FR-DeniseNeural",
+    "gender": "Female",
+    "locale": "fr-FR",
+    "file": "audio/benchmark/edge-denise.mp3"
+  },
+  {
+    "engine": "Microsoft Edge TTS",
+    "voice": "fr-FR-EloiseNeural",
+    "gender": "Female",
+    "locale": "fr-FR",
+    "file": "audio/benchmark/edge-eloise.mp3"
+  }
+]
