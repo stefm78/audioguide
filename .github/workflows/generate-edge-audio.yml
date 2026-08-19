@@ -1,5 +1,6 @@
 name: Benchmark French Edge voices
 
+# Pages no longer writes to main, so generated audio can push safely.
 on:
   workflow_dispatch:
   push:
