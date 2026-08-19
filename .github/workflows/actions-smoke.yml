@@ -1,4 +1,4 @@
-name: Proven production render
+name: Proven Vendée production render
 
 on:
   push:
@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: proven-production-render
+  group: proven-vendee-production-render
   cancel-in-progress: true
 
 jobs:
@@ -24,12 +24,12 @@ jobs:
 
       - name: Record start
         run: |
-          mkdir -p audio/guides
-          printf 'phase=started\nsource_commit=%s\n' "${{ github.sha }}" > audio/guides/proven-render-status.txt
+          mkdir -p audio/guides/vendee-revolution-ep01
+          printf 'phase=started\nsource_commit=%s\n' "${{ github.sha }}" > audio/guides/vendee-revolution-ep01/proven-status.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audio/guides/proven-render-status.txt
-          git commit -m 'Record production render start' || true
+          git add audio/guides/vendee-revolution-ep01/proven-status.txt
+          git commit -m 'Record Vendée render start' || true
           git push || true
 
       - uses: actions/setup-python@v6
@@ -40,34 +40,34 @@ jobs:
         id: install
         continue-on-error: true
         run: |
-          mkdir -p audio/guides
-          : > audio/guides/install.log
+          mkdir -p audio/guides/vendee-revolution-ep01
+          : > audio/guides/vendee-revolution-ep01/install.log
           pip_rc=0
           timeout 240s python -m pip install --disable-pip-version-check \
             'edge-tts==7.2.8' 'imageio-ffmpeg==0.6.0' \
-            >> audio/guides/install.log 2>&1 || pip_rc=$?
-          printf '\npip_rc=%s\n' "$pip_rc" >> audio/guides/install.log
+            >> audio/guides/vendee-revolution-ep01/install.log 2>&1 || pip_rc=$?
+          printf '\npip_rc=%s\n' "$pip_rc" >> audio/guides/vendee-revolution-ep01/install.log
           test "$pip_rc" -eq 0
 
-      - name: Render Tour de la Lanterne
+      - name: Render Vendée episode 1
         id: render
         if: steps.install.outcome == 'success'
         continue-on-error: true
         run: |
-          timeout 240s python scripts/render_audioguide.py scripts/guides/tour-de-la-lanterne.json > audio/guides/render.log 2>&1
+          timeout 300s python scripts/render_audioguide.py scripts/guides/vendee-revolution-ep01.json > audio/guides/vendee-revolution-ep01/render.log 2>&1
 
-      - name: Commit rendered guide and final diagnostic
+      - name: Commit rendered episode and final diagnostic
         if: always()
         run: |
-          mkdir -p audio/guides
+          mkdir -p audio/guides/vendee-revolution-ep01
           printf 'phase=finished\nsource_commit=%s\ninstall=%s\nrender=%s\n' \
             "${{ github.sha }}" \
             "${{ steps.install.outcome }}" \
-            "${{ steps.render.outcome }}" > audio/guides/proven-render-status.txt
+            "${{ steps.render.outcome }}" > audio/guides/vendee-revolution-ep01/proven-status.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audio/guides/
-          git commit -m 'Record proven production render diagnostics' || exit 0
+          git add audio/guides/vendee-revolution-ep01/
+          git commit -m 'Render Vendée Revolution episode 1 through proven path' || exit 0
           git push
 
       - name: Fail if production failed
