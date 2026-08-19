@@ -1,14 +1,11 @@
-name: Generate audio assets
+name: Generate production audioguide
 
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - 'scripts/voice-lab-v2.json'
-      - 'scripts/voice-lab-v3.json'
-      - 'scripts/voice-lab-v4.json'
-      - 'scripts/guides/**.json'
+      - 'scripts/guides/**'
       - 'scripts/voice-palette.json'
       - 'scripts/render_audioguide.py'
       - '.github/workflows/generate-voice-lab-v2.yml'
@@ -18,14 +15,15 @@ permissions:
 
 concurrency:
   group: audio-assets
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
+
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
@@ -40,53 +38,16 @@ jobs:
           fi
           python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'pydub==0.25.1'
 
-      - name: Generate configured voice labs
-        id: labs
-        continue-on-error: true
-        run: |
-          python - <<'PY'
-          import asyncio, json, pathlib
-          import edge_tts
-
-          LABS = [
-              ('scripts/voice-lab-v2.json', 'audio/voice-lab-v2'),
-              ('scripts/voice-lab-v3.json', 'audio/voice-lab-v3'),
-              ('scripts/voice-lab-v4.json', 'audio/voice-lab-v4'),
-          ]
-
-          async def generate(config_path, output_dir):
-              cfg_path = pathlib.Path(config_path)
-              if not cfg_path.exists():
-                  return
-              out_dir = pathlib.Path(output_dir)
-              out_dir.mkdir(parents=True, exist_ok=True)
-              cfg = json.loads(cfg_path.read_text(encoding='utf-8'))
-              manifest = []
-              for sample in cfg['samples']:
-                  out = out_dir / f"{sample['id']}.mp3"
-                  print(config_path, sample['id'], sample['voice'], sample['rate'], sample['pitch'], sample['volume'])
-                  await edge_tts.Communicate(
-                      sample['text'], sample['voice'],
-                      rate=sample['rate'], pitch=sample['pitch'], volume=sample['volume']
-                  ).save(str(out))
-                  manifest.append({**sample, 'file': str(out)})
-              (out_dir / 'manifest.json').write_text(
-                  json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
-              )
-
-          async def main():
-              for config_path, output_dir in LABS:
-                  await generate(config_path, output_dir)
-
-          asyncio.run(main())
-          PY
-
       - name: Render production audioguides
         id: production
         continue-on-error: true
         run: |
           shopt -s nullglob
           guides=(scripts/guides/*.json)
+          if [ ${#guides[@]} -eq 0 ]; then
+            echo 'No guide configuration found'
+            exit 1
+          fi
           for guide in "${guides[@]}"; do
             python scripts/render_audioguide.py "$guide"
           done
@@ -95,21 +56,16 @@ jobs:
         if: always()
         run: |
           mkdir -p audio/guides
-          printf 'source_commit=%s\ninstall=%s\nlabs=%s\nproduction=%s\n' \
+          printf 'source_commit=%s\ninstall=%s\nproduction=%s\n' \
             "${{ github.sha }}" \
             "${{ steps.install.outcome }}" \
-            "${{ steps.labs.outcome }}" \
-            "${{ steps.production.outcome }}" > audio/guides/audio-assets-status.txt
+            "${{ steps.production.outcome }}" > audio/guides/production-status.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audio/voice-lab-v2/ audio/voice-lab-v3/ audio/voice-lab-v4/ audio/guides/
-          if git diff --cached --quiet; then
-            echo "Audio assets unchanged"
-          else
-            git commit -m "Generate audio assets diagnostic"
-            git push
-          fi
+          git add audio/guides/
+          git commit -m 'Generate production audioguide' || exit 0
+          git push
 
-      - name: Fail if generation failed
-        if: steps.install.outcome != 'success' || steps.labs.outcome != 'success' || steps.production.outcome != 'success'
+      - name: Fail if production failed
+        if: steps.install.outcome != 'success' || steps.production.outcome != 'success'
         run: exit 1
