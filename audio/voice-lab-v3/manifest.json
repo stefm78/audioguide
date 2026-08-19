@@ -1,0 +1,102 @@
+[
+  {
+    "id": "01-femme-autorite-v3",
+    "intention": "Femme d'autorité — nette, décidée, légèrement plus aiguë que V2",
+    "voice": "fr-FR-DeniseNeural",
+    "rate": "+3%",
+    "pitch": "-4Hz",
+    "volume": "+7%",
+    "text": "Non. Nous ne recommencerons pas cette discussion. Les vivres seront comptés, les tours de garde respectés, et chacun prendra sa part du travail.",
+    "file": "audio/voice-lab-v3/01-femme-autorite-v3.mp3"
+  },
+  {
+    "id": "02-aubergiste-v3",
+    "intention": "Aubergiste joviale — chaleureuse, truculente, légèrement plus rapide",
+    "voice": "fr-FR-DeniseNeural",
+    "rate": "+17%",
+    "pitch": "+8Hz",
+    "volume": "+8%",
+    "text": "Entrez donc ! Si vous cherchez le silence, vous vous êtes trompé de porte. Ici on mange, on discute, et quand l'histoire est bonne, on la raconte deux fois !",
+    "file": "audio/voice-lab-v3/02-aubergiste-v3.mp3"
+  },
+  {
+    "id": "03-jeune-femme-messagere-a",
+    "intention": "Jeune femme messagère — vive, pressée, mais clairement adulte",
+    "voice": "fr-FR-DeniseNeural",
+    "rate": "+11%",
+    "pitch": "+4Hz",
+    "volume": "+5%",
+    "text": "J'arrive de la place ! Ils se réunissent encore là-bas. On m'a dit de vous prévenir tout de suite : la décision peut tomber d'un moment à l'autre.",
+    "file": "audio/voice-lab-v3/03-jeune-femme-messagere-a.mp3"
+  },
+  {
+    "id": "04-jeune-femme-messagere-b",
+    "intention": "Jeune femme messagère — plus posée, claire, adulte",
+    "voice": "fr-FR-VivienneMultilingualNeural",
+    "rate": "+8%",
+    "pitch": "+10Hz",
+    "volume": "+4%",
+    "text": "J'arrive de la place ! Ils se réunissent encore là-bas. On m'a dit de vous prévenir tout de suite : la décision peut tomber d'un moment à l'autre.",
+    "file": "audio/voice-lab-v3/04-jeune-femme-messagere-b.mp3"
+  },
+  {
+    "id": "05-jeune-femme-espiègle",
+    "intention": "Jeune femme espiègle — légère, vive, sans voix enfantine",
+    "voice": "fr-FR-DeniseNeural",
+    "rate": "+9%",
+    "pitch": "+10Hz",
+    "volume": "+4%",
+    "text": "Vous voulez vraiment savoir comment je suis entrée ? Très bien. Mais si je vous le raconte, vous promettez de ne surtout pas essayer de faire pareil.",
+    "file": "audio/voice-lab-v3/05-jeune-femme-espiègle.mp3"
+  },
+  {
+    "id": "06-homme-age-sage",
+    "intention": "Homme âgé — sage, solide, légèrement rocailleux",
+    "voice": "fr-FR-HenriNeural",
+    "rate": "-10%",
+    "pitch": "-18Hz",
+    "volume": "+2%",
+    "text": "On croit toujours que les événements commencent le jour où les canons parlent. C'est faux. Ils commencent bien avant, quand plus personne n'écoute les avertissements.",
+    "file": "audio/voice-lab-v3/06-homme-age-sage.mp3"
+  },
+  {
+    "id": "07-erudit-solennel",
+    "intention": "Érudit ou ecclésiastique — posé, cultivé, légèrement solennel",
+    "voice": "fr-FR-RemyMultilingualNeural",
+    "rate": "-5%",
+    "pitch": "-12Hz",
+    "volume": "+1%",
+    "text": "Il faut distinguer la mémoire de la légende. L'une conserve les traces ; l'autre les transforme. Notre travail consiste précisément à ne pas les confondre.",
+    "file": "audio/voice-lab-v3/07-erudit-solennel.mp3"
+  },
+  {
+    "id": "08-soldat-jovial",
+    "intention": "Soldat jovial — franc, énergique, bon camarade",
+    "voice": "fr-FR-HenriNeural",
+    "rate": "+11%",
+    "pitch": "-4Hz",
+    "volume": "+9%",
+    "text": "Allez, debout ! On a connu pire qu'une nuit froide et deux bottes pleines d'eau. Finissez votre soupe et venez m'aider avant que le sergent ne nous trouve !",
+    "file": "audio/voice-lab-v3/08-soldat-jovial.mp3"
+  },
+  {
+    "id": "09-femme-mysterieuse",
+    "intention": "Femme mystérieuse — retenue, proche, légèrement sombre",
+    "voice": "fr-FR-VivienneMultilingualNeural",
+    "rate": "-6%",
+    "pitch": "-8Hz",
+    "volume": "-10%",
+    "text": "Ne regardez pas derrière vous. Continuez simplement à marcher. Quand la cloche sonnera une seconde fois, vous comprendrez pourquoi je vous ai fait venir ici.",
+    "file": "audio/voice-lab-v3/09-femme-mysterieuse.mp3"
+  },
+  {
+    "id": "10-petite-fille-solennelle",
+    "intention": "Petite fille — environ 8 ans, sérieuse et appliquée",
+    "voice": "fr-FR-EloiseNeural",
+    "rate": "-2%",
+    "pitch": "+0Hz",
+    "volume": "+2%",
+    "text": "Grand-mère dit que cette pierre était déjà là quand elle était petite. Moi, je voudrais savoir combien d'histoires elle a entendues sans jamais pouvoir les raconter.",
+    "file": "audio/voice-lab-v3/10-petite-fille-solennelle.mp3"
+  }
+]
