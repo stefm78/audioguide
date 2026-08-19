@@ -1,0 +1,59 @@
+name: Generate production audioguide
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/guides/**.json'
+      - 'scripts/voice-palette.json'
+      - 'scripts/render_audioguide.py'
+      - '.github/workflows/generate-production-guide.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: production-audioguide
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install audio dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'pydub==0.25.1'
+
+      - name: Render production guides
+        run: |
+          shopt -s nullglob
+          guides=(scripts/guides/*.json)
+          if [ ${#guides[@]} -eq 0 ]; then
+            echo 'No guide configuration found'
+            exit 1
+          fi
+          for guide in "${guides[@]}"; do
+            python scripts/render_audioguide.py "$guide"
+          done
+
+      - name: Commit generated production audio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/guides/
+          if git diff --cached --quiet; then
+            echo 'Production audio unchanged'
+          else
+            git commit -m 'Generate production audioguide audio'
+            git push
+          fi
