@@ -1,5 +1,6 @@
 {
   "title": "Laboratoire de voix paramétriques — série 2",
+  "revision": 2,
   "method": "Trois corrections issues de l'écoute humaine, puis neuf nouveaux archétypes. Chaque extrait doit être jugé sur adéquation au rôle, naturel et plaisir d'écoute.",
   "samples": [
     {"id":"01-officier-v2","intention":"Officier royal — autorité froide, ferme, moins lent","voice":"fr-FR-RemyMultilingualNeural","rate":"-10%","pitch":"-24Hz","volume":"+3%","text":"La consigne est simple. On tient la position, on surveille les accès, et personne ne prend d'initiative sans ordre. Le temps travaille pour nous."},
