@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f1e8">
+  <title>Audioguide — Casting théâtral</title>
+  <style>
+    :root{--bg:#f5f1e8;--card:#fffdf8;--ink:#1f2926;--muted:#66716d;--accent:#153d36;--line:#ddd6c9}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-serif,Georgia,serif;line-height:1.55}
+    main{max-width:860px;margin:auto;padding:34px 18px 64px}.eyebrow,.meta,.pill,footer{font-family:ui-sans-serif,system-ui,sans-serif}
+    .eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}h1{font-size:clamp(2rem,7vw,3.6rem);line-height:1.04;margin:.25rem 0 .7rem}
+    .lede{font-size:1.12rem;color:var(--muted);max-width:68ch}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;margin:16px 0;box-shadow:0 10px 28px rgba(31,41,38,.05)}
+    h2,h3{margin:0 0 5px}.meta{color:var(--muted);font-size:.9rem;margin:0 0 11px}.pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:4px 9px;margin:0 5px 7px 0;font-size:.78rem;color:var(--muted)}
+    audio{width:100%;margin-top:6px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:680px){.grid{grid-template-columns:1fr}}
+    details{margin-top:10px}summary{cursor:pointer;font-family:ui-sans-serif,system-ui,sans-serif;font-weight:650}a{color:var(--accent)}footer{color:var(--muted);font-size:.82rem;margin-top:24px}
+  </style>
+</head>
+<body><main>
+  <p class="eyebrow">Audioguide · Casting théâtral</p>
+  <h1>Une petite troupe plutôt qu’une seule voix</h1>
+  <p class="lede">Scène fictionnelle inspirée du siège de La Rochelle de 1627-1628. Les dialogues sont imaginés ; le contexte général est historique. Les personnages sont volontairement typés pour mesurer l’intérêt d’un récit plus théâtral.</p>
+
+  <section class="card">
+    <h2>🎭 Scène complète</h2>
+    <p class="meta">Narrateur + sentinelle + marchande + officier + jeune messagère + vieille Rochelaise.</p>
+    <audio controls preload="metadata"><source src="audio/casting/scene-complete.mp3?v=1" type="audio/mpeg"></audio>
+    <details><summary>Ce qu’il faut juger</summary><p>Est-ce que l’alternance des voix rend le récit plus vivant ? Les personnages sont-ils immédiatement identifiables ? La caricature aide-t-elle ou devient-elle gênante ? Et surtout : auriez-vous envie d’écouter plusieurs minutes dans ce style ?</p></details>
+  </section>
+
+  <div class="grid">
+    <section class="card"><h3>Narrateur</h3><span class="pill">Conteur vif</span><span class="pill">Remy</span><p class="meta">Rapide, haut, énergique — fil conducteur.</p><audio controls preload="metadata"><source src="audio/casting/01-narrateur.mp3?v=1" type="audio/mpeg"></audio></section>
+    <section class="card"><h3>Sentinelle rochelaise</h3><span class="pill">Alerte</span><span class="pill">Henri</span><p class="meta">Très pressé, tendu, voix projetée.</p><audio controls preload="metadata"><source src="audio/casting/02-sentinelle.mp3?v=1" type="audio/mpeg"></audio></section>
+    <section class="card"><h3>Marchande</h3><span class="pill">Truculente</span><span class="pill">Denise</span><p class="meta">Énergique, plus aiguë, presque comique.</p><audio controls preload="metadata"><source src="audio/casting/03-marchande.mp3?v=1" type="audio/mpeg"></audio></section>
+    <section class="card"><h3>Officier royal</h3><span class="pill">Autorité froide</span><span class="pill">Remy transformé</span><p class="meta">Très ralenti et très grave pour tester la transformation d’une même voix.</p><audio controls preload="metadata"><source src="audio/casting/04-officier.mp3?v=1" type="audio/mpeg"></audio></section>
+    <section class="card"><h3>Jeune messagère</h3><span class="pill">Très vive</span><span class="pill">Eloise</span><p class="meta">Rapide et haute : personnage immédiatement contrasté.</p><audio controls preload="metadata"><source src="audio/casting/05-jeune.mp3?v=1" type="audio/mpeg"></audio></section>
+    <section class="card"><h3>Vieille Rochelaise</h3><span class="pill">Mémoire</span><span class="pill">Vivienne</span><p class="meta">Lente, grave, posée — respiration avant la conclusion.</p><audio controls preload="metadata"><source src="audio/casting/06-ancienne.mp3?v=1" type="audio/mpeg"></audio></section>
+  </div>
+
+  <section class="card">
+    <h2>Classification proposée</h2>
+    <p><strong>Voix physique</strong> × <strong>archétype dramatique</strong> × <strong>intensité</strong>.</p>
+    <p class="meta">Exemple : Denise × « personnage populaire » × intensité 4/5. Cette classification permet de réutiliser une voix différemment selon la scène, plutôt que de figer « une voix = un personnage ».</p>
+  </section>
+
+  <p><a href="./">← Retour au benchmark des voix</a> · <a href="expressive.html">Réglages extrêmes de Remy</a></p>
+  <footer>Prototype expérimental. Aucun dialogue n’est présenté comme une citation historique.</footer>
+</main></body></html>
