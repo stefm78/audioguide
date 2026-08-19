@@ -1,0 +1,7 @@
+{
+  "title": "Laboratoire de voix paramétriques — série 4",
+  "method": "Correction ciblée après validation de la série 3 : accélérer légèrement la femme d'autorité sans changer son timbre ni sa hauteur.",
+  "samples": [
+    {"id":"01-femme-autorite-v4","intention":"Femme d'autorité — nette, décidée, même timbre que V3 mais rythme plus vif","voice":"fr-FR-DeniseNeural","rate":"+8%","pitch":"-4Hz","volume":"+7%","text":"Non. Nous ne recommencerons pas cette discussion. Les vivres seront comptés, les tours de garde respectés, et chacun prendra sa part du travail."}
+  ]
+}
