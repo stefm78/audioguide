@@ -18,9 +18,20 @@ concurrency:
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v6
+
+      - name: Record start
+        run: |
+          mkdir -p audio/guides
+          printf 'phase=started\nsource_commit=%s\n' "${{ github.sha }}" > audio/guides/proven-render-status.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/guides/proven-render-status.txt
+          git commit -m 'Record production render start' || true
+          git push || true
+
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
@@ -30,21 +41,20 @@ jobs:
         continue-on-error: true
         run: |
           if ! command -v ffmpeg >/dev/null 2>&1; then
-            sudo apt-get update
-            sudo apt-get install -y ffmpeg
+            timeout 90s bash -lc 'sudo apt-get update && sudo apt-get install -y ffmpeg'
           fi
-          python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'pydub==0.25.1'
+          timeout 90s python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'pydub==0.25.1'
 
       - name: Render Tour de la Lanterne
         id: render
         continue-on-error: true
-        run: python scripts/render_audioguide.py scripts/guides/tour-de-la-lanterne.json
+        run: timeout 180s python scripts/render_audioguide.py scripts/guides/tour-de-la-lanterne.json
 
-      - name: Commit rendered guide and diagnostic
+      - name: Commit rendered guide and final diagnostic
         if: always()
         run: |
           mkdir -p audio/guides
-          printf 'source_commit=%s\ninstall=%s\nrender=%s\n' \
+          printf 'phase=finished\nsource_commit=%s\ninstall=%s\nrender=%s\n' \
             "${{ github.sha }}" \
             "${{ steps.install.outcome }}" \
             "${{ steps.render.outcome }}" > audio/guides/proven-render-status.txt
