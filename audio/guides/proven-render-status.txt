@@ -1,2 +1,4 @@
-phase=started
+phase=finished
 source_commit=8330307e8416c58add4d2222e1b1c72e67cbe689
+install=success
+render=success
