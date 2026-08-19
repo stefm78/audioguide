@@ -1,19 +1,20 @@
-name: Generate higher-quality French audio
+name: Benchmark French Edge voices
 
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
+      - 'scripts/benchmark-francais-difficile.txt'
       - '.github/workflows/generate-edge-audio.yml'
 
 permissions:
   contents: write
 
 jobs:
-  generate:
+  benchmark:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -26,46 +27,65 @@ jobs:
       - name: Install edge-tts
         run: python -m pip install --disable-pip-version-check 'edge-tts==7.2.8'
 
-      - name: Generate French narration
+      - name: Generate pronunciation benchmark
         run: |
-          mkdir -p audio
+          mkdir -p audio/benchmark
           python - <<'PY'
           import asyncio
+          import json
           import pathlib
           import edge_tts
 
+          TARGETS = [
+              'fr-FR-RemyMultilingualNeural',
+              'fr-FR-VivienneMultilingualNeural',
+              'fr-FR-HenriNeural',
+              'fr-FR-DeniseNeural',
+              'fr-FR-EloiseNeural',
+          ]
+
+          def slug(name: str) -> str:
+              return name.removeprefix('fr-FR-').removesuffix('Neural').replace('Multilingual', '-multilingual').lower()
+
           async def main():
               voices = await edge_tts.list_voices()
-              available = {v['ShortName'] for v in voices if v.get('Locale') == 'fr-FR'}
-              preferences = [
-                  'fr-FR-RemyMultilingualNeural',
-                  'fr-FR-HenriNeural',
-                  'fr-FR-VivienneMultilingualNeural',
-                  'fr-FR-DeniseNeural',
-              ]
-              voice = next((name for name in preferences if name in available), None)
-              if voice is None:
-                  candidates = sorted(available)
-                  if not candidates:
-                      raise SystemExit('No fr-FR voice available from Edge TTS')
-                  voice = candidates[0]
-              print(f'Using voice: {voice}')
-              pathlib.Path('audio/edge-voice.txt').write_text(voice + '\n', encoding='utf-8')
-              text = pathlib.Path('scripts/demo-la-rochelle.txt').read_text(encoding='utf-8').strip()
-              communicate = edge_tts.Communicate(text, voice, rate='-6%', pitch='-4Hz')
-              await communicate.save('audio/demo-la-rochelle-edge.mp3')
+              by_name = {v['ShortName']: v for v in voices if v.get('Locale') == 'fr-FR'}
+              selected = [name for name in TARGETS if name in by_name]
+              if not selected:
+                  raise SystemExit('No targeted fr-FR voice is currently available from Edge TTS')
+
+              text = pathlib.Path('scripts/benchmark-francais-difficile.txt').read_text(encoding='utf-8').strip()
+              manifest = []
+              for name in selected:
+                  out = pathlib.Path('audio/benchmark') / f'edge-{slug(name)}.mp3'
+                  print(f'Generating {name} -> {out}')
+                  communicate = edge_tts.Communicate(text, name, rate='-4%', pitch='+0Hz')
+                  await communicate.save(str(out))
+                  info = by_name[name]
+                  manifest.append({
+                      'engine': 'Microsoft Edge TTS',
+                      'voice': name,
+                      'gender': info.get('Gender'),
+                      'locale': info.get('Locale'),
+                      'file': str(out),
+                  })
+
+              pathlib.Path('audio/benchmark/edge-manifest.json').write_text(
+                  json.dumps(manifest, ensure_ascii=False, indent=2) + '\n',
+                  encoding='utf-8'
+              )
 
           asyncio.run(main())
           PY
 
-      - name: Commit generated comparison audio
+      - name: Commit benchmark audio
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audio/demo-la-rochelle-edge.mp3 audio/edge-voice.txt
+          git add audio/benchmark/
           if git diff --cached --quiet; then
-            echo "Audio unchanged"
+            echo "Benchmark audio unchanged"
           else
-            git commit -m "Add higher-quality French voice comparison"
+            git commit -m "Generate difficult French pronunciation benchmark"
             git push
           fi
