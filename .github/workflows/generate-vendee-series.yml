@@ -1,5 +1,6 @@
 name: Generate Vendée historical series
 
+# Production workflow for historically reviewed episodes.
 on:
   workflow_dispatch:
   push:
