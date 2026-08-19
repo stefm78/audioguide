@@ -28,6 +28,8 @@ jobs:
         run: python -m pip install --disable-pip-version-check 'edge-tts==7.2.8'
 
       - name: Generate pronunciation benchmark
+        id: synth
+        continue-on-error: true
         run: |
           mkdir -p audio/benchmark
           python - <<'PY'
@@ -51,6 +53,9 @@ jobs:
               voices = await edge_tts.list_voices()
               by_name = {v['ShortName']: v for v in voices if v.get('Locale') == 'fr-FR'}
               selected = [name for name in TARGETS if name in by_name]
+              pathlib.Path('audio/benchmark/available-fr-FR.txt').write_text(
+                  '\n'.join(sorted(by_name)) + '\n', encoding='utf-8'
+              )
               if not selected:
                   raise SystemExit('No targeted fr-FR voice is currently available from Edge TTS')
 
@@ -78,14 +83,25 @@ jobs:
           asyncio.run(main())
           PY
 
-      - name: Commit benchmark audio
+      - name: Record benchmark diagnostic
+        if: always()
+        run: |
+          mkdir -p audio/benchmark
+          printf 'edge_tts_outcome=%s\ncommit=%s\n' '${{ steps.synth.outcome }}' '${{ github.sha }}' > audio/benchmark/status.txt
+
+      - name: Commit benchmark results
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add audio/benchmark/
           if git diff --cached --quiet; then
-            echo "Benchmark audio unchanged"
+            echo "Benchmark results unchanged"
           else
             git commit -m "Generate difficult French pronunciation benchmark"
             git push
           fi
+
+      - name: Enforce successful synthesis
+        if: steps.synth.outcome != 'success'
+        run: exit 1
