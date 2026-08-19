@@ -2,102 +2,14 @@ name: Generate expressive Remy variants
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/generate-remy-expressive.yml'
-      - 'scripts/demo-la-rochelle.txt'
 
+# Kept only for manual experiments. Automated expressive generation now lives
+# in generate-edge-audio.yml to avoid concurrent jobs pushing to main.
 permissions:
   contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: '3.12'
-
-      - name: Install dependencies
-        id: deps
-        continue-on-error: true
-        run: |
-          python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'pydub==0.25.1'
-          sudo apt-get update -qq
-          sudo apt-get install -y ffmpeg
-
-      - name: Generate expressive variants
-        id: synth
-        if: steps.deps.outcome == 'success'
-        continue-on-error: true
-        run: |
-          mkdir -p audio/expressive
-          python - <<'PY'
-          import asyncio
-          import pathlib
-          import re
-          import tempfile
-          import edge_tts
-          from pydub import AudioSegment
-
-          VOICE = 'fr-FR-RemyMultilingualNeural'
-          text = pathlib.Path('scripts/demo-la-rochelle.txt').read_text(encoding='utf-8').strip()
-          sentences = [s.strip() for s in re.split(r'(?<=[.!?])\s+', text) if s.strip()]
-
-          presets = {
-              'neutral': {'rate':['-6%'],'pitch':['-4Hz'],'volume':['+0%'],'pauses':[240,320]},
-              'storyteller': {'rate':['-10%','-7%','-9%','-6%'],'pitch':['-5Hz','-1Hz','-4Hz','+1Hz'],'volume':['+0%','+1%','+0%','+1%'],'pauses':[360,520,420,650]},
-              'dramatic': {'rate':['-13%','-5%','-12%','-4%'],'pitch':['-9Hz','+3Hz','-7Hz','+5Hz'],'volume':['-1%','+2%','-2%','+2%'],'pauses':[500,720,430,850]},
-              'intimate': {'rate':['-14%','-12%','-15%','-10%'],'pitch':['-12Hz','-9Hz','-13Hz','-8Hz'],'volume':['-10%','-8%','-11%','-8%'],'pauses':[520,680,560,820]},
-          }
-
-          async def synth(sentence, out, rate, pitch, volume):
-              comm = edge_tts.Communicate(sentence, VOICE, rate=rate, pitch=pitch, volume=volume)
-              await comm.save(str(out))
-
-          async def build_variant(name, cfg):
-              combined = AudioSegment.silent(duration=120)
-              with tempfile.TemporaryDirectory() as td:
-                  td = pathlib.Path(td)
-                  for i, sentence in enumerate(sentences):
-                      part = td / f'{i:02d}.mp3'
-                      await synth(sentence, part, cfg['rate'][i % len(cfg['rate'])], cfg['pitch'][i % len(cfg['pitch'])], cfg['volume'][i % len(cfg['volume'])])
-                      combined += AudioSegment.from_file(part)
-                      combined += AudioSegment.silent(duration=cfg['pauses'][i % len(cfg['pauses'])])
-              out = pathlib.Path('audio/expressive') / f'remy-{name}.mp3'
-              combined.export(out, format='mp3', bitrate='128k')
-              print(f'Generated {out}')
-
-          async def main():
-              for name, cfg in presets.items():
-                  await build_variant(name, cfg)
-
-          asyncio.run(main())
-          PY
-
-      - name: Record diagnostic and commit outputs
-        if: always()
-        run: |
-          mkdir -p audio/expressive
-          printf 'deps=%s\nsynth=%s\ncommit=%s\n' "${{ steps.deps.outcome }}" "${{ steps.synth.outcome }}" "$GITHUB_SHA" > audio/expressive/status.txt
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audio/expressive/status.txt audio/expressive/remy-*.mp3 2>/dev/null || true
-          if git diff --cached --quiet; then
-            echo "No expressive output change"
-          else
-            git commit -m "Generate expressive Remy voice variants"
-            git push
-          fi
-
-      - name: Fail if generation failed
-        if: steps.deps.outcome != 'success' || steps.synth.outcome != 'success'
-        run: exit 1
-
-# trigger: 2026-08-19T15:31+02:00
+      - run: echo "Use generate-edge-audio.yml for automated expressive generation."
