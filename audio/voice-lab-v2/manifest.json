@@ -1,0 +1,122 @@
+[
+  {
+    "id": "01-officier-v2",
+    "intention": "Officier royal — autorité froide, ferme, moins lent",
+    "voice": "fr-FR-RemyMultilingualNeural",
+    "rate": "-10%",
+    "pitch": "-24Hz",
+    "volume": "+3%",
+    "text": "La consigne est simple. On tient la position, on surveille les accès, et personne ne prend d'initiative sans ordre. Le temps travaille pour nous.",
+    "file": "audio/voice-lab-v2/01-officier-v2.mp3"
+  },
+  {
+    "id": "02-messagere-v2",
+    "intention": "Jeune messagère — vive et pressée, mais naturelle",
+    "voice": "fr-FR-EloiseNeural",
+    "rate": "+10%",
+    "pitch": "+10Hz",
+    "volume": "+5%",
+    "text": "J'arrive de la place ! Ils se réunissent encore là-bas. On m'a dit de vous prévenir tout de suite : la décision peut tomber d'un moment à l'autre.",
+    "file": "audio/voice-lab-v2/02-messagere-v2.mp3"
+  },
+  {
+    "id": "03-ancienne-v2",
+    "intention": "Vieille Rochelaise — mémoire, gravité, légèrement plus vive",
+    "voice": "fr-FR-VivienneMultilingualNeural",
+    "rate": "-12%",
+    "pitch": "-20Hz",
+    "volume": "-4%",
+    "text": "J'en ai vu passer, des hivers et des hommes pressés. Les pierres, elles, restent. Et elles finissent toujours par raconter ce que les hommes préféraient oublier.",
+    "file": "audio/voice-lab-v2/03-ancienne-v2.mp3"
+  },
+  {
+    "id": "04-marin-bourru",
+    "intention": "Marin bourru — direct, solide, un peu râleur",
+    "voice": "fr-FR-HenriNeural",
+    "rate": "+4%",
+    "pitch": "-14Hz",
+    "volume": "+8%",
+    "text": "La mer est mauvaise ? Tant mieux. Elle remet les idées en place. Serrez les amarres, rangez-moi ce pont, et après seulement vous pourrez vous plaindre.",
+    "file": "audio/voice-lab-v2/04-marin-bourru.mp3"
+  },
+  {
+    "id": "05-crieur-public",
+    "intention": "Crieur public — projeté, énergique, immédiatement audible",
+    "voice": "fr-FR-HenriNeural",
+    "rate": "+14%",
+    "pitch": "+10Hz",
+    "volume": "+12%",
+    "text": "Oyez, oyez ! Par ordre des échevins, les portes seront fermées avant la tombée de la nuit ! Que chacun regagne son quartier sans tarder !",
+    "file": "audio/voice-lab-v2/05-crieur-public.mp3"
+  },
+  {
+    "id": "06-notable-hautain",
+    "intention": "Notable — sûr de lui, légèrement hautain",
+    "voice": "fr-FR-RemyMultilingualNeural",
+    "rate": "-2%",
+    "pitch": "-6Hz",
+    "volume": "+4%",
+    "text": "Je vous en prie, ne confondons pas précipitation et décision. Une ville sérieuse ne se gouverne ni dans la rumeur, ni dans l'agitation de la rue.",
+    "file": "audio/voice-lab-v2/06-notable-hautain.mp3"
+  },
+  {
+    "id": "07-conspirateur",
+    "intention": "Conspirateur — discret, tendu, proche de l'oreille",
+    "voice": "fr-FR-RemyMultilingualNeural",
+    "rate": "-8%",
+    "pitch": "-12Hz",
+    "volume": "-12%",
+    "text": "Pas ici. Les murs ont des oreilles, et certains sourires coûtent plus cher qu'un aveu. Retrouvez-moi après la cloche, derrière l'ancien entrepôt.",
+    "file": "audio/voice-lab-v2/07-conspirateur.mp3"
+  },
+  {
+    "id": "08-femme-autorite",
+    "intention": "Femme d'autorité — nette, décidée, sans caricature",
+    "voice": "fr-FR-DeniseNeural",
+    "rate": "+3%",
+    "pitch": "-10Hz",
+    "volume": "+7%",
+    "text": "Non. Nous ne recommencerons pas cette discussion. Les vivres seront comptés, les tours de garde respectés, et chacun prendra sa part du travail.",
+    "file": "audio/voice-lab-v2/08-femme-autorite.mp3"
+  },
+  {
+    "id": "09-aubergiste-joviale",
+    "intention": "Aubergiste — chaleureuse, vive, un peu truculente",
+    "voice": "fr-FR-DeniseNeural",
+    "rate": "+12%",
+    "pitch": "+8Hz",
+    "volume": "+8%",
+    "text": "Entrez donc ! Si vous cherchez le silence, vous vous êtes trompé de porte. Ici on mange, on discute, et quand l'histoire est bonne, on la raconte deux fois !",
+    "file": "audio/voice-lab-v2/09-aubergiste-joviale.mp3"
+  },
+  {
+    "id": "10-conteuse-chaleureuse",
+    "intention": "Conteuse — chaleureuse, posée, rassurante",
+    "voice": "fr-FR-VivienneMultilingualNeural",
+    "rate": "-3%",
+    "pitch": "+0Hz",
+    "volume": "+2%",
+    "text": "Approchez. Cette histoire commence bien avant nous, à une époque où le port sentait le sel, le bois mouillé et les épices venues de très loin.",
+    "file": "audio/voice-lab-v2/10-conteuse-chaleureuse.mp3"
+  },
+  {
+    "id": "11-aristocrate-distante",
+    "intention": "Aristocrate — élégante, distante, légèrement froide",
+    "voice": "fr-FR-VivienneMultilingualNeural",
+    "rate": "-8%",
+    "pitch": "+8Hz",
+    "volume": "-2%",
+    "text": "Vous comprendrez, j'espère, que certaines choses ne se discutent pas sur une place publique. Il existe encore des usages, et ils ont leur utilité.",
+    "file": "audio/voice-lab-v2/11-aristocrate-distante.mp3"
+  },
+  {
+    "id": "12-jeune-malicieuse",
+    "intention": "Jeune personnage — malicieux, léger, sans effet chipmunk",
+    "voice": "fr-FR-EloiseNeural",
+    "rate": "+6%",
+    "pitch": "+3Hz",
+    "volume": "+4%",
+    "text": "Vous voulez vraiment savoir comment je suis entrée ? Très bien. Mais si je vous le raconte, vous promettez de ne surtout pas essayer de faire pareil.",
+    "file": "audio/voice-lab-v2/12-jeune-malicieuse.mp3"
+  }
+]
