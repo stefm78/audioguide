@@ -1,4 +1,4 @@
-name: Actions smoke test
+name: Proven production render
 
 on:
   push:
@@ -11,16 +11,33 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: proven-production-render
+  cancel-in-progress: true
+
 jobs:
-  smoke:
+  render:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
-      - name: Record smoke success
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          if ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
+          python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'pydub==0.25.1'
+      - name: Render Tour de la Lanterne
+        run: python scripts/render_audioguide.py scripts/guides/tour-de-la-lanterne.json
+      - name: Commit rendered guide
         run: |
           printf 'source_commit=%s\n' "${{ github.sha }}" > .actions-smoke-result
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .actions-smoke-result
-          git commit -m 'Record Actions smoke success' || exit 0
+          git add .actions-smoke-result audio/guides/tour-de-la-lanterne/
+          git commit -m 'Render first production audioguide' || exit 0
           git push
