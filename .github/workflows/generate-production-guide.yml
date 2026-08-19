@@ -29,12 +29,16 @@ jobs:
           python-version: '3.12'
 
       - name: Install audio dependencies
+        id: install
+        continue-on-error: true
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
           python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'pydub==0.25.1'
 
       - name: Render production guides
+        id: render
+        continue-on-error: true
         run: |
           shopt -s nullglob
           guides=(scripts/guides/*.json)
@@ -46,14 +50,24 @@ jobs:
             python scripts/render_audioguide.py "$guide"
           done
 
-      - name: Commit generated production audio
+      - name: Record result and commit generated audio
+        if: always()
         run: |
+          mkdir -p audio/guides
+          printf 'source_commit=%s\ninstall=%s\nrender=%s\n' \
+            "${{ github.sha }}" \
+            "${{ steps.install.outcome }}" \
+            "${{ steps.render.outcome }}" > audio/guides/production-status.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add audio/guides/
           if git diff --cached --quiet; then
-            echo 'Production audio unchanged'
+            echo 'Production output unchanged'
           else
-            git commit -m 'Generate production audioguide audio'
+            git commit -m 'Generate production audioguide output'
             git push
           fi
+
+      - name: Fail if production render failed
+        if: steps.install.outcome != 'success' || steps.render.outcome != 'success'
+        run: exit 1
