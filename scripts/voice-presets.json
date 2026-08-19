@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "purpose": "Bibliothèque évolutive de presets validés ou reclassés après écoute humaine.",
+  "presets": [
+    {"id":"narrateur-vif","status":"validated","voice":"fr-FR-RemyMultilingualNeural","rate":"+10%","pitch":"+14Hz","volume":"+5%","intention":"Narrateur vif, énergique, fil conducteur"},
+    {"id":"sentinelle-nerveuse","status":"validated","voice":"fr-FR-HenriNeural","rate":"+22%","pitch":"+12Hz","volume":"+8%","intention":"Sentinelle alerte, nerveuse, projetée"},
+    {"id":"marchande-truculente","status":"validated","voice":"fr-FR-DeniseNeural","rate":"+18%","pitch":"+20Hz","volume":"+10%","intention":"Marchande populaire, énergique, truculente"},
+    {"id":"officier-autorite-v2","status":"validated","voice":"fr-FR-RemyMultilingualNeural","rate":"-10%","pitch":"-24Hz","volume":"+3%","intention":"Autorité froide, ferme, grave, sans lenteur excessive"},
+    {"id":"ancienne-memoire-v2","status":"validated","voice":"fr-FR-VivienneMultilingualNeural","rate":"-12%","pitch":"-20Hz","volume":"-4%","intention":"Vieille femme, mémoire, gravité, rythme posé"},
+    {"id":"eloise-enfant-pressee","status":"reclassified","voice":"fr-FR-EloiseNeural","rate":"+10%","pitch":"+10Hz","volume":"+5%","intention":"Petite fille vive et pressée, environ 8 ans"},
+    {"id":"eloise-enfant-malicieuse","status":"reclassified","voice":"fr-FR-EloiseNeural","rate":"+6%","pitch":"+3Hz","volume":"+4%","intention":"Petite fille malicieuse, environ 8 ans"}
+  ]
+}
