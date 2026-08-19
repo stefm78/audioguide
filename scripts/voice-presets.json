@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "purpose": "Bibliothèque évolutive de presets validés ou reclassés après écoute humaine.",
   "presets": [
     {"id":"narrateur-vif","status":"validated","voice":"fr-FR-RemyMultilingualNeural","rate":"+10%","pitch":"+14Hz","volume":"+5%","intention":"Narrateur vif, énergique, fil conducteur"},
@@ -7,7 +7,17 @@
     {"id":"marchande-truculente","status":"validated","voice":"fr-FR-DeniseNeural","rate":"+18%","pitch":"+20Hz","volume":"+10%","intention":"Marchande populaire, énergique, truculente"},
     {"id":"officier-autorite-v2","status":"validated","voice":"fr-FR-RemyMultilingualNeural","rate":"-10%","pitch":"-24Hz","volume":"+3%","intention":"Autorité froide, ferme, grave, sans lenteur excessive"},
     {"id":"ancienne-memoire-v2","status":"validated","voice":"fr-FR-VivienneMultilingualNeural","rate":"-12%","pitch":"-20Hz","volume":"-4%","intention":"Vieille femme, mémoire, gravité, rythme posé"},
-    {"id":"eloise-enfant-pressee","status":"reclassified","voice":"fr-FR-EloiseNeural","rate":"+10%","pitch":"+10Hz","volume":"+5%","intention":"Petite fille vive et pressée, environ 8 ans"},
-    {"id":"eloise-enfant-malicieuse","status":"reclassified","voice":"fr-FR-EloiseNeural","rate":"+6%","pitch":"+3Hz","volume":"+4%","intention":"Petite fille malicieuse, environ 8 ans"}
+    {"id":"eloise-enfant-pressee","status":"reclassified","voice":"fr-FR-EloiseNeural","rate":"+10%","pitch":"+10Hz","volume":"+5%","age_percu":"environ 8 ans","intention":"Petite fille vive et pressée"},
+    {"id":"eloise-enfant-malicieuse","status":"reclassified","voice":"fr-FR-EloiseNeural","rate":"+6%","pitch":"+3Hz","volume":"+4%","age_percu":"environ 8 ans","intention":"Petite fille malicieuse"},
+    {"id":"aubergiste-joviale-v3","status":"validated","voice":"fr-FR-DeniseNeural","rate":"+17%","pitch":"+8Hz","volume":"+8%","intention":"Aubergiste chaleureuse, vive et truculente"},
+    {"id":"messagere-adulte-denise","status":"validated","voice":"fr-FR-DeniseNeural","rate":"+11%","pitch":"+4Hz","volume":"+5%","intention":"Jeune femme messagère, vive et pressée, clairement adulte"},
+    {"id":"messagere-adulte-vivienne","status":"validated","voice":"fr-FR-VivienneMultilingualNeural","rate":"+8%","pitch":"+10Hz","volume":"+4%","intention":"Jeune femme messagère, plus posée et claire"},
+    {"id":"jeune-femme-espiegle","status":"validated","voice":"fr-FR-DeniseNeural","rate":"+9%","pitch":"+10Hz","volume":"+4%","intention":"Jeune femme espiègle, légère et joueuse"},
+    {"id":"homme-age-sage","status":"validated","voice":"fr-FR-HenriNeural","rate":"-10%","pitch":"-18Hz","volume":"+2%","intention":"Homme âgé, sage, solide, légèrement rocailleux"},
+    {"id":"erudit-solennel","status":"validated","voice":"fr-FR-RemyMultilingualNeural","rate":"-5%","pitch":"-12Hz","volume":"+1%","intention":"Érudit ou ecclésiastique, cultivé, posé et légèrement solennel"},
+    {"id":"soldat-jovial","status":"validated","voice":"fr-FR-HenriNeural","rate":"+11%","pitch":"-4Hz","volume":"+9%","intention":"Soldat jovial, franc, énergique, bon camarade"},
+    {"id":"femme-mysterieuse","status":"validated","voice":"fr-FR-VivienneMultilingualNeural","rate":"-6%","pitch":"-8Hz","volume":"-10%","intention":"Femme mystérieuse, retenue, proche et légèrement sombre"},
+    {"id":"petite-fille-serieuse","status":"validated","voice":"fr-FR-EloiseNeural","rate":"-2%","pitch":"+0Hz","volume":"+2%","age_percu":"environ 8 ans","intention":"Petite fille sérieuse et appliquée"},
+    {"id":"femme-autorite-v3","status":"tune_requested","voice":"fr-FR-DeniseNeural","rate":"+3%","pitch":"-4Hz","volume":"+7%","intention":"Femme d'autorité nette et décidée ; à accélérer légèrement"}
   ]
 }
