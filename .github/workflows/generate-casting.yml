@@ -1,0 +1,95 @@
+name: Generate theatrical voice casting
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/casting-1628.json'
+      - '.github/workflows/generate-casting.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install audio tools
+        run: |
+          python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'pydub==0.25.1'
+          if ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y ffmpeg
+          fi
+
+      - name: Generate voices and assemble scene
+        run: |
+          mkdir -p audio/casting
+          python - <<'PY'
+          import asyncio
+          import json
+          import pathlib
+          import edge_tts
+          from pydub import AudioSegment
+
+          spec = json.loads(pathlib.Path('scripts/casting-1628.json').read_text(encoding='utf-8'))
+          outdir = pathlib.Path('audio/casting')
+
+          async def main():
+              montage = AudioSegment.silent(duration=180)
+              manifest = []
+
+              for seg in spec['segments']:
+                  out = outdir / f"{seg['id']}.mp3"
+                  await edge_tts.Communicate(
+                      seg['text'],
+                      seg['voice'],
+                      rate=seg['rate'],
+                      pitch=seg['pitch'],
+                      volume=seg['volume'],
+                  ).save(str(out))
+
+                  clip = AudioSegment.from_file(out, format='mp3')
+                  montage += clip
+                  montage += AudioSegment.silent(duration=seg.get('pause_after_ms', 300))
+
+                  manifest.append({
+                      'id': seg['id'],
+                      'role': seg['role'],
+                      'archetype': seg['archetype'],
+                      'voice': seg['voice'],
+                      'rate': seg['rate'],
+                      'pitch': seg['pitch'],
+                      'volume': seg['volume'],
+                      'file': f"audio/casting/{seg['id']}.mp3",
+                  })
+
+              montage.export(outdir / 'scene-complete.mp3', format='mp3', bitrate='128k')
+              pathlib.Path(outdir / 'manifest.json').write_text(
+                  json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
+              )
+
+          asyncio.run(main())
+          PY
+
+      - name: Commit generated casting
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/casting/
+          if git diff --cached --quiet; then
+            echo "Casting audio unchanged"
+          else
+            git commit -m "Generate theatrical multi-voice casting"
+            git push
+          fi
