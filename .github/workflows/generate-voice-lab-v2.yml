@@ -1,4 +1,4 @@
-name: Generate parametric voice labs
+name: Generate audio assets
 
 on:
   workflow_dispatch:
@@ -8,22 +8,36 @@ on:
       - 'scripts/voice-lab-v2.json'
       - 'scripts/voice-lab-v3.json'
       - 'scripts/voice-lab-v4.json'
+      - 'scripts/guides/**.json'
+      - 'scripts/voice-palette.json'
+      - 'scripts/render_audioguide.py'
       - '.github/workflows/generate-voice-lab-v2.yml'
 
 permissions:
   contents: write
 
+concurrency:
+  group: audio-assets
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - name: Install Edge TTS
-        run: python -m pip install --disable-pip-version-check 'edge-tts==7.2.8'
+
+      - name: Install audio dependencies
+        run: |
+          if ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
+          python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'pydub==0.25.1'
+
       - name: Generate configured voice labs
         run: |
           python - <<'PY'
@@ -62,14 +76,23 @@ jobs:
 
           asyncio.run(main())
           PY
-      - name: Commit generated samples
+
+      - name: Render production audioguides
+        run: |
+          shopt -s nullglob
+          guides=(scripts/guides/*.json)
+          for guide in "${guides[@]}"; do
+            python scripts/render_audioguide.py "$guide"
+          done
+
+      - name: Commit generated audio assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audio/voice-lab-v2/ audio/voice-lab-v3/ audio/voice-lab-v4/
+          git add audio/voice-lab-v2/ audio/voice-lab-v3/ audio/voice-lab-v4/ audio/guides/
           if git diff --cached --quiet; then
-            echo "Voice labs unchanged"
+            echo "Audio assets unchanged"
           else
-            git commit -m "Generate parametric voice labs"
+            git commit -m "Generate audio assets"
             git push
           fi
