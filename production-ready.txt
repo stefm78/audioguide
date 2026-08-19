@@ -1,0 +1,4 @@
+Tour de la Lanterne production audioguide
+render_source=8330307e8416c58add4d2222e1b1c72e67cbe689
+audio_sha=763f155c2bc3892271b0b685b06d30f29d27c559
+published=2026-08-19T18:00:00+02:00
