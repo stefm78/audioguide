@@ -1,0 +1,83 @@
+{
+  "title": "La Rochelle, octobre 1628 — scène de casting",
+  "note": "Mise en scène fictionnelle inspirée du siège de La Rochelle (1627-1628). Les dialogues sont imaginés ; le contexte historique général est documenté.",
+  "segments": [
+    {
+      "id": "01-narrateur",
+      "role": "Narrateur",
+      "archetype": "Conteur vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+10%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "pause_after_ms": 450,
+      "text": "Octobre 1628. Depuis plus de treize mois, La Rochelle résiste au siège conduit par Louis treize et Richelieu. Mais désormais, la faim parle plus fort que les canons."
+    },
+    {
+      "id": "02-sentinelle",
+      "role": "Sentinelle rochelaise",
+      "archetype": "Alerte, nerveux",
+      "voice": "fr-FR-HenriNeural",
+      "rate": "+22%",
+      "pitch": "+12Hz",
+      "volume": "+8%",
+      "pause_after_ms": 280,
+      "text": "Hé ! Fermez la porte ! Personne ne sort ! Et gardez vos lanternes basses : on nous observe depuis les lignes royales !"
+    },
+    {
+      "id": "03-marchande",
+      "role": "Marchande",
+      "archetype": "Truculente, énergique",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+18%",
+      "pitch": "+20Hz",
+      "volume": "+10%",
+      "pause_after_ms": 330,
+      "text": "Des lanternes ? Moi, ce que je voudrais surtout, c’est du pain ! Trois jours que mon étal est vide. Si Richelieu veut nous vaincre, qu’il vienne donc marchander avec mon dernier oignon !"
+    },
+    {
+      "id": "04-officier",
+      "role": "Officier royal",
+      "archetype": "Autorité froide",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-20%",
+      "pitch": "-24Hz",
+      "volume": "+3%",
+      "pause_after_ms": 650,
+      "text": "La ville cédera. Pas par bravoure, ni par lâcheté. Par épuisement. Que personne ne se trompe : le temps travaille pour nous."
+    },
+    {
+      "id": "05-jeune",
+      "role": "Jeune messagère",
+      "archetype": "Rapide, clair, pressé",
+      "voice": "fr-FR-EloiseNeural",
+      "rate": "+28%",
+      "pitch": "+28Hz",
+      "volume": "+7%",
+      "pause_after_ms": 260,
+      "text": "J’ai traversé la rue du Palais en courant ! On dit que les échevins se réunissent encore. Certains parlent de tenir. D’autres disent qu’il n’y a presque plus rien à distribuer."
+    },
+    {
+      "id": "06-ancienne",
+      "role": "Vieille Rochelaise",
+      "archetype": "Grave, mémoire de la ville",
+      "voice": "fr-FR-VivienneMultilingualNeural",
+      "rate": "-25%",
+      "pitch": "-20Hz",
+      "volume": "-5%",
+      "pause_after_ms": 780,
+      "text": "Écoutez-moi bien. Une ville peut perdre ses murs, ses privilèges, ses navires. Mais tant qu’il reste quelqu’un pour raconter ce qui s’est passé ici, elle n’est pas tout à fait vaincue."
+    },
+    {
+      "id": "07-narrateur",
+      "role": "Narrateur",
+      "archetype": "Conteur vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+12%",
+      "pitch": "+16Hz",
+      "volume": "+6%",
+      "pause_after_ms": 0,
+      "text": "Quelques jours plus tard, La Rochelle capitule. Le siège s’achève, mais l’épisode marque durablement l’histoire de la ville. Ici, les pierres ne racontent pas seulement une bataille : elles racontent ce que coûte une résistance lorsqu’elle se prolonge jusqu’à la faim."
+    }
+  ]
+}
