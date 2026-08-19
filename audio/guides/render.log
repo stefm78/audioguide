@@ -1,0 +1,13 @@
+Using bundled ffmpeg: /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2
+01 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +10%, +14Hz)
+02 Le Désarmeur des nefs — reconstitution -> officier-autorite (fr-FR-RemyMultilingualNeural, -10%, -24Hz)
+03 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +10%, +14Hz)
+04 Chroniqueur — reconstitution -> erudit-solennel (fr-FR-RemyMultilingualNeural, -5%, -12Hz)
+05 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +10%, +14Hz)
+06 Marin prisonnier — reconstitution -> marin-bourru (fr-FR-HenriNeural, +4%, -14Hz)
+07 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +10%, +14Hz)
+08 Prisonnier âgé — reconstitution -> homme-age-sage (fr-FR-HenriNeural, -10%, -18Hz)
+09 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +10%, +14Hz)
+10 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +10%, +14Hz)
+11 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +10%, +14Hz)
+Rendered audio/guides/tour-de-la-lanterne/guide.mp3

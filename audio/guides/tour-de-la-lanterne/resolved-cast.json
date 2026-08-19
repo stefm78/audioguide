@@ -1,0 +1,293 @@
+{
+  "guide": {
+    "id": "tour-de-la-lanterne",
+    "title": "La Tour de la Lanterne — du phare à la prison",
+    "location": "La Rochelle, France",
+    "historical_note": "Les faits historiques sont fondés sur les ressources officielles des Tours de La Rochelle / Centre des monuments nationaux. Les répliques de personnages sont des reconstitutions narratives et ne sont pas présentées comme des citations historiques.",
+    "sources": [
+      "https://www.tours-la-rochelle.fr/decouvrir/histoire-des-tours-de-la-rochelle",
+      "https://www.tours-la-rochelle.fr/decouvrir/la-tour-de-la-lanterne-un-phare-une-prison-et-de-l-art",
+      "https://www.tours-la-rochelle.fr/decouvrir/les-graffitis-de-la-tour-de-la-lanterne"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "target": {
+        "gender": "male",
+        "age": "adult",
+        "energy": 5,
+        "authority": 3,
+        "warmth": 4,
+        "darkness": 1,
+        "proximity": 3,
+        "tags": [
+          "narrateur",
+          "conteur",
+          "vif"
+        ]
+      },
+      "pause_after_ms": 520,
+      "text": "Regardez la Tour de la Lanterne. Avant d'être une prison, elle était d'abord une porte sur l'océan. Ses origines remontent à la fin du douzième siècle : une première tour contrôlait ici l'accès au port primitif de La Rochelle. Le capitaine qui y vivait avait une fonction très concrète. Il devait vérifier que les navires entrant dans le port ne conservaient pas leurs armes. On le surnommait le Désarmeur des nefs.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+10%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": [
+        {
+          "preset": "narrateur-vif",
+          "score": -6.0
+        },
+        {
+          "preset": "soldat-jovial",
+          "score": 1.4
+        },
+        {
+          "preset": "crieur-public",
+          "score": 9.4
+        }
+      ]
+    },
+    {
+      "character_id": "desarmeur",
+      "speaker": "Le Désarmeur des nefs — reconstitution",
+      "target": {
+        "gender": "male",
+        "age": "adult",
+        "energy": 3,
+        "authority": 5,
+        "warmth": 1,
+        "darkness": 3,
+        "proximity": 2,
+        "tags": [
+          "officier",
+          "autorite",
+          "grave"
+        ]
+      },
+      "pause_after_ms": 500,
+      "text": "Doucement. Avant d'entrer, vous me montrez ce que vous transportez. Les armes restent sous contrôle. Ici, personne ne franchit le port comme bon lui semble.",
+      "sequence": 2,
+      "resolved_preset": "officier-autorite",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-10%",
+      "pitch": "-24Hz",
+      "volume": "+3%",
+      "casting_alternatives": [
+        {
+          "preset": "officier-autorite",
+          "score": -3.4
+        },
+        {
+          "preset": "notable-hautain",
+          "score": 4.0
+        },
+        {
+          "preset": "erudit-solennel",
+          "score": 6.0
+        }
+      ]
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "pause_after_ms": 580,
+      "text": "Au quinzième siècle, La Rochelle transforme profondément la tour. Les travaux commencent en 1445 et s'achèvent en 1468, avec le financement du maire Jehan Mérichon. La tour primitive est enveloppée par une construction nouvelle. Au-dessus, une grande flèche devient un amer, un repère visible depuis la mer. Puis une lanterne de pierre protège le feu : la tour devient aussi un phare. Son nom vient de là.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+10%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "erudit",
+      "speaker": "Chroniqueur — reconstitution",
+      "target": {
+        "gender": "male",
+        "age": "adult",
+        "energy": 2,
+        "authority": 4,
+        "warmth": 2,
+        "darkness": 2,
+        "proximity": 3,
+        "tags": [
+          "erudit",
+          "solennel",
+          "cultive"
+        ]
+      },
+      "pause_after_ms": 650,
+      "text": "Imaginez cette flèche dans la nuit, au-dessus des maisons. Pour un marin qui cherche l'entrée du port, ce feu n'est pas un décor. C'est un point fixe dans l'obscurité. Même Rabelais évoquera plus tard la lanterne de La Rochelle dans son œuvre.",
+      "sequence": 4,
+      "resolved_preset": "erudit-solennel",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-5%",
+      "pitch": "-12Hz",
+      "volume": "+1%",
+      "casting_alternatives": [
+        {
+          "preset": "erudit-solennel",
+          "score": -6.0
+        },
+        {
+          "preset": "notable-hautain",
+          "score": 2.0
+        },
+        {
+          "preset": "marin-bourru",
+          "score": 2.9
+        }
+      ]
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "pause_after_ms": 620,
+      "text": "Mais à partir du seizième siècle, la fonction de la tour change. Elle devient une prison. Au dix-septième siècle, elle accueille notamment des prisonniers de guerre. Aux dix-septième et dix-huitième siècles, on y enferme des marins et des corsaires anglais, hollandais ou espagnols, souvent dans l'attente d'un échange avec des Français détenus à l'étranger.",
+      "sequence": 5,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+10%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "marin-prisonnier",
+      "speaker": "Marin prisonnier — reconstitution",
+      "target": {
+        "gender": "male",
+        "age": "adult",
+        "energy": 3,
+        "authority": 2,
+        "warmth": 2,
+        "darkness": 3,
+        "proximity": 4,
+        "tags": [
+          "marin",
+          "bourru",
+          "populaire"
+        ]
+      },
+      "pause_after_ms": 720,
+      "text": "On attend. Alors on compte les jours, on parle des bateaux, on se souvient du pont, des voiles, du vent. Et quand on a un morceau de métal ou une pierre assez dure... on grave. Un nom. Une date. Un navire. Quelque chose qui prouve qu'on est passé par ici.",
+      "sequence": 6,
+      "resolved_preset": "marin-bourru",
+      "voice": "fr-FR-HenriNeural",
+      "rate": "+4%",
+      "pitch": "-14Hz",
+      "volume": "+8%",
+      "casting_alternatives": [
+        {
+          "preset": "marin-bourru",
+          "score": -2.5
+        },
+        {
+          "preset": "conspirateur",
+          "score": 7.9
+        },
+        {
+          "preset": "erudit-solennel",
+          "score": 9.2
+        }
+      ]
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "pause_after_ms": 620,
+      "text": "C'est ce qui rend la Tour de la Lanterne exceptionnelle à écouter avec les yeux. Plus de six cents graffitis ont été répertoriés sur les murs, les sols, les salles et les escaliers. On y trouve surtout des navires, mais aussi des croix, des noms, des dates et des textes. Certains dessins donnent des détails précieux sur les coques, les gréements et les armements des flottes de guerre et de commerce.",
+      "sequence": 7,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+10%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "ancien-prisonnier",
+      "speaker": "Prisonnier âgé — reconstitution",
+      "target": {
+        "gender": "male",
+        "age": "older",
+        "energy": 1,
+        "authority": 2,
+        "warmth": 3,
+        "darkness": 4,
+        "proximity": 5,
+        "tags": [
+          "homme-age",
+          "memoire",
+          "sage"
+        ]
+      },
+      "pause_after_ms": 760,
+      "text": "Un mur de prison est fait pour vous enfermer. Mais quand des centaines d'hommes y laissent leurs noms et leurs bateaux, il finit par devenir autre chose : une mémoire que les geôliers n'avaient pas prévue.",
+      "sequence": 8,
+      "resolved_preset": "homme-age-sage",
+      "voice": "fr-FR-HenriNeural",
+      "rate": "-10%",
+      "pitch": "-18Hz",
+      "volume": "+2%",
+      "casting_alternatives": [
+        {
+          "preset": "homme-age-sage",
+          "score": -2.5
+        },
+        {
+          "preset": "conspirateur",
+          "score": 13.6
+        },
+        {
+          "preset": "erudit-solennel",
+          "score": 23.5
+        }
+      ]
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "pause_after_ms": 620,
+      "text": "La liste des détenus raconte aussi les fractures de l'histoire de France. Des protestants y sont emprisonnés après la révocation de l'édit de Nantes en 1685. Des insurgés vendéens y passent pendant la Révolution. À partir de 1820, la tour devient prison militaire. En 1822, deux des futurs Quatre Sergents de La Rochelle y sont enfermés avant que les quatre hommes ne soient finalement guillotinés à Paris.",
+      "sequence": 9,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+10%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "pause_after_ms": 450,
+      "text": "La tour que vous voyez aujourd'hui est donc un empilement d'époques. Elle est restaurée entre 1900 et 1914 ; en 1985, des œuvres contemporaines de Jean-Pierre Pincemin et Gottfried Honegger y sont installées ; une nouvelle grande campagne de restauration a lieu de 2013 à 2015. Elle compte huit niveaux et s'élève à cinquante-huit mètres.",
+      "sequence": 10,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+10%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "pause_after_ms": 0,
+      "text": "Alors, lorsque vous regardez les pierres, cherchez moins le monument parfait que les traces humaines. Un phare qui guidait les navires. Une tour qui contrôlait le port. Une prison. Puis, partout, ces silhouettes de bateaux gravées par des hommes qui ne pouvaient plus prendre la mer. C'est peut-être là que la Tour de la Lanterne devient la plus émouvante : la mer est juste dehors, et pourtant certains de ceux qui l'ont dessinée sur ces murs ne pouvaient plus l'atteindre.",
+      "sequence": 11,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+10%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}
