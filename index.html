@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#f5f1e8">
-  <title>Audioguide — Démo</title>
+  <title>Audioguide — La Rochelle</title>
   <style>
     :root{color-scheme:light;--bg:#f5f1e8;--card:#fffdf8;--ink:#1f2926;--muted:#66716d;--accent:#153d36;--line:#ddd6c9}
     *{box-sizing:border-box}
@@ -17,7 +17,8 @@
     h2{font-size:1.5rem;margin:0 0 6px}
     .meta{font-family:ui-sans-serif,system-ui,sans-serif;color:var(--muted);font-size:.92rem;margin:0 0 18px}
     audio{width:100%;margin:4px 0 10px}
-    #status{font-family:ui-sans-serif,system-ui,sans-serif;font-size:.9rem;color:var(--muted);margin:0}
+    #status{font-family:ui-sans-serif,system-ui,sans-serif;font-size:.9rem;color:var(--muted);margin:0 0 16px}
+    .download{display:inline-block;font-family:ui-sans-serif,system-ui,sans-serif;background:var(--accent);color:white;text-decoration:none;padding:10px 14px;border-radius:10px;font-weight:650;font-size:.92rem}
     details{margin-top:22px;border-top:1px solid var(--line);padding-top:18px}
     summary{cursor:pointer;font-family:ui-sans-serif,system-ui,sans-serif;font-weight:650}
     .transcript{margin-top:14px;font-size:1.04rem}
@@ -26,18 +27,19 @@
 </head>
 <body>
   <main>
-    <p class="eyebrow">Prototype · Audioguide</p>
+    <p class="eyebrow">Audioguide · Démonstration</p>
     <h1>La Rochelle</h1>
-    <p class="lede">Premier essai de narration historique en français, pensé comme un conte raconté pendant la visite.</p>
+    <p class="lede">Un récit historique à écouter pendant la visite. L’audio est servi directement par GitHub Pages.</p>
 
     <section class="card" aria-labelledby="demo-title">
       <h2 id="demo-title">La Tour de la Lanterne</h2>
-      <p class="meta">Démo courte · voix de conteur · audio généré par IA</p>
+      <p class="meta">Démo courte · français de France · synthèse vocale Piper</p>
       <audio id="player" controls preload="metadata">
         <source src="audio/demo-la-rochelle.mp3" type="audio/mpeg">
         Votre navigateur ne prend pas en charge la lecture audio.
       </audio>
       <p id="status" role="status">Chargement de l’audio…</p>
+      <a class="download" href="audio/demo-la-rochelle.mp3" download>Télécharger le MP3</a>
 
       <details>
         <summary>Lire le texte raconté</summary>
@@ -50,13 +52,13 @@
       </details>
     </section>
 
-    <footer>Prototype personnel — l’audio est produit par synthèse vocale et non par un narrateur humain.</footer>
+    <footer>Voix synthétique générée avec Piper. Aucun service TTS payant n’est appelé par cette page.</footer>
   </main>
   <script>
     const player = document.getElementById('player');
     const status = document.getElementById('status');
-    player.addEventListener('canplay', () => status.textContent = 'Audio prêt — lecture en streaming progressif depuis GitHub Pages.');
-    player.addEventListener('error', () => status.textContent = 'Le fichier audio n’a pas encore été généré.');
+    player.addEventListener('canplay', () => status.textContent = 'Audio prêt — lecture depuis GitHub Pages.');
+    player.addEventListener('error', () => status.textContent = 'L’audio est en cours de génération ou n’est pas encore publié.');
   </script>
 </body>
 </html>
