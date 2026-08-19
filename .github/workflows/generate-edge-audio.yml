@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/benchmark-francais-difficile.txt'
+      - 'scripts/demo-la-rochelle.txt'
       - '.github/workflows/generate-edge-audio.yml'
 
 permissions:
@@ -24,8 +25,13 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install edge-tts
-        run: python -m pip install --disable-pip-version-check 'edge-tts==7.2.8'
+      - name: Install audio tools
+        run: |
+          python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'pydub==0.25.1'
+          if ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y ffmpeg
+          fi
 
       - name: Generate pronunciation benchmark
         id: synth
@@ -63,7 +69,6 @@ jobs:
               manifest = []
               for name in selected:
                   out = pathlib.Path('audio/benchmark') / f'edge-{slug(name)}.mp3'
-                  print(f'Generating {name} -> {out}')
                   communicate = edge_tts.Communicate(text, name, rate='-4%', pitch='+0Hz')
                   await communicate.save(str(out))
                   info = by_name[name]
@@ -83,25 +88,94 @@ jobs:
           asyncio.run(main())
           PY
 
-      - name: Record benchmark diagnostic
+      - name: Generate expressive Remy variants
+        id: expressive
+        continue-on-error: true
+        run: |
+          mkdir -p audio/expressive
+          python - <<'PY'
+          import asyncio
+          import pathlib
+          import re
+          import tempfile
+          import edge_tts
+          from pydub import AudioSegment
+
+          VOICE = 'fr-FR-RemyMultilingualNeural'
+          text = pathlib.Path('scripts/demo-la-rochelle.txt').read_text(encoding='utf-8').strip()
+          sentences = [s.strip() for s in re.split(r'(?<=[.!?])\s+', text) if s.strip()]
+
+          presets = {
+              'neutral': {
+                  'rate':['-6%'], 'pitch':['-4Hz'], 'volume':['+0%'], 'pauses':[240,320]
+              },
+              'storyteller': {
+                  'rate':['-10%','-7%','-9%','-6%'],
+                  'pitch':['-5Hz','-1Hz','-4Hz','+1Hz'],
+                  'volume':['+0%','+1%','+0%','+1%'],
+                  'pauses':[360,520,420,650]
+              },
+              'dramatic': {
+                  'rate':['-13%','-5%','-12%','-4%'],
+                  'pitch':['-9Hz','+3Hz','-7Hz','+5Hz'],
+                  'volume':['-1%','+2%','-2%','+2%'],
+                  'pauses':[500,720,430,850]
+              },
+              'intimate': {
+                  'rate':['-14%','-12%','-15%','-10%'],
+                  'pitch':['-12Hz','-9Hz','-13Hz','-8Hz'],
+                  'volume':['-10%','-8%','-11%','-8%'],
+                  'pauses':[520,680,560,820]
+              },
+          }
+
+          async def synth(sentence, out, rate, pitch, volume):
+              await edge_tts.Communicate(sentence, VOICE, rate=rate, pitch=pitch, volume=volume).save(str(out))
+
+          async def build(name, cfg):
+              combined = AudioSegment.silent(duration=120)
+              with tempfile.TemporaryDirectory() as td:
+                  td = pathlib.Path(td)
+                  for i, sentence in enumerate(sentences):
+                      part = td / f'{i:02d}.mp3'
+                      await synth(
+                          sentence,
+                          part,
+                          cfg['rate'][i % len(cfg['rate'])],
+                          cfg['pitch'][i % len(cfg['pitch'])],
+                          cfg['volume'][i % len(cfg['volume'])],
+                      )
+                      combined += AudioSegment.from_file(part, format='mp3')
+                      combined += AudioSegment.silent(duration=cfg['pauses'][i % len(cfg['pauses'])])
+              combined.export(pathlib.Path('audio/expressive') / f'remy-{name}.mp3', format='mp3', bitrate='128k')
+
+          async def main():
+              for name, cfg in presets.items():
+                  await build(name, cfg)
+
+          asyncio.run(main())
+          PY
+
+      - name: Record diagnostics
         if: always()
         run: |
-          mkdir -p audio/benchmark
-          printf 'edge_tts_outcome=%s\ncommit=%s\n' '${{ steps.synth.outcome }}' '${{ github.sha }}' > audio/benchmark/status.txt
+          mkdir -p audio/benchmark audio/expressive
+          printf 'edge_tts_outcome=%s\nexpressive_outcome=%s\ncommit=%s\n' '${{ steps.synth.outcome }}' '${{ steps.expressive.outcome }}' '${{ github.sha }}' > audio/benchmark/status.txt
+          printf 'expressive_outcome=%s\ncommit=%s\n' '${{ steps.expressive.outcome }}' '${{ github.sha }}' > audio/expressive/status.txt
 
-      - name: Commit benchmark results
+      - name: Commit generated results
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audio/benchmark/
+          git add audio/benchmark/ audio/expressive/
           if git diff --cached --quiet; then
-            echo "Benchmark results unchanged"
+            echo "Generated results unchanged"
           else
-            git commit -m "Generate difficult French pronunciation benchmark"
+            git commit -m "Generate French voice benchmarks and expressive variants"
             git push
           fi
 
       - name: Enforce successful synthesis
-        if: steps.synth.outcome != 'success'
+        if: steps.synth.outcome != 'success' || steps.expressive.outcome != 'success'
         run: exit 1
