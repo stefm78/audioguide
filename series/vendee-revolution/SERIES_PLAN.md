@@ -1,6 +1,6 @@
 # Plan de série — Vendée, Révolution et mémoires
 
-Statut : **G0 accepté / G1 en cours**.
+Statut : **G0 série accepté / G1 série en cours / G1 épisode 1 accepté avec suivi citationnel**.
 
 La durée n'est pas une contrainte. Une cible de 10 à 18 minutes est plausible, mais chaque épisode doit s'arrêter lorsque sa question historique est effectivement résolue.
 
@@ -12,20 +12,29 @@ La série relie quatre espaces déjà rencontrés ou visités : **La Rochelle, l
 
 ---
 
-## Épisode 1 — Avant la Vendée : le pays des deux religions
+## Épisode 1 — Avant la Vendée : une terre de mémoires religieuses
 
-**Question :** comment le Poitou et le littoral rochelais ont-ils été transformés par deux siècles de conflit religieux avant 1789 ?
+Sous-titre : *De La Rochelle protestante au Bas-Poitou de 1781*.
+
+**Question :** comment la géographie religieuse du Bas-Poitou s'est-elle transformée entre la Réforme et la veille de la Révolution, et pourquoi cette histoire compte-t-elle pour comprendre 1793 sans en faire une cause mécanique ?
+
+**Présent narratif proposé : 1781.** Le protestant rochelais Pierre Dangirard voyage réellement en Poitou et séjourne à Saint-Maurice-le-Girard. Son journal manuscrit devient le fil humain de l'épisode.
 
 Axes :
-- diffusion de la Réforme dans le Poitou ;
-- La Rochelle huguenote ;
-- guerres de Religion et édit de Nantes ;
-- Révocation, dragonnades, protestantisme clandestin ;
-- persistance de communautés protestantes dans l'Ouest.
+- La Rochelle, centre majeur de la Réforme et synode de 1571 ;
+- implantation protestante ancienne en Poitou et Bas-Poitou ;
+- dragonnades expérimentées en Poitou en 1681 puis Révocation ;
+- contraction et recomposition géographique du protestantisme ;
+- enclave protestante de Gâtine autour de Mouchamps–Pouzauges ;
+- coexistence locale, tolérance de fait et inégalités persistantes au XVIIIe siècle ;
+- contrepoint catholique : missions et religiosité populaire, avec Grignion de Montfort traité sans téléologie ;
+- voyage de Dangirard en 1781 ;
+- édit de Tolérance de 1787 ;
+- ouverture vers 1789 : la Révolution émancipera davantage les protestants tout en ouvrant ensuite une nouvelle crise religieuse dans les campagnes catholiques.
 
-Personnages/sources candidats : pasteurs du Désert, autorités royales, familles ou communautés documentées du Poitou ; aucun personnage fictif nommé.
+Personnages/sources candidats : **Pierre Dangirard**, Théodore de Bèze, René de Marillac, Louis-Marie Grignion de Montfort ; Rabaut Saint-Étienne seulement comme transition vers l'épisode 2. Aucun faux dialogue attribué à ces personnes.
 
-Connexion : **La Rochelle** et la question de la liberté religieuse.
+Connexion : **La Rochelle** et la question de la liberté religieuse ; le lien avec 1793 est posé comme problème historique, jamais comme causalité automatique.
 
 ---
 
