@@ -1,8 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "description": "Palette structurée de presets validés par écoute humaine. Les dimensions vont de 1 à 5.",
   "presets": [
-    {"id":"narrateur-vif","voice":"fr-FR-RemyMultilingualNeural","rate":"+10%","pitch":"+14Hz","volume":"+5%","traits":{"gender":"male","age":"adult","energy":5,"authority":3,"warmth":4,"darkness":1,"proximity":3},"tags":["narrateur","conteur","vif"]},
+    {"id":"narrateur-vif","voice":"fr-FR-RemyMultilingualNeural","rate":"+8%","pitch":"+14Hz","volume":"+5%","traits":{"gender":"male","age":"adult","energy":5,"authority":3,"warmth":4,"darkness":1,"proximity":3},"tags":["narrateur","conteur","vif"],"calibration_note":"Débit abaissé de +10% à +8% après écoute du premier audioguide production."},
     {"id":"sentinelle-nerveuse","voice":"fr-FR-HenriNeural","rate":"+22%","pitch":"+12Hz","volume":"+8%","traits":{"gender":"male","age":"adult","energy":5,"authority":3,"warmth":1,"darkness":2,"proximity":2},"tags":["sentinelle","alerte","nerveux","projete"]},
     {"id":"marchande-truculente","voice":"fr-FR-DeniseNeural","rate":"+18%","pitch":"+20Hz","volume":"+10%","traits":{"gender":"female","age":"adult","energy":5,"authority":2,"warmth":4,"darkness":1,"proximity":3},"tags":["populaire","marchande","truculent","comique"]},
     {"id":"officier-autorite","voice":"fr-FR-RemyMultilingualNeural","rate":"-10%","pitch":"-24Hz","volume":"+3%","traits":{"gender":"male","age":"adult","energy":2,"authority":5,"warmth":1,"darkness":4,"proximity":2},"tags":["officier","autorite","froid","grave"]},
