@@ -1,30 +1,37 @@
 # Audioguide
 
-Prototype d’audioguide Web avec narration française générée par IA et lecture audio depuis GitHub Pages.
+Audioguide Web avec narration française générée gratuitement par Piper TTS et lecture depuis GitHub Pages.
+
+## Principe
+
+1. Le texte narré est stocké dans `scripts/`.
+2. GitHub Actions installe Piper TTS et télécharge la voix française `fr_FR-siwis-medium`.
+3. Le workflow génère le fichier audio puis le convertit en MP3.
+4. Le MP3 est ajouté au dépôt dans `audio/`.
+5. Le workflow GitHub Pages publie le site.
+
+Aucune clé API TTS et aucun moyen de paiement ne sont nécessaires.
 
 ## Démo
 
-La page `index.html` attend le fichier :
+Texte source : `scripts/demo-la-rochelle.txt`
 
-`audio/demo-la-rochelle.mp3`
+Audio produit : `audio/demo-la-rochelle.mp3`
 
-Le workflow **Generate demo audio** crée ce MP3 à partir de `scripts/demo-la-rochelle.txt` avec l’API Text-to-Speech OpenAI et une consigne de narration de type conteur historique.
+Page publique prévue : `https://stefm78.github.io/audioguide/`
 
-## Mise en route — une seule fois
+## GitHub Pages — activation unique
 
-1. Dans **Settings → Secrets and variables → Actions**, créer un secret de dépôt nommé `OPENAI_API_KEY`.
-2. Dans **Settings → Pages → Build and deployment → Source**, choisir **GitHub Actions**.
-3. Dans **Actions**, lancer manuellement **Generate demo audio**.
-4. Le MP3 généré est ajouté dans `audio/`, puis le workflow Pages republie automatiquement le site.
+Dans **Settings → Pages → Build and deployment → Source**, sélectionner **GitHub Actions** si ce n’est pas déjà fait.
 
-Le site public est prévu à l’adresse : `https://stefm78.github.io/audioguide/`.
+Après cette activation, les workflows du dépôt gèrent la génération audio et la publication.
 
 ## Structure
 
-- `index.html` — page publique et lecteur audio
+- `index.html` — page publique, lecteur et téléchargement MP3
 - `scripts/demo-la-rochelle.txt` — texte narré
-- `.github/workflows/generate-audio.yml` — génération du MP3
+- `.github/workflows/generate-audio.yml` — génération gratuite avec Piper
 - `.github/workflows/pages.yml` — publication GitHub Pages
 - `audio/` — fichiers son générés
 
-> La page indique explicitement que la voix est générée par IA.
+> La page indique explicitement que la voix est synthétique.
