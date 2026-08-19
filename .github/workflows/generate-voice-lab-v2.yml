@@ -7,6 +7,7 @@ on:
     paths:
       - 'scripts/voice-lab-v2.json'
       - 'scripts/voice-lab-v3.json'
+      - 'scripts/voice-lab-v4.json'
       - '.github/workflows/generate-voice-lab-v2.yml'
 
 permissions:
@@ -32,6 +33,7 @@ jobs:
           LABS = [
               ('scripts/voice-lab-v2.json', 'audio/voice-lab-v2'),
               ('scripts/voice-lab-v3.json', 'audio/voice-lab-v3'),
+              ('scripts/voice-lab-v4.json', 'audio/voice-lab-v4'),
           ]
 
           async def generate(config_path, output_dir):
@@ -64,7 +66,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audio/voice-lab-v2/ audio/voice-lab-v3/
+          git add audio/voice-lab-v2/ audio/voice-lab-v3/ audio/voice-lab-v4/
           if git diff --cached --quiet; then
             echo "Voice labs unchanged"
           else
