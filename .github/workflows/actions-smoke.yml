@@ -24,20 +24,36 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
+
       - name: Install dependencies
+        id: install
+        continue-on-error: true
         run: |
           if ! command -v ffmpeg >/dev/null 2>&1; then
             sudo apt-get update
             sudo apt-get install -y ffmpeg
           fi
           python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'pydub==0.25.1'
+
       - name: Render Tour de la Lanterne
+        id: render
+        continue-on-error: true
         run: python scripts/render_audioguide.py scripts/guides/tour-de-la-lanterne.json
-      - name: Commit rendered guide
+
+      - name: Commit rendered guide and diagnostic
+        if: always()
         run: |
-          printf 'source_commit=%s\n' "${{ github.sha }}" > .actions-smoke-result
+          mkdir -p audio/guides
+          printf 'source_commit=%s\ninstall=%s\nrender=%s\n' \
+            "${{ github.sha }}" \
+            "${{ steps.install.outcome }}" \
+            "${{ steps.render.outcome }}" > audio/guides/proven-render-status.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .actions-smoke-result audio/guides/tour-de-la-lanterne/
-          git commit -m 'Render first production audioguide' || exit 0
+          git add audio/guides/
+          git commit -m 'Record proven production render' || exit 0
           git push
+
+      - name: Fail if production failed
+        if: steps.install.outcome != 'success' || steps.render.outcome != 'success'
+        run: exit 1
