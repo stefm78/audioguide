@@ -25,11 +25,11 @@ jobs:
       - name: Record final batch start
         run: |
           mkdir -p audio/guides
-          printf 'phase=started\nsource_commit=%s\nepisodes=01,02,03,04,05,06,07\n' "${{ github.sha }}" > audio/guides/vendee-series-final-status.txt
+          printf 'phase=started\nsource_commit=%s\nproduction=final-v3\nepisodes=01,02,03,04,05,06,07\n' "${{ github.sha }}" > audio/guides/vendee-series-final-status.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add audio/guides/vendee-series-final-status.txt
-          git commit -m 'Record final Vendée series render start' || true
+          git commit -m 'Record Vendée V3 render start' || true
           git push || true
 
       - uses: actions/setup-python@v6
@@ -43,7 +43,7 @@ jobs:
           timeout 240s python -m pip install --disable-pip-version-check \
             'edge-tts==7.2.8' 'imageio-ffmpeg==0.6.0'
 
-      - name: Render final episodes 1 through 7
+      - name: Render reviewed V3 episodes 1 through 7
         id: render
         if: steps.install.outcome == 'success'
         continue-on-error: true
@@ -55,10 +55,10 @@ jobs:
             id="vendee-revolution-ep${n}"
             dir="audio/guides/${id}"
             mkdir -p "$dir"
-            echo "=== Rendering final ${id} ==="
-            timeout 420s python scripts/render_audioguide.py "scripts/guides/final/${id}.json" > "$dir/render.log" 2>&1
+            echo "=== Rendering V3 ${id} ==="
+            timeout 420s python scripts/render_audioguide.py "scripts/guides/${id}.json" > "$dir/render.log" 2>&1
             rc=$?
-            printf 'source_commit=%s\nproduction=final-v2\nrender_rc=%s\n' "${{ github.sha }}" "$rc" > "$dir/production-status.txt"
+            printf 'source_commit=%s\nproduction=final-v3\nrender_rc=%s\n' "${{ github.sha }}" "$rc" > "$dir/production-status.txt"
             cat "$dir/render.log"
             if [ "$rc" -ne 0 ]; then overall=1; fi
           done
@@ -67,7 +67,7 @@ jobs:
       - name: Record final status and commit audio
         if: always()
         run: |
-          printf 'phase=finished\nsource_commit=%s\ninstall=%s\nrender=%s\nepisodes=01,02,03,04,05,06,07\n' \
+          printf 'phase=finished\nsource_commit=%s\nproduction=final-v3\ninstall=%s\nrender=%s\nepisodes=01,02,03,04,05,06,07\n' \
             "${{ github.sha }}" \
             "${{ steps.install.outcome }}" \
             "${{ steps.render.outcome }}" > audio/guides/vendee-series-final-status.txt
@@ -81,7 +81,7 @@ jobs:
             audio/guides/vendee-revolution-ep05/ \
             audio/guides/vendee-revolution-ep06/ \
             audio/guides/vendee-revolution-ep07/
-          git commit -m 'Render final Vendée Revolution series' || exit 0
+          git commit -m 'Render Vendée Revolution V3 series' || exit 0
           git push
 
       - name: Fail if final render failed
