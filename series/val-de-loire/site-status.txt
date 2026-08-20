@@ -1,0 +1,4 @@
+result=success
+attempts=1
+page=https://stefm78.github.io/audioguide/series/val-de-loire/
+mp3_count_expected=8
