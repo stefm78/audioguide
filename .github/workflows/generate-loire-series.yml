@@ -1,0 +1,74 @@
+name: Generate Loire historical series
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'series/val-de-loire/episodes/*.json'
+      - 'scripts/voice-palette.json'
+      - 'scripts/render_audioguide.py'
+      - '.github/workflows/generate-loire-series.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: loire-series-audio
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install audio dependencies
+        id: install
+        continue-on-error: true
+        run: |
+          python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'imageio-ffmpeg==0.6.0'
+
+      - name: Render Loire episodes
+        id: render
+        continue-on-error: true
+        run: |
+          shopt -s nullglob
+          episodes=(series/val-de-loire/episodes/*.json)
+          if [ ${#episodes[@]} -ne 8 ]; then
+            echo "Expected 8 Loire episode configurations, found ${#episodes[@]}"
+            exit 1
+          fi
+          for guide in "${episodes[@]}"; do
+            python scripts/render_audioguide.py "$guide"
+          done
+
+      - name: Record result and commit generated audio
+        if: always()
+        run: |
+          mkdir -p audio/guides
+          printf 'source_commit=%s\ninstall=%s\nrender=%s\n' \
+            "${{ github.sha }}" \
+            "${{ steps.install.outcome }}" \
+            "${{ steps.render.outcome }}" > audio/guides/loire-series-status.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/guides/loire-series-status.txt
+          for dir in audio/guides/val-de-loire-*; do
+            [ -e "$dir" ] && git add "$dir"
+          done
+          if git diff --cached --quiet; then
+            echo 'Loire production output unchanged'
+          else
+            git commit -m 'Generate Loire series audio'
+            git push
+          fi
+
+      - name: Fail if Loire render failed
+        if: steps.install.outcome != 'success' || steps.render.outcome != 'success'
+        run: exit 1
