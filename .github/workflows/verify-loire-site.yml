@@ -1,0 +1,70 @@
+name: Verify Loire published site
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'series/val-de-loire/production-ready.txt'
+      - '.github/workflows/verify-loire-site.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: loire-site-verification
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Verify published page and audio
+        id: verify
+        shell: bash
+        run: |
+          set -u
+          base='https://stefm78.github.io/audioguide'
+          result=failure
+          attempts=0
+          for attempt in $(seq 1 36); do
+            attempts=$attempt
+            page_ok=0
+            audio_ok=1
+            if curl -fsS --max-time 20 "$base/series/val-de-loire/" | grep -q 'La Loire, de l'; then
+              page_ok=1
+            fi
+            for ep in 01 02 03 04 05 06 07 08; do
+              if ! curl -fsS --max-time 30 --range 0-0 "$base/audio/guides/val-de-loire-ep${ep}/guide.mp3" -o /dev/null; then
+                audio_ok=0
+                break
+              fi
+            done
+            if [ "$page_ok" = 1 ] && [ "$audio_ok" = 1 ]; then
+              result=success
+              break
+            fi
+            sleep 10
+          done
+          printf 'result=%s\nattempts=%s\npage=%s/series/val-de-loire/\nmp3_count_expected=8\n' \
+            "$result" "$attempts" "$base" > series/val-de-loire/site-status.txt
+          echo "result=$result" >> "$GITHUB_OUTPUT"
+
+      - name: Commit verification result
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git pull --rebase origin main
+          git add series/val-de-loire/site-status.txt
+          git commit -m 'Record Loire site verification' || exit 0
+          git push
+
+      - name: Fail unless published site is complete
+        if: steps.verify.outputs.result != 'success'
+        run: exit 1
