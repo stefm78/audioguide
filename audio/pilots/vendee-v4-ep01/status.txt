@@ -1,3 +1,4 @@
 production=v4.1-tale-pilot
-source_commit=b195d23eea61228388f97dd20dcd2d90e273777d
+source_branch=v4-conte-pilot
+source_main_trigger=dafea74fb21d2b38f239402ce1e9bedeaad474fe
 render=success
