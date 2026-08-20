@@ -1,0 +1,117 @@
+{
+  "id": "vendee-revolution-ep04-v4",
+  "production_version": 4,
+  "title": "Nantes : quand les révolutionnaires se battent entre eux",
+  "series": "Vendée, Révolution et mémoires",
+  "episode": 4,
+  "location": "Nantes, Paris et Bordeaux",
+  "historical_note": "Conte historique d'apprentissage. L'épisode distingue clairement l'insurrection vendéenne royaliste de l'opposition girondine, qui reste républicaine.",
+  "lead_in_ms": 750,
+  "sources": [
+    "https://patrimonia.nantes.fr/home/decouvrir/themes-et-quartiers/montagnards-et-girondins-a-nante.html",
+    "https://patrimonia.nantes.fr/home/decouvrir/themes-et-quartiers/vendeens.html",
+    "https://patrimonia.nantes.fr/home/decouvrir/themes-et-quartiers/fortifications-de-1793.html",
+    "https://www2.assemblee-nationale.fr/sycomore/fiche/12267",
+    "https://m.bordeaux.fr/fr/place-quinconces"
+  ],
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "29 juin 1793. Nantes attend une attaque. La ville a dressé des défenses, creusé des fossés, installé des canons et organisé ses hommes. Au nord et à l'est arrivent des colonnes de l'Armée catholique et royale. Au sud, Charette approche lui aussi. Si Nantes tombe, les insurgés gagnent une grande ville sur la Loire et un accès vers l'Atlantique. Mais avant même que le combat commence, il faut comprendre quelque chose d'étrange : l'homme qui défend la ville contre les royalistes vendéens est lui-même en conflit avec d'autres révolutionnaires à Paris."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1000,
+      "text": "Il s'appelle René Baco de La Chapelle et il est maire de Nantes. Baco ne veut pas le retour du roi. Il défend la République. Pourtant, il appartient à un courant politique appelé les Girondins. Voilà un mot que l'on peut entendre souvent sans savoir ce qu'il veut dire. Pour l'instant, gardons une idée simple : les Girondins sont des révolutionnaires républicains qui se disputent le pouvoir avec un autre groupe de révolutionnaires, les Montagnards. Ils veulent tous la République, mais ils ne sont pas d'accord sur la manière de la gouverner ni sur la place que Paris doit prendre."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Cette dispute n'est pas une simple querelle de personnes. La France est en guerre contre plusieurs pays européens. Elle connaît des révoltes à l'intérieur. Les prix montent. Paris est agité. Les députés craignent de perdre la Révolution. Dans ce climat, chaque désaccord peut être interprété comme une trahison. Les Montagnards s'appuient davantage sur les militants populaires de Paris ; les Girondins se méfient de la pression de la capitale sur toute la République. Le 2 juin 1793, à Paris, plusieurs chefs girondins sont arrêtés ou placés sous surveillance. Vingt-sept jours plus tard, Baco doit pourtant défendre la République contre les Vendéens."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Revenons aux remparts. L'attaque commence. Au nord, Cathelineau est mortellement blessé. Pour les insurgés, sa chute est un choc : il était devenu l'un des principaux chefs de l'armée. Au sud, Charette se heurte à un problème très concret. Le passage de Pont-Rousseau est coupé et la Loire protège une partie de la ville. Ses hommes ne peuvent pas simplement traverser comme prévu. Les attaques se coordonnent mal. Nantes résiste. Le lendemain, les Vendéens abandonnent."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1000,
+      "text": "Pour la ville, c'est un immense soulagement. Pour les insurgés, l'occasion est perdue. Ils avaient conquis Saumur ; ils espéraient sortir de leur territoire ; ils échouent devant la grande ville qui pouvait leur ouvrir l'Atlantique. Cathelineau mourra quelques jours plus tard de sa blessure. À partir de là, l'Armée catholique et royale continue de combattre, mais elle ne retrouvera plus exactement cette possibilité de transformer la guerre locale en victoire stratégique majeure."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Et Baco ? Il vient de contribuer à sauver Nantes. Pourtant, sa situation politique reste dangereuse. Il critique la manière dont les Girondins ont été écartés à Paris et défend les autorités locales. Aux yeux de ses adversaires, cela ressemble à du fédéralisme. Le mot peut faire peur, alors expliquons-le simplement. Dans le langage révolutionnaire de 1793, accuser quelqu'un de fédéralisme revient souvent à soupçonner les provinces de vouloir résister à l'autorité centrale de Paris ou de la Convention. Pour les Montagnards, dans un pays assiégé de toutes parts, cette résistance peut sembler presque aussi dangereuse que l'ennemi royaliste."
+    },
+    {
+      "character_id": "baco",
+      "speaker": "René Baco de La Chapelle — intervention politique rapportée par Patrimonia",
+      "preset": "erudit-solennel",
+      "pause_after_ms": 1250,
+      "text": "Nous n'oublierons jamais que nous sommes Bretons et les ennemis nés des tyrans."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1000,
+      "text": "Quelques semaines plus tard, Baco est arrêté. Voilà pourquoi 1793 est si difficile à raconter avec seulement deux camps. Si l'on dessine simplement les royalistes d'un côté et les révolutionnaires de l'autre, on ne comprend plus rien à Nantes. Baco est révolutionnaire, républicain, ennemi des Vendéens — et pourtant suspect pour d'autres révolutionnaires. La Révolution française n'est pas un bloc. Elle est traversée de conflits internes de plus en plus violents."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Nous retrouvons alors Jean-Paul Rabaut Saint-Étienne, le pasteur protestant que nous avions entendu réclamer la liberté. Lui aussi est devenu député à la Convention et siège avec les Girondins. Son parcours nous permet de mesurer le retournement. En 1789, la Révolution lui avait donné l'espoir d'une citoyenneté plus libre. En 1793, après la chute des Girondins, il doit se cacher. En décembre, il est arrêté puis exécuté. La Révolution qui avait ouvert une porte à sa religion est devenue assez violente pour tuer l'un de ceux qui l'avaient servie."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "C'est ici que Bordeaux devient un repère très utile. Si vous avez vu la place des Quinconces, vous avez vu le grand Monument aux Girondins. Mais ce monument n'est pas un témoin de 1793 : il est construit plus d'un siècle plus tard, entre 1894 et 1902. Cela change complètement la manière de le regarder. En 1793, les Girondins sont des acteurs d'une lutte politique mortelle. Un siècle plus tard, la République choisit d'en faire des figures de mémoire et de liberté. Le monument raconte donc à la fois l'histoire et la manière dont les générations suivantes ont voulu se souvenir de cette histoire."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1000,
+      "text": "Mais attention au raccourci. Bordeaux girondin et la Vendée insurgée ne sont pas alliés parce qu'ils ont tous deux des problèmes avec Paris. Les Girondins veulent une République. Les Vendéens de l'Armée catholique et royale combattent la République. Même à Bordeaux, tous les révolutionnaires ne pensent pas pareil. Ce qui relie ces crises, ce n'est pas une cause commune. C'est qu'elles arrivent en même temps et épuisent toutes les forces du nouveau régime."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Pendant l'été et l'automne 1793, la guerre de Vendée continue. Les républicains envoient davantage de soldats. Les insurgés remportent encore des victoires mais subissent aussi de lourdes défaites. Les chefs meurent ou sont blessés. Les haines s'accumulent. Et au mois d'octobre, une grande bataille va faire basculer l'histoire : Cholet. Cette fois, lorsque l'armée vendéenne recule, elle ne recule pas seule. Des familles entières partent avec elle."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1150,
+      "text": "Avant de quitter Nantes, gardons trois images. Une ville républicaine qui résiste à l'attaque vendéenne. Un maire républicain que d'autres républicains soupçonnent presque aussitôt. Et, plus loin, la colonne des Quinconces à Bordeaux, élevée un siècle plus tard pour rappeler les vaincus d'une querelle révolutionnaire. Ces images nous apprennent une chose simple : en 1793, il n'y a pas seulement la Révolution contre ses ennemis. Il y a plusieurs façons d'être révolutionnaire, et elles peuvent devenir ennemies entre elles."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 0,
+      "text": "Dans le prochain chapitre, nous quitterons les villes et les assemblées. Nous serons au bord de la Loire, en octobre. Une armée battue arrive au fleuve. Avec elle viennent des femmes, des enfants, des prêtres, des blessés, des charrettes. Ils vont traverser ensemble. Ils pensent peut-être trouver du secours au nord. Ils ne savent pas encore qu'ils commencent l'une des marches les plus tragiques de toute la guerre : la Virée de Galerne."
+    }
+  ]
+}
