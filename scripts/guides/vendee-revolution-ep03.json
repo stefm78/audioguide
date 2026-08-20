@@ -1,7 +1,7 @@
 {
   "id": "vendee-revolution-ep03",
-  "production_version": 1,
-  "title": "Mars 1793 : pourquoi ici la révolte devient une guerre",
+  "production_version": 2,
+  "title": "Mars 1793 : quand la révolte devient une guerre",
   "series": "Vendée, Révolution et mémoires",
   "episode": 3,
   "location": "Vendée militaire, Anjou, Bas-Poitou et Loire-Inférieure",
@@ -18,71 +18,78 @@
       "character_id": "narrateur",
       "speaker": "Narrateur",
       "preset": "narrateur-vif",
-      "pause_after_ms": 650,
-      "text": "24 février 1793. La Convention décide de lever trois cent mille hommes pour renforcer les armées de la République. La mesure frappe un pays déjà en guerre avec plusieurs puissances européennes. Dans les communes, il faut désormais désigner ceux qui partiront. Et presque partout, la décision est mal reçue. Des émeutes éclatent dans des régions très éloignées les unes des autres. C'est notre premier garde-fou : la révolte de mars 1793 n'est pas d'abord une exception vendéenne. L'exception vient ensuite. En avril, la plupart des autres foyers de résistance ont été réprimés ou se sont éteints. Dans l'Ouest, l'insurrection tient, gagne du terrain et devient une guerre."
-    },
-    {
-      "character_id": "narrateur",
-      "speaker": "Narrateur",
-      "preset": "narrateur-vif",
-      "pause_after_ms": 650,
-      "text": "En Anjou, les tensions sont visibles dès les premiers jours de mars. À Cholet, le 4 mars, les premiers morts tombent au cours des troubles. Le 6, à Jallais, la municipalité fait renforcer sa garde nationale. Le 9, à Chanzeaux, la mairie est pillée et un médecin qui avait appelé aux armes contre les révoltés est tué. Ce ne sont encore ni une armée, ni un front continu. Ce sont des communautés qui se soulèvent, parfois contre la levée, parfois contre des autorités locales déjà associées aux réformes précédentes. Le serment des prêtres, les arrestations d'insermentés, les biens nationaux et la fin de la monarchie n'expliquent pas chaque geste, mais ils ont déjà dégradé la confiance entre une partie des campagnes et le nouvel État."
+      "pause_after_ms": 700,
+      "text": "Cholet, 4 mars 1793. La levée de trois cent mille hommes vient à peine d'être décidée et les premiers morts tombent déjà dans les troubles. Deux jours plus tard, à Jallais, la municipalité renforce sa garde nationale. Le 9 mars, à Chanzeaux, la mairie est pillée et un médecin qui avait appelé aux armes contre les révoltés est tué. À ce moment précis, personne ne commande une grande armée vendéenne. Il n'existe ni front continu, ni uniforme commun, ni chef suprême. Il existe des villages en colère, des armes récupérées, des autorités locales débordées — et une question : est-ce que tout cela va retomber, comme ailleurs en France ?"
     },
     {
       "character_id": "narrateur",
       "speaker": "Narrateur",
       "preset": "narrateur-vif",
       "pause_after_ms": 700,
-      "text": "Puis un phénomène décisif se produit : les groupes insurgés cherchent des hommes capables de les commander. Ce ne sont pas tous des nobles. Jacques Cathelineau est voiturier-colporteur dans les Mauges. Jean-Nicolas Stofflet est garde-chasse. D'autres possèdent une expérience militaire d'Ancien Régime : Bonchamps, d'Elbée, Lescure, La Rochejaquelein. Les nobles ne sont pas tous enthousiastes ; certains hésitent, refusent ou pensent la révolte condamnée. L'image d'un peuple paysan retrouvant spontanément ses chefs naturels est une reconstruction trop simple. Ce qui compte est plus concret : l'insurrection a besoin de commandement, de coordination et de gens qui savent manier des hommes et des armes."
+      "text": "La réponse vient très vite. Dans les Mauges, des groupes insurgés cherchent des hommes capables de les conduire. Jacques Cathelineau est voiturier-colporteur. Jean-Nicolas Stofflet est garde-chasse. D'autres, comme Bonchamps, d'Elbée, Lescure ou La Rochejaquelein, ont une expérience militaire ou appartiennent à la noblesse locale. Mais l'image d'un peuple paysan retrouvant naturellement ses seigneurs est trompeuse. Certains nobles hésitent, refusent ou pensent l'affaire perdue. Ce sont les besoins de la révolte — organiser, marcher, attaquer, récupérer des armes — qui fabriquent peu à peu une hiérarchie."
     },
     {
       "character_id": "narrateur",
       "speaker": "Narrateur",
       "preset": "narrateur-vif",
       "pause_after_ms": 700,
-      "text": "Plus à l'ouest, autour de Machecoul et du pays de Retz, un autre homme apparaît : François-Athanase Charette de La Contrie. Ancien officier de marine, il n'est pas encore le héros que deux siècles de mémoire fabriqueront. Les circonstances précises de son entrée dans l'insurrection restent imparfaitement connues. Patrimonia le situe à Machecoul le 14 mars à la tête d'une petite troupe de paysans. Il prendra rapidement de l'importance, mais il n'est ni le chef unique de la révolte ni le commandant de toute la Vendée militaire. Son espace principal sera le Bas-Poitou et le pays de Retz."
+      "text": "Ce détail change tout. Une émeute peut disperser une garde nationale et rentrer chez elle. Une insurrection qui trouve des chefs peut attaquer le bourg voisin. Si elle gagne, elle récupère des fusils, des canons, des chevaux et du prestige. Chaque victoire attire de nouveaux hommes. Chaque mairie prise fait disparaître un morceau de l'autorité républicaine. En quelques semaines, la colère contre la conscription se combine aux fractures des années précédentes : prêtres réfractaires, administrations contestées, chute de la monarchie, méfiance envers les villes et envers Paris."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Plus à l'ouest, autour de Machecoul et du pays de Retz, apparaît François-Athanase Charette de La Contrie. Si vous connaissez son nom grâce au Puy du Fou, oubliez pour quelques minutes le héros déjà constitué. En mars 1793, Charette est un ancien officier de marine qui se retrouve à la tête d'une petite troupe paysanne. Les circonstances exactes de son entrée dans la révolte sont imparfaitement connues. Et surtout, il n'est pas le chef de toute la Vendée. Il commande dans un espace particulier, avec ses propres hommes et ses propres relations."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 800,
+      "text": "Machecoul oblige immédiatement à regarder la guerre sans légende confortable. Des patriotes et des républicains y sont arrêtés puis exécutés pendant plusieurs semaines. Le nombre exact varie selon les méthodes de comptage, mais le massacre est indiscutable. René Souchu joue un rôle central dans les condamnations. Charette n'est pas présenté comme celui qui ordonne directement ces exécutions, mais il ne les empêche pas. Pour Nantes et les républicains de Loire-Inférieure, Machecoul devient un nom de peur. Dès le début, la guerre n'est donc pas seulement faite de batailles : des civils deviennent des ennemis à abattre parce qu'ils appartiennent au mauvais camp."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Puis viennent les victoires. Les troupes républicaines locales sont souvent trop faibles ou mal préparées. Les insurgés prennent des bourgs, des villes, des armes. Ils commencent à coordonner leurs mouvements. Au printemps, les noms de Cathelineau, Bonchamps, d'Elbée, La Rochejaquelein et Stofflet circulent de plus en plus. La référence au roi et à la religion catholique devient visible. Ce qui était une addition de soulèvements se donne progressivement un nom et une organisation : l'Armée catholique et royale."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Mais cette armée reste étrange. Les hommes ne sont pas des soldats permanents au sens moderne. Après une bataille, beaucoup veulent rentrer voir leur ferme, leur famille ou leurs récoltes. Les chefs se disputent les priorités. Les territoires n'ont pas les mêmes intérêts. Les objectifs politiques ne sont pas toujours formulés de la même façon. Cette force peut donc être redoutable pendant quelques jours, puis se vider rapidement. Sa faiblesse est inscrite dans ce qui fait aussi sa puissance : elle est profondément enracinée dans les communautés locales."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Et voici le piège du mot Vendée. Le département existe depuis 1790, mais la zone insurgée le dépasse largement. Elle couvre aussi les Mauges angevines, une partie de la Loire-Inférieure et des Deux-Sèvres. Dès le 23 mars, la Convention parle de la guerre de Vendée et des départements voisins. Peu à peu, un nom administratif devient le nom d'une guerre, puis presque celui d'un peuple ennemi dans le vocabulaire révolutionnaire. La Vendée militaire n'est donc pas une vieille province qui se serait réveillée d'un seul bloc : c'est aussi une géographie fabriquée par l'insurrection et par la guerre."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "En juin, les insurgés s'emparent de Saumur. C'est un succès immense. Ils disposent désormais de canons, de prisonniers, d'un prestige considérable et d'une ouverture vers la Loire. À cet instant, la République peut réellement craindre que l'insurrection sorte de son territoire. Mais une décision va révéler les limites de l'armée vendéenne : faut-il marcher sur Paris ? consolider le pays ? prendre une grande ville de l'Ouest ? Les chefs choisissent Nantes."
     },
     {
       "character_id": "narrateur",
       "speaker": "Narrateur",
       "preset": "narrateur-vif",
       "pause_after_ms": 750,
-      "text": "Machecoul nous oblige aussi à sortir immédiatement de la légende héroïque. Des patriotes et des républicains y sont arrêtés puis exécutés pendant plusieurs semaines. Le nombre exact varie selon les sources et les méthodes de comptage, mais le massacre est un fait majeur du début de la guerre. René Souchu joue un rôle central dans les condamnations. Charette n'est pas présenté comme l'ordonnateur direct de ces exécutions, mais il ne les empêche pas. Cette violence insurgée marque durablement les républicains de Nantes et de la Loire-Inférieure. Elle alimente la peur d'une contre-révolution qui ne serait pas seulement militaire mais aussi meurtrière. La guerre de Vendée commence donc avec des violences civiles des deux côtés de la frontière politique qui se forme."
-    },
-    {
-      "character_id": "narrateur",
-      "speaker": "Narrateur",
-      "preset": "narrateur-vif",
-      "pause_after_ms": 700,
-      "text": "Pourquoi l'insurrection tient-elle ? Parce qu'elle remporte aussi des succès. Les troupes républicaines locales sont inégalement préparées. À chaque victoire, les insurgés récupèrent des fusils, des canons, des munitions. Une foule armée peut alors devenir une force capable d'attaquer un bourg voisin, puis une ville. Les groupes se coordonnent davantage. Les chefs se rencontrent. Des structures politiques et militaires apparaissent. À mesure que la République identifie un ennemi, cet ennemi se donne lui-même des formes d'organisation. Ce processus est rapide : en quelques semaines, la révolte cesse d'être une addition d'émeutes et prend l'allure d'une guerre territoriale."
-    },
-    {
-      "character_id": "narrateur",
-      "speaker": "Narrateur",
-      "preset": "narrateur-vif",
-      "pause_after_ms": 700,
-      "text": "Et c'est ici qu'un mot commence à tromper. La guerre est appelée guerre de Vendée, mais son espace ne se confond pas avec le département créé en 1790. Les insurrections les plus fortes couvrent aussi les Mauges angevines, une partie de la Loire-Inférieure et des Deux-Sèvres. Dès le 23 mars 1793, la Convention parle de la guerre de Vendée et des départements voisins. Très vite, l'expression se raccourcit. Un nom administratif devient le nom d'une guerre, puis presque le nom d'un peuple ennemi dans le vocabulaire révolutionnaire. La Vendée militaire est donc autant une construction de guerre qu'une géographie préexistante."
-    },
-    {
-      "character_id": "narrateur",
-      "speaker": "Narrateur",
-      "preset": "narrateur-vif",
-      "pause_after_ms": 700,
-      "text": "Au printemps, les insurgés remportent des succès spectaculaires. Ils prennent des villes, agrandissent leur zone d'action et, en juin, s'emparent même de Saumur. Mais ces victoires masquent des fragilités : les chefs ne sont pas toujours d'accord, les hommes retournent souvent dans leurs villages après les combats, l'approvisionnement est irrégulier, et les objectifs politiques ne sont pas formulés partout de la même manière. La référence catholique et royale devient de plus en plus visible, mais l'armée qui se forme reste un assemblage de territoires, de bandes, de chefs et d'intérêts locaux. Son efficacité peut être remarquable sans que son unité soit parfaite."
-    },
-    {
-      "character_id": "narrateur",
-      "speaker": "Narrateur",
-      "preset": "narrateur-vif",
-      "pause_after_ms": 700,
-      "text": "La République, elle, change d'échelle. Paris ne voit plus seulement des résistances à la levée. Il voit une zone entière où ses administrations sont renversées, ses soldats battus, ses partisans arrêtés ou tués, et où l'on proclame fidélité au roi et à la religion catholique. La peur d'une intervention étrangère renforce encore cette perception. Un port devient alors stratégique : Nantes. S'il tombait, les insurgés disposeraient d'une grande ville, d'un accès à la Loire et potentiellement d'un point de contact avec l'Atlantique. En juin 1793, l'Armée catholique et royale décide donc de tenter ce qui pourrait être son plus grand succès."
+      "text": "Nantes n'est pas une cible quelconque. C'est un grand port, une ville de la Loire, une porte vers l'Atlantique. Sa chute donnerait aux insurgés une victoire symbolique et stratégique extraordinaire, avec l'espoir de contacts extérieurs. À la fin de juin 1793, les colonnes convergent donc vers la ville. Cathelineau vient du nord. Charette doit attaquer par le sud. Pour la première fois, la guerre semble pouvoir basculer au-delà du bocage."
     },
     {
       "character_id": "narrateur",
       "speaker": "Narrateur",
       "preset": "narrateur-vif",
       "pause_after_ms": 0,
-      "text": "Le 29 juin, les colonnes vendéennes convergent vers Nantes. Mais au même moment, à Paris, une autre guerre politique vient d'éclater au cœur de la Révolution : les Girondins ont été écartés de la Convention sous la pression des Montagnards. Et le maire qui va défendre Nantes contre les royalistes, René Baco de La Chapelle, est lui-même proche des Girondins. Voilà le paradoxe de notre prochain épisode : une ville révolutionnaire peut combattre les Vendéens et, quelques semaines plus tard, être suspectée par d'autres révolutionnaires. Pour comprendre 1793, il faut désormais suivre plusieurs guerres à la fois."
+      "text": "Le 29 juin, Nantes se prépare à tenir. Et le paradoxe est magnifique : le maire qui va défendre la ville contre les royalistes vendéens, René Baco de La Chapelle, appartient au courant girondin que Paris vient précisément d'écarter du pouvoir. Autrement dit, un révolutionnaire menacé par d'autres révolutionnaires va sauver la République face aux contre-révolutionnaires. À partir de maintenant, il n'y a plus une seule guerre à suivre. Il y en a plusieurs, emboîtées les unes dans les autres."
     }
   ]
 }
