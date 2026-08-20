@@ -1,0 +1,145 @@
+{
+  "id": "vendee-revolution-ep02-v4",
+  "production_version": 4,
+  "title": "Le serment : quand un village ne sait plus quel prêtre suivre",
+  "series": "Vendée, Révolution et mémoires",
+  "episode": 2,
+  "location": "Bas-Poitou et Anjou, France",
+  "historical_note": "Conte historique d'apprentissage pour 10 ans et plus, sans connaissance préalable. Les mots difficiles sont introduits après les situations qu'ils décrivent. Aucune pensée fictive n'est attribuée aux acteurs.",
+  "lead_in_ms": 750,
+  "sources": [
+    "https://www2.assemblee-nationale.fr/sycomore/fiche/12267",
+    "https://www.persee.fr/doc/arcpa_0000-0000_1878_num_10_1_4123_t1_0782_0000_4",
+    "https://www.assemblee-nationale.fr/dyn/histoire/separation-des-eglises-et-de-l-etat/les-jalons-historiques",
+    "https://www.persee.fr/doc/arcpa_0000-0000_1885_num_21_1_9223_t1_0080_0000_2",
+    "https://archives.maine-et-loire.fr/decouvrir-et-apprendre/parcourir-lhistoire-de-lanjou/revolution-et-guerre-de-vendee"
+  ],
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Nous avions laissé notre histoire devant une église de village. Revenons-y. Nous sommes pendant l'hiver 1790-1791. La messe vient de se terminer. Les habitants connaissent leur curé depuis des années. Il a baptisé certains de leurs enfants, célébré des mariages, accompagné des enterrements. Et ce jour-là, devant les autorités locales et devant les fidèles, on lui demande de prononcer un serment. Ce n'est pas encore une bataille. Personne n'a sorti de fusil. Pourtant, pour beaucoup de villages de l'Ouest, c'est l'un des moments où la Révolution devient soudain quelque chose de très proche."
+    },
+    {
+      "character_id": "serment1790",
+      "speaker": "Décret du 27 novembre 1790 — formule du serment",
+      "preset": "aristocrate-distante",
+      "pause_after_ms": 1250,
+      "text": "Je jure d'être fidèle à la nation, à la loi et au roi, et de maintenir de tout mon pouvoir la Constitution."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "À première écoute, la phrase ne paraît pas terrible. Elle ne demande pas au prêtre de renier Dieu. Elle lui demande de reconnaître le nouvel ordre politique. Alors pourquoi certains acceptent-ils et d'autres refusent-ils ? Pour le comprendre, il faut revenir quelques mois en arrière. Depuis 1789, la Révolution ne se contente pas de changer le gouvernement. Elle reconstruit aussi l'administration du pays. Les anciennes provinces sont remplacées par des départements. Les communes prennent une nouvelle place. Et les députés décident que l'Église catholique doit, elle aussi, être réorganisée pour correspondre à cette France nouvelle."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1000,
+      "text": "Il faut imaginer l'Église d'alors comme une immense organisation qui ne s'occupe pas seulement de prier. Elle possède des terres, reçoit des revenus, organise des paroisses, des évêchés, des écoles et une partie de l'assistance aux pauvres. Beaucoup de députés pensent donc qu'on ne peut pas reconstruire l'État tout en laissant cette grande institution fonctionner exactement comme auparavant. En juillet 1790, ils votent ce qu'on appelle la Constitution civile du clergé. Le nom est compliqué. L'idée est plus simple : la Révolution décide de nouvelles règles pour organiser les prêtres et les évêques en France."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Pour certains catholiques, cela peut sembler raisonnable. Après tout, le pays change de lois ; pourquoi l'Église ne changerait-elle pas elle aussi ? Des prêtres pensent qu'ils peuvent rester de bons chrétiens tout en acceptant la nouvelle organisation. Mais pour d'autres, une question beaucoup plus profonde apparaît : qui a le droit de décider comment l'Église est organisée ? Une assemblée politique à Paris ? Ou l'Église elle-même, avec ses évêques et le pape à Rome ? Voilà le vrai nœud du problème. Et le serment transforme cette question compliquée en un choix visible de tous."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1100,
+      "text": "Un prêtre qui prête le serment sera bientôt appelé un prêtre constitutionnel, ou parfois un prêtre jureur : il accepte la nouvelle Constitution de l'Église en France. Celui qui refuse sera appelé réfractaire ou insermenté. Là encore, ne retenons pas d'abord les mots. Retenons la scène. Dans la même église, le curé peut dire oui ou non. Et sa réponse est entendue par des gens qui l'aiment, qui le connaissent, ou qui ne l'aiment pas, mais qui savent tous qui il est. À partir de ce moment, une question politique se glisse dans la confiance personnelle que les habitants avaient envers leur prêtre."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Supposons que le curé refuse. L'État peut considérer qu'il ne doit plus exercer officiellement sa fonction. Un autre prêtre, qui a accepté le serment, peut être nommé ou élu pour le remplacer. Et voici alors une situation très concrète : deux prêtres peuvent exister dans la mémoire d'un même village. L'un possède la reconnaissance de l'État. L'autre possède encore la confiance d'une partie des fidèles. Pour un baptême, une confession, une messe ou un mariage religieux, qui allez-vous voir ? La réponse n'est plus seulement religieuse. Elle devient aussi politique, parfois familiale, parfois presque intime."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1000,
+      "text": "C'est ici qu'il faut éviter une image trop simple. Tous les prêtres de l'Ouest ne refusent pas. Tous les habitants ne défendent pas les prêtres réfractaires. Des catholiques soutiennent la Révolution. Des municipalités appliquent les nouvelles lois avec conviction. Dans certaines paroisses, le changement se passe sans explosion immédiate. Dans d'autres, la tension devient très forte. L'histoire ne coupe donc pas encore le pays en deux couleurs bien nettes. Elle dessine plutôt une multitude de petites lignes de fracture, différentes d'un village à l'autre."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1000,
+      "text": "En Anjou, les Archives départementales montrent que la tension devient visible dès 1791. Des rassemblements ont lieu autour de prêtres réfractaires. Les autorités cherchent à éloigner certains d'entre eux et en font interner à Angers. Imaginez ce que voit alors un habitant attaché à son ancien curé : hier, cet homme faisait partie du village ; aujourd'hui, il peut être surveillé, arrêté, déplacé ou obligé de célébrer discrètement. À l'inverse, un partisan de la Révolution peut voir dans ce même prêtre quelqu'un qui refuse ouvertement une loi votée au nom de la nation. Les deux habitants regardent la même personne et n'y voient déjà plus la même chose."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1000,
+      "text": "Et souvenons-nous du paradoxe de notre premier épisode. Au même moment, pour les protestants, la Révolution a plutôt le visage de la liberté. En août 1789, le pasteur protestant Jean-Paul Rabaut Saint-Étienne avait demandé quelque chose de très clair à l'Assemblée. Sa famille connaissait une France où les protestants avaient longtemps vécu avec moins de droits. Il ne voulait plus qu'on leur accorde seulement la permission d'exister."
+    },
+    {
+      "character_id": "rabaut",
+      "speaker": "Jean-Paul Rabaut Saint-Étienne — discours sur la liberté religieuse, 1789",
+      "preset": "notable-hautain",
+      "pause_after_ms": 1250,
+      "text": "Ce n'est pas même la tolérance que je réclame ; c'est la liberté."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "La même Révolution peut donc être vécue de deux façons très différentes. Pour une famille protestante qui se souvient des interdictions, elle ouvre une porte. Pour certains catholiques de l'Ouest qui voient leur curé écarté ou contesté, elle peut commencer à ressembler à un pouvoir qui entre trop loin dans la religion. Il ne faut pas dire que les deux histoires sont identiques : elles ne le sont pas. Mais elles nous apprennent quelque chose d'important. Une grande loi change de sens selon la vie de celui qui la reçoit."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Puis le temps accélère. En 1792, la France entre en guerre contre l'Autriche. Quelques mois plus tard, la monarchie tombe. En septembre, la République est proclamée : la France n'a plus de roi. Pour nous qui connaissons la suite, ces dates peuvent sembler n'être que des cases dans une chronologie. Pour les habitants de l'époque, elles signifient que l'univers politique dans lequel ils sont nés change presque sans arrêt. Un prêtre qui refuse les nouvelles lois peut désormais être regardé non seulement comme un religieux désobéissant, mais comme quelqu'un de potentiellement dangereux dans un pays en guerre."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1000,
+      "text": "Des prêtres réfractaires partent, sont déplacés, arrêtés ou célèbrent clandestinement. Des fidèles apprennent à se rendre à une messe discrète ou à chercher un prêtre qu'ils connaissent. D'autres, au contraire, acceptent le nouveau prêtre et veulent que les lois soient respectées. Pendant ce temps, les municipalités changent, les biens de l'Église sont vendus, la guerre extérieure coûte de plus en plus cher et la République a besoin d'hommes. Rien de tout cela ne produit encore automatiquement une guerre civile. Mais les habitants accumulent des raisons différentes d'être inquiets, mécontents ou au contraire attachés à la Révolution."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1100,
+      "text": "Et puis arrive février 1793. Cette fois, la décision touche directement les jeunes hommes et leurs familles. La République combat plusieurs puissances européennes et manque de soldats. Le 24 février, la Convention décide de lever trois cent mille hommes dans toute la France. Chaque région doit fournir une partie de cet immense effort. Ce que l'on appelle la levée des trois cent mille hommes n'est donc pas une punition spécialement inventée pour la Vendée. C'est une décision nationale. Mais dans certains villages de l'Ouest, elle arrive après deux années où la confiance envers les autorités s'est déjà abîmée."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Imaginez maintenant la différence entre les deux demandes. Le serment demandait au prêtre de choisir publiquement. La levée demande à des familles de voir partir des hommes pour une guerre lointaine, décidée par une République encore toute jeune. Dans beaucoup de régions françaises, cela provoque de la colère et des résistances. Et c'est essentiel pour comprendre la suite : la conscription ne suffit pas, à elle seule, à expliquer la guerre de Vendée. Si elle suffisait, la France entière se serait transformée en Vendée."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1150,
+      "text": "Avant de quitter ce chapitre, regardons ce qu'il nous laisse. D'abord une église où un curé doit répondre oui ou non devant son village. Ensuite deux prêtres possibles dans la mémoire d'une même paroisse : l'un reconnu par la loi nouvelle, l'autre encore suivi par une partie des fidèles. Enfin une nouvelle inquiétude qui arrive en 1793 : cette fois, ce ne sont plus seulement les prêtres qui doivent choisir. Ce sont des jeunes hommes que la République veut envoyer à la guerre."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 0,
+      "text": "Dans le prochain épisode, nous allons nous placer devant une mairie au début de mars 1793. Des habitants se rassemblent. Ils ne disposent pas encore d'une grande armée, ni d'un uniforme, ni même d'un plan commun. Ils savent seulement qu'ils refusent ce qu'on leur demande. Quelques jours plus tard, des bourgs seront pris, des hommes seront tués et des chefs presque inconnus vont apparaître. La question sera alors très simple : pourquoi cette colère-là, au lieu de retomber, va-t-elle devenir une guerre ?"
+    }
+  ]
+}
