@@ -26,6 +26,7 @@ Exemple : on ne commence pas par définir les « dragonnades ». On entre dans l
 12. **Chaque épisode doit laisser 3 à 5 repères durables.** Si l'auditeur en retient davantage, tant mieux ; mais aucun épisode ne doit exiger qu'il en mémorise quinze pour comprendre la suite.
 13. **Les citations historiques sont des moments, pas des preuves.** Elles sont préparées, expliquées après coup et mises en voix pour incarner une personne ou une décision.
 14. **Aucune limite de durée.** La durée est dictée par le temps nécessaire pour comprendre et ressentir. On coupe l'ennui, jamais l'explication indispensable.
+15. **Chaque épisode se termine par un épilogue en deux mouvements : rappel naturel + invitation à poursuivre.** Le rappel fixe au maximum trois idées ou images essentielles ; le teaser de l'épisode suivant ouvre une situation, une question ou un danger, sans révéler tout ce qui va arriver.
 
 ## Test enfant de 10 ans
 
@@ -45,13 +46,47 @@ Un épisode passe seulement si l'auditeur peut fermer les yeux et suivre l'histo
 
 ## Construction des repères
 
-Chaque épisode doit contenir des phrases de fixation explicites mais naturelles, par exemple :
+Les idées importantes doivent être fixées naturellement dans le récit. On peut répéter une image, revenir à un personnage ou reformuler une idée, mais on évite les formulations scolaires du type « retenez ceci », « premièrement / deuxièmement / troisièmement » ou « voici ce qu'il faut savoir ».
 
-- « Retenons simplement ceci… »
-- « Pour la suite, il nous suffit de garder trois choses en tête… »
-- « Ce mot reviendra plus tard ; pour l'instant, il signifie simplement… »
+À la fin de chaque épisode, le récapitulatif doit ressembler à la dernière page d'un conte. Il peut prendre la forme de :
 
-Ces phrases ne sont pas des apartés scolaires : elles permettent à l'auditeur de savoir ce qu'il peut oublier et ce qu'il doit conserver.
+- trois images laissées par l'histoire ;
+- trois changements que l'on vient de voir se produire ;
+- trois personnes ou lieux que l'on retrouvera plus tard ;
+- une courte reformulation de la question de l'épisode et de ce que l'on comprend désormais.
+
+Le but n'est pas de tester la mémoire. Le but est que l'auditeur sente : « d'accord, maintenant j'ai quelques repères solides dans la tête ».
+
+## Règle de fin d'épisode
+
+### 1. Le rappel — 20 à 45 secondes environ, sans minuterie rigide
+
+Ton : chaleureux, calme, complice. Jamais professeur.
+
+Bon modèle :
+
+> « Avant de quitter cette histoire, regardons ce qu'elle nous laisse derrière elle. Une maison où des soldats ont été imposés à une famille protestante. Un pays surtout catholique, mais moins uniforme qu'on pourrait le croire. Et au centre de beaucoup de villages, une église et un prêtre qui font partie de la vie quotidienne. »
+
+Mauvais modèle :
+
+> « Retenez les trois points suivants : premièrement... »
+
+### 2. Le teaser — 20 à 45 secondes environ
+
+Le teaser ne résume pas le prochain épisode. Il donne envie d'y entrer. Il doit :
+
+- partir d'une scène concrète ;
+- poser une question simple ;
+- annoncer au maximum un ou deux nouveaux repères ;
+- finir sur une tension, un choix ou une curiosité.
+
+Exemple :
+
+> « Dans le prochain chapitre, nous pousserons la porte d'une église de village. Le curé connaît les familles, les familles connaissent le curé. Et ce dimanche-là, devant tout le monde, il va devoir répondre à une question très courte : jure-t-il fidélité à la nouvelle organisation de la Révolution... ou refuse-t-il ? Ce que personne ne sait encore, c'est que cette réponse va commencer à couper des villages en deux. »
+
+### 3. Continuité de série
+
+Le dernier mot d'un épisode doit créer le premier besoin du suivant. L'épisode suivant, lui, doit reprendre ce besoin sans supposer que l'auditeur se souvient de détails secondaires.
 
 ## Politique historique
 
