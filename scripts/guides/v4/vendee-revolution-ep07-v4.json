@@ -1,0 +1,130 @@
+{
+  "id": "vendee-revolution-ep07-v4",
+  "production_version": 4,
+  "title": "Charette : faire la paix, reprendre les armes, devenir une légende",
+  "series": "Vendée, Révolution et mémoires",
+  "episode": 7,
+  "location": "La Jaunaye, Bas-Poitou, La Chabotterie, Nantes et Puy du Fou",
+  "historical_note": "Conte historique d'apprentissage. L'épisode distingue Charette historique, Charette mémoriel et Charette spectaculaire. Aucune parole fictive n'est attribuée à Charette.",
+  "lead_in_ms": 750,
+  "sources": [
+    "https://patrimonia.nantes.fr/home/decouvrir/themes-et-quartiers/29-mars-1796-execution-charette.html",
+    "https://patrimonia.nantes.fr/home/decouvrir/themes-et-quartiers/charette.html",
+    "https://nossites.vendee.fr/logis-de-la-chabotterie/histoire-du-logis/le-general-charette",
+    "https://www.puydufou.com/france/en/histoire-du-puy-du-fou?language_content_entity=en"
+  ],
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1100,
+      "text": "Février 1795. Après tout ce que nous venons de traverser, la scène paraît presque impossible : Charette négocie avec la République. Pas sur un champ de bataille. Autour d'une table, au manoir de La Jaunaye, près de Nantes. Celui que le Puy du Fou nous montre volontiers sabre à la main parle maintenant d'amnistie, de religion, d'armes et de paix. C'est une bonne manière de retrouver l'homme réel derrière la légende : un chef peut combattre très longtemps et pourtant décider qu'un compromis vaut mieux qu'une guerre sans fin."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Replaçons simplement Charette sur notre carte. En 1793, il n'était pas le chef de toute la Vendée. Ancien officier de marine, il avait pris la tête de groupes insurgés surtout dans le pays de Retz et le Bas-Poitou. Il n'avait pas suivi toute la Virée de Galerne et avait continué à combattre au sud de la Loire lorsque la grande armée s'était effondrée. Sa réputation grandit donc d'une manière particulière : non parce qu'il commandait tout depuis le premier jour, mais parce qu'il survit là où beaucoup d'autres chefs disparaissent."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Après les campagnes terribles de 1794, les deux camps sont épuisés. La République comprend qu'elle ne pourra peut-être pas tout résoudre par le feu. Des négociations commencent. À La Jaunaye, Charette et d'autres chefs acceptent en principe de reconnaître la République. En échange, les insurgés obtiennent notamment une amnistie, la liberté de culte et une suspension de certaines contraintes militaires. Pour comprendre ce que cela signifie, souvenez-vous de notre épisode sur les prêtres : la liberté religieuse n'est pas un détail. Elle touche directement l'une des blessures qui avaient nourri la guerre."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1100,
+      "text": "Et voici une image étonnante : Charette entre à Nantes dans le cadre de la pacification. Nantes, la ville qu'il avait attaquée en 1793. Nantes, la ville des noyades et de la Terreur. Un chef vendéen peut donc traverser cette ville non comme prisonnier, mais comme partenaire d'une paix possible. Rien n'est oublié. Rien n'est vraiment réparé. Mais pendant un instant, la guerre paraît pouvoir se terminer autrement que par l'écrasement d'un camp."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Pourquoi cette paix échoue-t-elle ? Parce qu'une signature ne suffit pas à effacer deux années de guerre civile. Des royalistes reprochent à Charette d'avoir trop cédé. La méfiance reste immense. Des incidents violents continuent. Et surtout, l'espoir d'un retour de la monarchie n'a pas disparu. À l'été 1795, une expédition royaliste soutenue de l'extérieur débarque à Quiberon, en Bretagne. Pour beaucoup de chefs royalistes de l'Ouest, cela peut donner l'impression que le moment d'une nouvelle offensive est arrivé."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Charette reprend donc les armes. Peu après, Louis XVIII, qui vit en exil et se considère comme le roi légitime de France, lui donne des titres militaires très prestigieux. Sur le papier, Charette paraît plus important que jamais. Mais regardons la réalité autour de lui : ses hommes sont moins nombreux, le pays est épuisé, beaucoup de familles veulent surtout retrouver une vie normale et la République dispose désormais d'une stratégie plus efficace. Le plus beau titre de sa carrière arrive au moment où sa puissance réelle commence à s'effondrer."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Face à lui se trouve notamment le général Lazare Hoche. Hoche ne cherche pas seulement à gagner des batailles. Il combine la pression militaire, le désarmement des villages et les offres de paix. Il essaie de séparer les combattants de la population qui les soutient ou les nourrit. Des cantons rendent leurs armes. Des officiers de Charette abandonnent le combat. Chaque soumission enlève quelques hommes, quelques refuges ou quelques informations au chef vendéen."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1000,
+      "text": "Au début de 1796, Charette est de plus en plus isolé. On lui propose même de quitter la France. Il refuse. Cette fois, nous possédons une phrase qui lui est attribuée dans les sources patrimoniales nantaises. Nous n'avons donc aucune raison de lui inventer une grande réplique de cinéma."
+    },
+    {
+      "character_id": "charette",
+      "speaker": "François-Athanase Charette — réponse du 20 février 1796 rapportée par Patrimonia",
+      "preset": "officier-autorite",
+      "pause_after_ms": 1300,
+      "text": "Vaincre ou mourir pour mon Dieu ou pour mon Roi, voilà ma devise."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1100,
+      "text": "Un mois plus tard, il ne reste presque plus rien de l'armée des grandes années. Le 23 mars 1796, Charette fuit des troupes républicaines dans le secteur des Lucs-sur-Boulogne et de la Chabotterie. Il est blessé et finalement capturé près du bois de la Chabotterie. Le lieu est aujourd'hui un site historique que l'on peut visiter. Là encore, le paysage actuel conserve un point très concret de la fin de cette guerre : l'endroit où l'homme qui avait échappé si longtemps aux poursuites cesse enfin d'être libre."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Charette est conduit à Nantes. Le 29 mars, il est jugé par un conseil militaire et condamné à mort. On le mène sur l'actuelle place Viarme. Il refuse de s'agenouiller et de se faire bander les yeux avant d'être fusillé. Militairement, la scène est celle de la fin d'un chef battu et presque seul. Mais pour la mémoire, cette posture devient très puissante : un homme vaincu qui reste debout jusqu'au dernier moment. C'est exactement le type d'image qu'une légende peut retenir beaucoup plus facilement que des mois de négociations, de désaccords et de recul militaire."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Après sa mort, la guerre devient aussi une bataille de récits. Dans certaines familles vendéennes, on transmet la mémoire des chefs, des prêtres, des villages brûlés et des victimes. Dans la mémoire républicaine, on célèbre au contraire les soldats qui ont défendu la République contre une insurrection royaliste. Les mêmes événements peuvent donc être racontés avec des héros différents. C'est une idée que nous avons déjà rencontrée à Bordeaux avec le monument des Girondins : les monuments parlent autant de ceux qui les construisent que de ceux qu'ils représentent."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1100,
+      "text": "Puis, bien plus tard, arrive le Puy du Fou. En 1977, Philippe de Villiers découvre le château en ruine et lance un projet de spectacle. La Cinéscénie commence en 1978. Le parc grandit ensuite pendant des décennies. En 2016, Le Dernier Panache choisit Charette comme personnage central. On comprend pourquoi : sa vie offre tout ce qu'un grand spectacle aime raconter — la guerre, la fidélité, la mer, la défaite, la capture et une mort spectaculaire. Mais un spectacle doit condenser. Il choisit quelques lignes fortes là où l'histoire réelle est faite de détours et de contradictions."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1150,
+      "text": "Le Charette historique est donc plus compliqué que le héros. Il commande seulement une partie de la Vendée. Il ne peut empêcher ou ne fait pas cesser toutes les violences commises autour de lui. Il échoue devant Nantes. Il survit à l'effondrement des autres armées. Il négocie avec la République. Il rompt ensuite la paix. Il continue enfin à se battre alors que beaucoup de ses soutiens disparaissent. Rien de cela ne rend son courage faux. Mais son courage ne suffit pas non plus à expliquer tous ses choix. C'est justement cette contradiction qui rend un personnage historique plus intéressant qu'une statue."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1200,
+      "text": "Avant de fermer cette série, regardons les images que nous avons accumulées ensemble. Une maison protestante dans laquelle des soldats sont imposés. Une église de village où un curé doit choisir s'il prête serment. Des habitants en colère devant une mairie. Nantes qui résiste à l'armée vendéenne. Une foule de familles franchissant la Loire. Le château du Puy du Fou incendié en 1794. Et enfin Charette, d'abord autour d'une table de négociation, puis capturé et fusillé. Ces images sont notre carte. Elles permettent de remettre les grands mots — Révolution, Vendée, Terreur, royalistes, République — sur des situations humaines que l'on peut comprendre."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 0,
+      "text": "Et si vous retournez maintenant au Puy du Fou, vous n'avez pas besoin de regarder le spectacle en vous demandant à chaque seconde si tout s'est passé exactement ainsi. Regardez-le avec deux regards à la fois. Le premier accepte l'émotion, les personnages et la beauté du récit. Le second sait désormais qu'il existe derrière eux une histoire plus vaste : des villages divisés, des gens qui hésitent, des républicains qui se combattent entre eux, des familles prises dans la guerre et des mémoires qui ont choisi des héros différents. Le spectacle peut être la porte. L'histoire, elle, vous donne tout ce qu'il y a derrière."
+    }
+  ]
+}
