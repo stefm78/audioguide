@@ -1,0 +1,52 @@
+name: Render Vendée V4 tale pilot
+
+on:
+  push:
+    branches: [v4-conte-pilot]
+    paths:
+      - '.v4-pilot-trigger'
+      - '.github/workflows/render-v4-pilot.yml'
+      - 'scripts/guides/v4/vendee-revolution-ep01-v4.1.json'
+      - 'scripts/render_audioguide.py'
+      - 'scripts/voice-palette.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vendee-v4-tale-pilot
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: v4-conte-pilot
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install self-contained dependencies
+        run: |
+          python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'imageio-ffmpeg==0.6.0'
+
+      - name: Render V4.1 pilot
+        run: |
+          python scripts/render_audioguide.py scripts/guides/v4/vendee-revolution-ep01-v4.1.json
+          mkdir -p audio/pilots/vendee-v4-ep01
+          cp audio/guides/vendee-revolution-ep01-v4-1-pilot/guide.mp3 audio/pilots/vendee-v4-ep01/guide.mp3
+          cp audio/guides/vendee-revolution-ep01-v4-1-pilot/resolved-cast.json audio/pilots/vendee-v4-ep01/resolved-cast.json
+          printf 'production=v4.1-tale-pilot\nsource_commit=%s\nrender=success\n' "${{ github.sha }}" > audio/pilots/vendee-v4-ep01/status.txt
+
+      - name: Commit pilot audio
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add audio/pilots/vendee-v4-ep01/ audio/guides/vendee-revolution-ep01-v4-1-pilot/
+          git commit -m 'Render V4 tale pilot episode 1' || exit 0
+          git push origin HEAD:v4-conte-pilot
