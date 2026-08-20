@@ -1,0 +1,74 @@
+name: Temporary Vendée V4 series renderer
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.v4-series-main-trigger'
+      - '.github/workflows/render-v4-series-temp.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vendee-v4-temp-series-render
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 70
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: v4-conte-pilot
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install self-contained dependencies
+        run: |
+          python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'imageio-ffmpeg==0.6.0'
+
+      - name: Render V4 episodes
+        shell: bash
+        run: |
+          set -u
+          source_sha=$(git rev-parse HEAD)
+          mkdir -p audio/v4
+          overall=0
+          for n in 01 02 03 04 05 06 07; do
+            if [ "$n" = "01" ]; then
+              src="scripts/guides/v4/vendee-revolution-ep01-v4.1.json"
+              rid="vendee-revolution-ep01-v4-1-pilot"
+            else
+              src="scripts/guides/v4/vendee-revolution-ep${n}-v4.json"
+              rid="vendee-revolution-ep${n}-v4"
+            fi
+            out="audio/v4/episode-${n}"
+            mkdir -p "$out"
+            timeout 600s python scripts/render_audioguide.py "$src" > "$out/render.log" 2>&1
+            rc=$?
+            cat "$out/render.log"
+            if [ "$rc" -eq 0 ]; then
+              cp "audio/guides/${rid}/guide.mp3" "$out/guide.mp3"
+              cp "audio/guides/${rid}/resolved-cast.json" "$out/resolved-cast.json"
+            else
+              overall=1
+            fi
+            printf 'production=v4-tale-series\nsource_commit=%s\nepisode=%s\nrender_rc=%s\n' "$source_sha" "$n" "$rc" > "$out/status.txt"
+          done
+          printf 'production=v4-tale-series\nsource_commit=%s\nrender_rc=%s\nepisodes=01,02,03,04,05,06,07\n' "$source_sha" "$overall" > audio/v4/series-status.txt
+          exit "$overall"
+
+      - name: Commit V4 audio to branch
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add audio/v4/
+          git commit -m 'Render Vendée V4 tale series' || exit 0
+          git push origin HEAD:v4-conte-pilot
