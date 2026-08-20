@@ -1,4 +1,4 @@
-Using bundled ffmpeg: /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2
+Using bundled ffmpeg: /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2
 01 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
 02 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
 03 Général Turreau — correspondance lue à la Convention, février 1794 -> officier-autorite (fr-FR-RemyMultilingualNeural, -10%, -24Hz)
@@ -6,11 +6,10 @@ Using bundled ffmpeg: /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/sit
 05 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
 06 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
 07 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
-08 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
-09 Jean-Baptiste Carrier — formule tirée de sa correspondance -> conspirateur (fr-FR-RemyMultilingualNeural, -8%, -12Hz)
+08 Jean-Baptiste Carrier — formule tirée de sa correspondance -> conspirateur (fr-FR-RemyMultilingualNeural, -8%, -12Hz)
+09 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
 10 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
 11 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
 12 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
 13 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
-14 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
 Rendered audio/guides/vendee-revolution-ep06/guide.mp3

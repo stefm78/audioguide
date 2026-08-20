@@ -1,4 +1,6 @@
-phase=started
+phase=finished
 source_commit=29b6a6ae5dfebba94c86eace1bac5895e8571d34
 production=final-v3
+install=success
+render=success
 episodes=01,02,03,04,05,06,07
