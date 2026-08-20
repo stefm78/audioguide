@@ -1,0 +1,6 @@
+production=val-de-loire-v1
+audio_commit=78a84cd3564b8baa75ca392db65b35dcabe85439
+render=success
+mp3_count=8
+manifest_count=8
+published=2026-08-20
