@@ -1,0 +1,139 @@
+{
+  "id": "vendee-revolution-ep01-v4-pilot",
+  "production_version": 4,
+  "title": "Avant la Vendée : quand la foi entrait dans les maisons",
+  "series": "Vendée, Révolution et mémoires",
+  "episode": 1,
+  "location": "La Rochelle et Bas-Poitou, France",
+  "historical_note": "Pilote V4 de conte historique d'apprentissage. Public visé : 10 ans et plus, sans connaissance préalable. Aucune parole fictive n'est attribuée à une personne réelle.",
+  "lead_in_ms": 650,
+  "sources": [
+    "https://ccfr.bnf.fr/portailccfr/ark:/16871/005FRCGMNOV-173006102-lsz",
+    "https://books.openedition.org/larhra/11586",
+    "https://www.elysee.fr/la-presidence/la-declaration-des-droits-de-l-homme-et-du-citoyen",
+    "https://www.elysee.fr/la-presidence/la-constitution-du-3-septembre-1791",
+    "https://museeprotestant.org/notice/la-liberte-religieuse/",
+    "https://museeprotestant.org/notice/l-edit-de-tolerance-29-novembre-1787/"
+  ],
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 900,
+      "text": "Pour commencer cette histoire, je vais vous demander quelque chose d'un peu étrange : oubliez la guerre de Vendée. Oubliez Charette, les soldats, les batailles et même le mot Vendée. Nous sommes en 1781. À cette date, le département de la Vendée n'existe pas encore. Il ne sera créé que neuf ans plus tard. Et personne ne peut savoir qu'une grande guerre civile éclatera ici en 1793. Pour l'instant, nous allons simplement suivre un homme qui quitte La Rochelle parce qu'il est malade. Il s'appelle Pierre Dangirard. Il va séjourner chez un médecin dans le Bas-Poitou, une région qui recouvre une partie de ce qui deviendra plus tard la Vendée. Rien d'héroïque. Rien de spectaculaire. Et c'est justement ce qui nous intéresse : regarder ce pays avant que l'Histoire ne le transforme."
+    },
+    {
+      "character_id": "dangirard",
+      "speaker": "Pierre Dangirard — transcription documentaire, 1781",
+      "preset": "notable-hautain",
+      "pause_after_ms": 1100,
+      "text": "Actuellement absent de ma maison… car ma mauvaise santé est le motif de mon absence."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 900,
+      "text": "Gardons Pierre Dangirard sur sa route et regardons autour de lui. Il vient de La Rochelle, la ville du grand port et des tours. Mais La Rochelle a aussi un autre passé. Longtemps, elle a été l'une des grandes villes protestantes de France. Voilà notre premier mot important : protestant. Un protestant est un chrétien, comme un catholique. Les deux croient en Jésus-Christ et lisent la Bible. Mais depuis le seizième siècle, ils ne sont pas d'accord sur la manière d'organiser l'Église, sur certains rites et sur l'autorité religieuse. Ces désaccords sont devenus si importants qu'ils ont provoqué des guerres. En France, le roi est catholique. Les protestants, eux, sont une minorité. Par moments ils sont tolérés ; à d'autres moments, ils sont combattus. Pour suivre notre histoire, il suffit de retenir cela : dans le même royaume vivent des chrétiens qui ne pratiquent pas tous leur religion de la même manière."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 900,
+      "text": "Un siècle avant le voyage de Dangirard, cette différence peut bouleverser toute une vie. Revenons en 1681. Nous sommes toujours dans le Poitou. Jean Migault est maître d'école. Il est protestant. Le roi Louis XIV veut que son royaume soit de plus en plus uni autour de la religion catholique. Pour faire pression sur certaines familles protestantes, des soldats sont logés chez elles. Pas comme des invités que l'on aurait choisis. La famille doit les recevoir, les nourrir et supporter leur présence. Si elle accepte de devenir catholique, cette pression peut cesser. Imaginez seulement ce que cela signifie : la décision du roi n'est plus une affaire lointaine discutée à Versailles. Elle entre dans votre maison."
+    },
+    {
+      "character_id": "migault",
+      "speaker": "Jean Migault — source primaire",
+      "preset": "conspirateur",
+      "pause_after_ms": 1200,
+      "text": "Ils visitèrent tout et prirent pour eux le linge dont ils avaient besoin."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 950,
+      "text": "Jean Migault raconte ensuite des affaires prises ou abîmées, la fuite et la dispersion de sa famille. Un de ses jeunes enfants meurt pendant cette période de persécution et d'errance. Nous n'avons pas besoin de retenir tous les détails. Il faut surtout comprendre ce qui vient de se passer : le pouvoir politique a utilisé la présence de soldats pour pousser une famille à changer de religion. Cette méthode a un nom. On l'appelle une dragonnade. Le mot vient des dragons, des soldats de l'armée royale. Désormais, lorsque vous entendrez le mot dragonnade, ne pensez pas d'abord à une définition. Pensez à une maison dans laquelle des soldats ont été imposés à une famille parce qu'elle était protestante."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 950,
+      "text": "Quatre ans passent. Nous sommes en 1685. Louis XIV prend une décision encore plus importante. Depuis longtemps, une loi appelée l'édit de Nantes autorisait, avec beaucoup de limites, une partie de la vie religieuse protestante. Le roi décide de supprimer cette protection. Le culte protestant public devient interdit. Des pasteurs doivent partir s'ils refusent de se convertir. Beaucoup de protestants quittent la France. D'autres deviennent officiellement catholiques. D'autres encore gardent leur ancienne foi plus discrètement. Retenons simplement la date de 1685 comme une borne : à partir de là, être protestant en France devient beaucoup plus difficile."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Faisons une première pause dans le récit. Si vous ne deviez garder que trois choses de ce que nous venons de raconter, gardez celles-ci. Premièrement : catholiques et protestants sont deux branches du christianisme, mais la France du roi est officiellement catholique. Deuxièmement : le pouvoir royal a parfois essayé de faire disparaître le protestantisme, jusque dans la vie des familles. Troisièmement : malgré cela, tous les protestants n'ont pas disparu. C'est suffisant pour continuer. Tout le reste peut attendre."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 900,
+      "text": "Revenons maintenant à Pierre Dangirard. Nous sommes de nouveau en 1781, exactement cent ans après les premières dragonnades du Poitou. Le pays qu'il traverse est très majoritairement catholique. Mais dans certaines zones, notamment autour de Mouchamps, de Pouzauges et dans la Gâtine, des familles protestantes sont encore là. Elles ne forment pas un pays séparé. Elles vivent au milieu des autres habitants, travaillent, commercent, se marient, élèvent leurs enfants. Cette géographie est importante pour une raison simple : la future Vendée n'est pas depuis toujours un bloc où tout le monde pense et croit exactement la même chose."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 950,
+      "text": "Et maintenant, regardons les catholiques, parce qu'ils sont largement majoritaires dans le Bas-Poitou. Pour comprendre la suite, il faut oublier un instant les grandes idées politiques et penser à la vie d'un village. La paroisse, c'est le territoire organisé autour d'une église et d'un prêtre. On y baptise les enfants. On s'y marie. On y enterre les morts. Les cloches découpent le temps. Le prêtre n'est pas seulement un homme dont on entend parler dans un livre : dans beaucoup de villages, c'est quelqu'un que les habitants connaissent. La religion fait partie des habitudes de la communauté. Elle accompagne les grands moments d'une vie. Ainsi, si un jour un gouvernement décide de changer la place du prêtre, ses obligations ou son autorité, il ne touche pas seulement à une théorie. Il touche à quelque chose de très proche."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 900,
+      "text": "En 1781 pourtant, personne ne prépare une guerre. Un catholique n'est pas automatiquement royaliste. Un protestant n'est pas automatiquement révolutionnaire. Les habitants pensent d'abord à leurs terres, leurs métiers, leurs familles, leurs récoltes, leurs dettes, leurs voisins et leur paroisse. C'est un repère essentiel : l'Histoire ne commence pas avec des gens déjà rangés dans deux camps. Les camps vont se former progressivement, à mesure que des décisions politiques obligeront chacun à choisir, parfois sur des questions qui touchent sa vie quotidienne."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 900,
+      "text": "Six ans après le voyage de Dangirard, le roi Louis XVI fait un premier pas en faveur des protestants. Nous sommes en 1787. Une nouvelle loi permet notamment de mieux faire reconnaître leur existence civile. Cela peut sembler très administratif, mais là encore il faut traduire les mots en vie réelle. Si l'État ne reconnaît pas correctement votre mariage, la naissance de vos enfants ou un décès, cela peut compliquer un héritage, la situation d'une famille ou les droits d'un enfant. L'édit de 1787 améliore donc des choses extrêmement concrètes. Mais la religion catholique reste la seule religion du culte public officiel."
+    },
+    {
+      "character_id": "edit1787",
+      "speaker": "Édit de 1787 — voix institutionnelle, source primaire",
+      "preset": "aristocrate-distante",
+      "pause_after_ms": 1200,
+      "text": "La religion catholique… jouira, seule, dans notre Royaume, des droits et des honneurs du culte public."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1000,
+      "text": "Puis arrive 1789. Cette date, vous la connaissez peut-être déjà : c'est le début de la Révolution française. Pour notre histoire, inutile d'essayer d'en retenir tout de suite toutes les causes et tous les événements. Gardons une idée simple : l'ancien ordre politique est bouleversé. Le roi ne peut plus gouverner comme avant. Des représentants votent de nouvelles lois. On proclame des droits qui doivent appartenir à tous les citoyens. Pour les protestants, c'est un immense changement. En quelques années, ils obtiennent des droits civils et religieux qu'ils avaient longtemps réclamés. Une famille dont les grands-parents ont vécu sous les interdictions de Louis XIV peut avoir le sentiment que l'Histoire s'ouvre enfin."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1050,
+      "text": "Et c'est ici que notre histoire devient vraiment intéressante. La Révolution vient de dire, en substance : personne ne doit être écarté de la vie publique simplement parce qu'il est protestant. Mais presque au même moment, cette même Révolution décide de réorganiser l'Église catholique. Elle va changer la manière dont les prêtres sont choisis et payés. Surtout, elle va leur demander de prêter un serment à la nouvelle organisation politique. Pour un responsable à Paris, cela peut sembler logique : si l'on reconstruit l'État, il faut que ses institutions obéissent aux nouvelles lois. Mais dans un village où le prêtre baptise, marie, enterre et accompagne les familles depuis des années, la question peut être entendue tout autrement."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 1000,
+      "text": "Avant de fermer ce premier chapitre, gardons quatre repères. Un : avant 1790, le département de la Vendée n'existe pas encore. Deux : le Poitou a connu une longue histoire de tensions entre catholiques et protestants, et certaines familles protestantes ont subi des persécutions très concrètes. Trois : à la veille de la Révolution, le Bas-Poitou est surtout catholique, mais il n'est ni uniforme ni déjà divisé en deux armées. Quatre : en 1789, la Révolution apporte davantage de liberté aux protestants, puis elle décide de transformer l'organisation de l'Église catholique. Ce quatrième point est la porte de notre prochain épisode."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 0,
+      "text": "La prochaine fois, nous n'allons pas commencer à Paris. Nous entrerons dans une église de village. Les habitants connaissent le prêtre. Ils savent où il habite. Ils l'ont vu lors des baptêmes, des mariages et des enterrements. Et un jour, devant tout le monde, cet homme doit répondre à une question qui paraît courte : accepte-t-il de jurer fidélité à la nouvelle organisation ? Oui, ou non ? À partir de cette réponse, des voisins qui priaient encore ensemble vont commencer à ne plus regarder la même Église de la même manière. C'est ainsi que les grandes révolutions entrent parfois dans les petites communautés : non pas avec un canon, mais avec une question posée à voix haute."
+    }
+  ]
+}
