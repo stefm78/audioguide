@@ -1,0 +1,158 @@
+name: Generate Orleans to Marly roadtrip audio
+
+on:
+  pull_request:
+    paths:
+      - 'series/orleans-marly-roadtrip/**'
+      - 'scripts/voice-palette.json'
+      - 'scripts/render_audioguide.py'
+      - 'scripts/render_audioguide_fr.py'
+      - '.github/workflows/generate-orleans-marly-roadtrip.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'series/orleans-marly-roadtrip/**'
+      - 'scripts/voice-palette.json'
+      - 'scripts/render_audioguide.py'
+      - 'scripts/render_audioguide_fr.py'
+      - '.github/workflows/generate-orleans-marly-roadtrip.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: orleans-marly-roadtrip-audio-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    strategy:
+      fail-fast: false
+      matrix:
+        guide:
+          - orleans-marly-ep01
+          - orleans-marly-ep02
+          - orleans-marly-ep03
+          - orleans-marly-ep04
+          - orleans-marly-ep05
+          - orleans-marly-ep06
+          - orleans-marly-ep07
+          - orleans-marly-g01
+          - orleans-marly-m01
+          - orleans-marly-g02
+          - orleans-marly-m02
+          - orleans-marly-g03
+          - orleans-marly-m03
+          - orleans-marly-g04
+          - orleans-marly-m04
+          - orleans-marly-g05
+          - orleans-marly-g06
+          - orleans-marly-m05
+          - orleans-marly-g07
+          - orleans-marly-m06
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install audio dependencies
+        run: python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'imageio-ffmpeg==0.6.0'
+
+      - name: Extract guide from collection
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - "${{ matrix.guide }}" <<'PY'
+          import json, pathlib, sys
+          guide_id = sys.argv[1]
+          collection = json.loads(pathlib.Path('series/orleans-marly-roadtrip/series.json').read_text(encoding='utf-8'))
+          items = {x['id']: x for x in collection.get('episodes', []) + collection.get('capsules', [])}
+          item = items[guide_id]
+          payload = {
+              'id': guide_id,
+              'production_version': collection.get('production_version', 1),
+              'title': item['title'],
+              'series': collection['series'],
+              'episode': item.get('episode'),
+              'location': item.get('location', 'Orléans → Marly-le-Roi, France'),
+              'historical_note': item.get('historical_note'),
+              'lead_in_ms': collection.get('lead_in_ms', 450),
+              'sources': item.get('sources', []),
+              'segments': item['segments'],
+          }
+          pathlib.Path('guide.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
+      - name: Render guide in French
+        shell: bash
+        run: |
+          set -euo pipefail
+          timeout 780s python scripts/render_audioguide_fr.py guide.json > render.log 2>&1
+          cat render.log
+          out="audio/guides/${{ matrix.guide }}"
+          test -s "$out/guide.mp3"
+          test -s "$out/resolved-cast.json"
+          python - "$out/resolved-cast.json" <<'PY'
+          import json, pathlib, sys
+          data = json.loads(pathlib.Path(sys.argv[1]).read_text(encoding='utf-8'))
+          assert data['segments'], 'No rendered segments'
+          for segment in data['segments']:
+              assert 'fr-FR' in segment['voice'], f"Non-French voice: {segment['voice']}"
+              assert segment['text'].strip(), 'Empty segment'
+          PY
+          cp render.log "$out/render.log"
+          mkdir -p "bundle/${{ matrix.guide }}"
+          cp "$out/guide.mp3" "$out/resolved-cast.json" "$out/render.log" "bundle/${{ matrix.guide }}/"
+
+      - name: Upload rendered guide
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.guide }}
+          path: bundle/
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: render
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Refresh main before publication
+        run: git pull --rebase origin main
+
+      - name: Download rendered guides
+        uses: actions/download-artifact@v4
+        with:
+          pattern: orleans-marly-*
+          path: audio/guides
+          merge-multiple: true
+
+      - name: Validate and publish production output
+        shell: bash
+        run: |
+          set -euo pipefail
+          mp3_count=$(find audio/guides -maxdepth 2 -type f -path '*/orleans-marly-*/guide.mp3' | wc -l | tr -d ' ')
+          manifest_count=$(find audio/guides -maxdepth 2 -type f -path '*/orleans-marly-*/resolved-cast.json' | wc -l | tr -d ' ')
+          french_count=$(grep -RIl '"voice": "fr-FR-' audio/guides/orleans-marly-*/resolved-cast.json | wc -l | tr -d ' ')
+          test "$mp3_count" = "20"
+          test "$manifest_count" = "20"
+          test "$french_count" = "20"
+          printf 'source_commit=%s\nrender=success\nmp3_count=%s\nmanifest_count=%s\nfrench_manifest_count=%s\nlocale_guard=fr-FR\n' "${{ github.sha }}" "$mp3_count" "$manifest_count" "$french_count" > audio/guides/orleans-marly-roadtrip-status.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/guides/orleans-marly-roadtrip-status.txt
+          for dir in audio/guides/orleans-marly-*; do [ -e "$dir" ] && git add "$dir"; done
+          if ! git diff --cached --quiet; then
+            git commit -m 'Generate Orleans to Marly roadtrip audio'
+            git push
+          fi
