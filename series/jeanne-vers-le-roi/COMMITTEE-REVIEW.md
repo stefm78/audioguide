@@ -18,6 +18,7 @@ Cette page documente le passage au crible éditorial de la fiction historique.
 5. Baudricourt est sceptique pour de bonnes raisons institutionnelles, pas caricaturé comme un imbécile.
 6. Le contrôle de route et les échanges avec un conseiller sont des scènes composites plausibles et sont signalés comme tels par le narrateur.
 7. La légende du roi « caché » dans la foule n’est pas traitée comme un fait certain. L’épisode conserve seulement l’idée documentée que Jeanne affirmait pouvoir reconnaître Charles.
-8. Le contenu du « secret » ou du « signe » donné à Charles n’est pas inventé : la fiction s’arrête volontairement à cet endroit.
-9. La rencontre avec Charles n’est pas présentée comme une victoire instantanée : les examens de Chinon et Poitiers restent nécessaires avant l’engagement royal.
-10. Le récit se reconnecte explicitement à Orléans : arrivée le 29 avril, levée du siège le 8 mai, puis Reims.
+8. Après confrontation avec l’interprétation historique actuelle de la Forteresse royale de Chinon, la fin distingue deux temps : première entrevue en petit comité, puis présentation plus officielle après Poitiers. Le récit s’arrête à la première entrevue et ne fusionne pas le « signe » avec elle.
+9. Le contenu du « secret » ou du « signe » donné à Charles n’est pas inventé.
+10. La rencontre avec Charles n’est pas présentée comme une victoire instantanée : les examens de Chinon et Poitiers restent nécessaires avant l’engagement royal.
+11. Le récit se reconnecte explicitement à Orléans : arrivée le 29 avril, levée du siège le 8 mai, puis Reims.
