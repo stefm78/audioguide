@@ -1,0 +1,30 @@
+{
+  "episode_id": "orleans-marly-ep01",
+  "sources": [
+    "https://www.chartres-tourisme.com/explorez/la-beauce",
+    "https://www.chateau-chateaudun.fr/decouvrir/qui-etait-jean-de-dunois"
+  ],
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Il faut insister sur un détail : la Beauce n’est pas un décor vide entre deux monuments. C’est précisément le genre de territoire dont dépend un pouvoir qui veut durer. Une ville peut célébrer une victoire, un château peut montrer le rang d’un seigneur, mais il faut ensuite nourrir des populations, constituer des réserves, approvisionner des marchés, entretenir des chevaux et faire circuler les hommes. Les grandes plaines agricoles donnent moins de prises à l’imagination qu’une forteresse, pourtant elles sont au cœur de la puissance. Une mauvaise récolte, un transport interrompu, un marché mal approvisionné peuvent devenir des problèmes politiques. À l’inverse, un territoire cultivé, relié aux villes et capable d’écouler ses productions soutient l’impôt, l’armée et la vie urbaine. En regardant ces champs, nous pouvons donc ajouter une pièce au puzzle d’Orléans : sauver un royaume lors d’une crise spectaculaire ne suffit pas. Pour qu’il existe encore dix, vingt ou cinquante ans plus tard, il faut une multitude de fonctionnements ordinaires que les chroniques racontent beaucoup moins volontiers que les batailles."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Imaginez maintenant cette même route avant l’automobile. La distance n’est plus une ligne bleue sur un écran : elle devient une dépense de temps, de nourriture et d’énergie. Un cheval doit être ménagé ou remplacé. Une charrette ralentit dès que le terrain ou la météo se dégrade. Un message urgent n’avance pas à la vitesse d’une armée, et une armée n’avance pas à la vitesse d’un cavalier. Cela change notre manière de comprendre le pouvoir. Donner un ordre à distance n’est jamais suffisant ; encore faut-il que l’ordre arrive, soit compris, puis exécuté. Le roi et ses officiers dépendent donc d’un maillage de villes, de relais, de messagers, d’administrateurs et de seigneurs locaux. Quand nous parlons de consolidation monarchique au XVe siècle, il ne faut pas imaginer soudain un État moderne doté de télécommunications et d’une administration uniforme. Il faut plutôt voir un pouvoir qui apprend progressivement à rendre ses décisions plus régulières, à obtenir des ressources plus sûrement et à faire tenir ensemble des territoires où l’information voyage encore au rythme des hommes et des chevaux."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "C’est aussi ce qui rend Dunois intéressant. Dans le récit héroïque, un capitaine existe surtout au moment du combat. Dans la réalité, un grand personnage doit ensuite gérer des terres, des revenus, des fidélités, une maison, des travaux et une réputation. Il appartient à plusieurs mondes à la fois : celui de la guerre, celui des princes, celui de la cour et celui des territoires qu’il administre. Voilà pourquoi notre arrivée à Châteaudun est plus qu’un souvenir de Jeanne d’Arc. Nous allons voir un homme dont la légitimité ne peut pas reposer éternellement sur ce qu’il a fait devant Orléans. Elle doit se transformer en présence durable. Le château, la chapelle, les appartements et la manière de recevoir deviennent alors une autre forme de langage politique. La pierre prend le relais de la bataille. Et cette idée nous accompagnera jusqu’à Marly : plus le pouvoir se stabilise, plus il investit dans des formes qui paraissent moins violentes — architecture, paysage, cérémonial, invitation — mais qui continuent à dire très clairement qui commande, qui appartient au cercle et qui reste dehors."
+    }
+  ]
+}
