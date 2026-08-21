@@ -12,6 +12,16 @@ on:
       - 'scripts/render_audioguide.py'
       - 'scripts/render_audioguide_fr.py'
       - '.github/workflows/generate-orleans-series.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'series/orleans/episodes/*.json'
+      - 'series/orleans/index.html'
+      - 'scripts/voice-palette.json'
+      - 'scripts/render_audioguide.py'
+      - 'scripts/render_audioguide_fr.py'
+      - '.github/workflows/generate-orleans-series.yml'
 
 permissions:
   contents: write
@@ -68,7 +78,7 @@ jobs:
 
   publish:
     needs: render
-    if: always()
+    if: ${{ always() && github.event_name != 'pull_request' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
