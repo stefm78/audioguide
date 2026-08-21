@@ -1,4 +1,6 @@
-source_commit=3eb6317a9cf705623e1528623fa44307dbd380dd
+source_commit=2059b7ef70300515984f4997cb65c7aab020b1a7
+production_version=2
+editorial_model=longform
 render=success
 mp3_count=20
 manifest_count=20
