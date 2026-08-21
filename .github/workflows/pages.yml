@@ -8,6 +8,7 @@ on:
       - Generate Orleans walking tour audio
       - Generate Orleans cathedral audio
       - Generate Orleans cathedral photos
+      - Generate Jeanne to Chinon audio
     types: [completed]
   workflow_dispatch:
 
