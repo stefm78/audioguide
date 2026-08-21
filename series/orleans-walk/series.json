@@ -1,0 +1,349 @@
+{
+  "series": "Orléans à pied — Deux mille ans au bord de la Loire",
+  "production_version": 1,
+  "route_date": "2026-08-21",
+  "start_time": "10:30",
+  "start_location": "44 quai des Augustins, 45100 Orléans, France",
+  "lead_in_ms": 450,
+  "episodes": [
+    {
+      "id": "orleans-walk-ep01",
+      "episode": 1,
+      "title": "7 mai 1429 : le verrou des Tourelles",
+      "stop": "Ancien fort des Tourelles",
+      "location": "2 rue des Tourelles, 45100 Orléans, France",
+      "launch": "à quelques minutes du départ, devant le secteur de l'ancien fort des Tourelles.",
+      "summary": "Commencer par la fin du siège : ici, le 7 mai 1429, la bataille pour contrôler le pont transforme Jeanne d'Arc en figure centrale de la délivrance d'Orléans.",
+      "historical_note": "Le fort et le pont médiévaux ont disparu. Le récit s'appuie sur la localisation patrimoniale du site et distingue les faits documentés des images reconstruites pour aider à visualiser les lieux.",
+      "sources": [
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_jeannedarc.pdf",
+        "https://www.orleans.fr/fetes-de-jeanne-d-arc/presentation",
+        "https://www.archives-nationales.culture.gouv.fr/evenements/1429-jeanne-darc-le-premier-portrait"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Nous commençons la visite d'Orléans ici, rive sud, et presque par la fin de l'histoire. Regardez autour de vous. Les maisons, la circulation et le pont moderne rendent la scène difficile à imaginer. Pourtant, le 7 mai 1429, ce secteur est l'un des endroits les plus violents du royaume de France. Devant nous se trouvait l'extrémité sud du grand pont médiéval d'Orléans. Et pour contrôler ce pont, il fallait prendre un ensemble fortifié : les Tourelles."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Pourquoi un pont mérite-t-il une bataille ? Parce qu'au quinzième siècle, franchir un grand fleuve avec une armée n'est jamais banal. Orléans est une ville fortifiée située sur la Loire, et son pont relie deux rives, deux réseaux de routes, deux espaces militaires. Depuis octobre 1428, les Anglais assiègent la ville. Ils ne l'ont pas entourée comme un cercle parfait : ils occupent des positions fortifiées, des bastilles, destinées à contrôler les accès et à affaiblir progressivement la défense."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Les Tourelles sont particulièrement importantes. Imaginez le vieux pont partant d'Orléans, au nord, traversant la Loire et arrivant ici. À cette extrémité, des ouvrages défensifs permettent de surveiller le passage. Les Anglais s'en sont emparés dès le début du siège. Depuis des mois, la ville tient donc avec son pont partiellement neutralisé et l'ennemi installé juste en face d'elle."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Puis Jeanne d'Arc arrive à Orléans le 29 avril 1429. Elle a environ dix-sept ans. Elle n'arrive ni seule, ni à la tête d'une armée inventée de toutes pièces. Autour d'elle combattent des capitaines aguerris, des soldats et les défenseurs de la ville. Mais sa présence change l'énergie du camp français. En quelques jours, on passe d'une ville qui résiste à une armée qui attaque les positions anglaises."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Le 7 mai, l'objectif est ici. Le combat pour les Tourelles dure des heures. Jeanne est atteinte par un trait. Les récits contemporains et les témoignages utilisés lors de ses procès permettent d'affirmer qu'elle est blessée, qu'elle se retire un temps, puis revient. Il faut résister à la tentation du cinéma : elle ne prend pas seule la forteresse. Mais sa présence, son étendard et son refus d'abandonner jouent dans un moment où le moral compte presque autant que les armes."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"À la fin de la journée, la position anglaise tombe. Le lendemain, 8 mai, les Anglais abandonnent le siège. Voilà pourquoi Orléans célèbre encore cette date près de six siècles plus tard. Mais la chose la plus intéressante est peut-être celle-ci : si nous avions commencé la visite par une statue de Jeanne, nous aurions vu une héroïne. Ici, nous commençons par un problème très concret : un pont, un fort, un fleuve et une armée qui cherche à passer."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Alors, où en sommes-nous ? Une seule idée doit rester : Orléans compte parce que sa géographie compte. Les Tourelles sont le verrou du verrou. Dans quelques minutes, nous allons traverser la Loire par le pont George-V. Pendant cette traversée, essayez une expérience : regardez l'eau non comme un décor, mais comme un obstacle qu'il faut franchir avec des hommes, des chevaux, de la nourriture et des armes. La ville va immédiatement changer de visage."}
+      ]
+    },
+    {
+      "id": "orleans-walk-ep02",
+      "episode": 2,
+      "title": "Traverser la Loire : le pont qui faisait la ville",
+      "stop": "Pont George-V et quais",
+      "location": "Pont George V, Orléans, France",
+      "launch": "en montant sur le pont George-V, en marchant vers le centre-ville.",
+      "summary": "Le pont actuel remplace un monde disparu : l'ancien franchissement explique à la fois le commerce, la défense et la naissance d'Orléans.",
+      "historical_note": "Le pont George-V est un ouvrage du XVIIIe siècle. Le pont médiéval des Tourelles se trouvait légèrement en amont ; le récit ne prétend donc pas suivre exactement son tablier disparu.",
+      "sources": [
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_bords_loire.pdf",
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_aufildelaville.pdf",
+        "https://whc.unesco.org/fr/list/933"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Nous traversons maintenant la Loire. Le pont sous nos pieds n'est pas celui de Jeanne d'Arc : le pont George-V appartient au dix-huitième siècle. Le vieux pont médiéval se trouvait un peu en amont. Mais cette traversée nous donne exactement ce dont nous avons besoin : une vue, une distance et une sensation physique du fleuve."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Regardez la largeur de la Loire. Aujourd'hui, un pont est une infrastructure que l'on emprunte sans y penser. Pendant des siècles, disposer d'un franchissement stable est une richesse extraordinaire. Il concentre voyageurs, marchandises, taxes, routes et informations. Une ville placée sur un grand passage attire donc naturellement du commerce. Et tout ce qui enrichit une ville en temps de paix la rend stratégique en temps de guerre."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"La Loire elle-même est trompeuse. Elle peut paraître paisible et immense, puis devenir basse, sableuse, encombrée de bancs, ou au contraire dangereuse pendant les crues. La navigation a donc toujours exigé une connaissance fine du fleuve. Des bateaux transportaient vins, bois, sel, produits manufacturés et beaucoup d'autres marchandises. Orléans n'était pas au bord d'une jolie rivière : elle se trouvait sur l'un des grands axes économiques de la France d'avant le chemin de fer."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"En approchant de la rive nord, imaginez aussi l'arrivée du vieux pont dans la ville. Le secteur du Châtelet concentrait défense, contrôle et activité. Les quais que nous allons rejoindre ont été profondément transformés au fil des siècles, mais l'idée générale reste lisible : le fleuve arrive littéralement au pied de la cité."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Cette position explique un phénomène que nous allons retrouver toute la journée. Chaque époque réutilise le même avantage géographique à sa manière. Les Gaulois y voient un site d'échanges. Rome y installe une ville. Le Moyen Âge fortifie le passage. Les marchands développent les quais. Les armées se disputent le pont. Puis le dix-huitième siècle construit l'ouvrage que nous traversons. La géographie ne dicte pas l'histoire, mais elle remet sans cesse les mêmes cartes dans le jeu."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Lorsque vous aurez atteint l'autre rive, gardez donc ce repère : avant de devenir la ville de Jeanne d'Arc, Orléans est d'abord la ville d'un passage sur la Loire. Notre prochaine étape, l'Hôtel Cabu, va nous permettre de remonter très loin avant 1429. Nous allons rencontrer une ville gauloise puis romaine, et découvrir que l'histoire d'Orléans commence bien avant que la France elle-même existe."}
+      ]
+    },
+    {
+      "id": "orleans-walk-ep03",
+      "episode": 3,
+      "title": "Avant Jeanne : pourquoi une ville est née ici",
+      "stop": "Hôtel Cabu — Musée d'Histoire et d'Archéologie",
+      "location": "1 square Abbé Desnoyers, 45000 Orléans, France",
+      "launch": "devant l'Hôtel Cabu, puis à poursuivre à l'intérieur si vous le visitez.",
+      "summary": "Cenabum, Rome et la Loire : Orléans n'est pas née d'un grand personnage, mais d'un emplacement exceptionnel pour circuler et échanger.",
+      "historical_note": "Le trésor de Neuvy-en-Sullias exposé à l'Hôtel Cabu a été découvert hors d'Orléans ; il sert ici à évoquer le monde gaulois et gallo-romain régional, sans être présenté comme un trésor de Cenabum.",
+      "sources": [
+        "https://www.orleans.fr/que-faire-a-orleans/musees/hotel-cabu-musee-dhistoire-et-darcheologie",
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_aufildelaville.pdf",
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/document/culture/musees/offre_pedagogique/2022/cabu/dossier/Dossier-PEDA_Orleans_et_la_Loire.pdf"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Avant d'entrer, regardez l'Hôtel Cabu lui-même. Sa façade Renaissance nous propulse au seizième siècle, mais le musée qu'il abrite permet de remonter beaucoup plus loin. Pour comprendre Orléans, nous allons maintenant effacer Jeanne, les rois de France, les cathédrales gothiques et même le nom d'Orléans. Nous sommes avant la conquête romaine, dans un territoire occupé par le peuple gaulois des Carnutes."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"La ville est alors connue sous le nom de Cenabum. Pourquoi ici ? Pour la même raison que celle que nous venons de sentir sur le pont : la Loire. Un fleuve sert de route, mais il faut aussi pouvoir le franchir et relier les échanges terrestres aux échanges fluviaux. Les lieux de rupture de charge, de passage et de marché deviennent naturellement des points de concentration humaine."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"En 52 avant notre ère, Cenabum apparaît brutalement dans le récit de la guerre des Gaules. Des marchands romains y sont tués dans le contexte de la grande révolte gauloise. César mène ensuite son armée contre la ville, la prend et la détruit. Ce n'est pas un joli récit fondateur. C'est un rappel utile : les villes commerciales sont aussi des lieux politiques, et contrôler les échanges signifie contrôler du pouvoir."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Sous Rome, la ville renaît et se développe. Au fil des siècles, l'espace urbain se transforme, les enceintes changent et la cité prend finalement le nom d'Aurelianum, à l'origine du nom Orléans. Là encore, il ne faut pas imaginer une continuité immobile : une ville de deux mille ans est une superposition. On détruit, on récupère des pierres, on reconstruit, on déplace des rues et l'on bâtit au-dessus des couches précédentes."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Si vous entrez dans le musée, cherchez moins à tout voir qu'à obtenir quelques preuves matérielles. Le trésor de Neuvy-en-Sullias, avec ses bronzes gaulois et gallo-romains, appartient au monde régional de l'Antiquité. La salle consacrée à la marine de Loire raconte un autre fil conducteur : pendant très longtemps, le fleuve reste l'une des grandes raisons d'être de la ville."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"L'Hôtel Cabu possède lui aussi sa propre histoire. Il est construit au milieu du seizième siècle pour Philippe Cabu et fait partie des beaux témoins de la Renaissance orléanaise. Gravement touché par les bombardements de juin 1940, il a dû être restauré. Même notre musée d'archéologie est donc une pièce de l'histoire récente de la ville."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Alors, où en sommes-nous ? Trois repères suffisent. Orléans existe parce qu'on échange et qu'on franchit la Loire. La ville est déjà importante à l'époque gauloise et romaine. Et ce que nous voyons aujourd'hui est une ville reconstruite plusieurs fois sur elle-même. Après le déjeuner, une jeune fille de dix-sept ans va entrer dans cette ville vieille de plus d'un millénaire. Nous allons cette fois essayer de retrouver non pas la statue, mais la personne."}
+      ]
+    },
+    {
+      "id": "orleans-walk-ep04",
+      "episode": 4,
+      "title": "Dix jours dans Orléans : Jeanne derrière la légende",
+      "stop": "Maison de Jeanne d'Arc",
+      "location": "3 place du Général-de-Gaulle, 45000 Orléans, France",
+      "launch": "devant la Maison de Jeanne d'Arc, idéalement juste avant d'entrer.",
+      "summary": "La maison est déjà un piège passionnant : Jeanne n'en était pas propriétaire et l'édifice actuel est une reconstruction. Cela permet de retrouver la jeune femme réelle derrière l'icône.",
+      "historical_note": "Jeanne est hébergée chez Jacques Boucher du 29 avril au 9 mai 1429. La maison visible aujourd'hui est une reconstitution des années 1960 après la destruction de l'édifice en 1940.",
+      "sources": [
+        "https://www.orleans.fr/que-faire-a-orleans/musees/la-maison-de-jeanne-darc",
+        "https://www.orleans.fr/fetes-de-jeanne-d-arc/presentation",
+        "https://www.archives-nationales.culture.gouv.fr/evenements/1429-jeanne-darc-le-premier-portrait"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Nous voici devant la Maison de Jeanne d'Arc. Commençons par deux corrections qui rendent le lieu plus intéressant, pas moins. Premièrement, cette maison n'était pas à Jeanne. Elle appartenait à Jacques Boucher, trésorier général du duc d'Orléans, qui l'héberge pendant son séjour dans la ville. Deuxièmement, le bâtiment que nous regardons n'est pas l'édifice médiéval intact : détruit en 1940, il a été reconstitué dans les années 1960."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Jeanne entre dans Orléans le 29 avril 1429. Elle n'y restera qu'une dizaine de jours. C'est extraordinairement court si l'on pense à la place qu'elle occupe aujourd'hui dans la ville. Elle arrive après un voyage qui l'a menée de Domrémy vers Chinon, où elle a rencontré Charles VII. Elle affirme que des voix célestes lui ont confié une mission : faire lever le siège et conduire Charles au sacre."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Pour comprendre pourquoi on l'écoute, il faut éviter de regarder le quinzième siècle avec nos catégories actuelles. La religion imprègne la compréhension du monde, du pouvoir, de la guerre et de la légitimité. Cela ne signifie pas que tout le monde croit immédiatement Jeanne. Elle est interrogée, examinée et discutée. Mais l'idée qu'une mission puisse avoir une dimension divine n'est pas absurde pour ses contemporains."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Il faut aussi corriger l'image de la bergère isolée qui prend soudain le commandement. Jeanne voyage escortée, porte un équipement militaire, s'intègre à une opération conduite par des hommes de guerre expérimentés et échange avec eux. Son rôle exact dans les décisions tactiques fait encore discuter les historiens. En revanche, son impact sur le moral, son engagement dans les assauts et sa puissance symbolique sont difficiles à nier."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Que fait-elle dans cette maison ? Nous ne pouvons évidemment pas reconstituer heure par heure ses nuits et ses repas. C'est justement une bonne leçon d'histoire : un lieu authentique ou reconstitué ne nous autorise pas à inventer ce que les sources ne disent pas. Nous savons qu'elle y est hébergée. Nous savons qu'elle participe aux opérations. Nous connaissons beaucoup de ses paroles grâce aux procès qui ont conservé des témoignages exceptionnels. Mais son intimité nous échappe largement."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"En sortant, observez donc la façade comme un monument à la mémoire plutôt que comme une machine à remonter le temps parfaite. La reconstruction des années 1960 nous dit quelque chose de très fort : même après la destruction de 1940, Orléans a voulu redonner une maison à Jeanne. Une ville ne conserve pas seulement son histoire. Elle choisit aussi ce qu'elle refuse de perdre."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Nous allons maintenant gagner la place du Martroi. En quelques centaines de mètres, Jeanne va changer complètement. Ici, nous cherchions une adolescente logée chez un notable. Là-bas, nous trouverons une cavalière monumentale en bronze au centre de la ville. Entre les deux, il y a plus de quatre siècles de fabrication de mémoire."}
+      ]
+    },
+    {
+      "id": "orleans-walk-ep05",
+      "episode": 5,
+      "title": "Comment une jeune femme devient une héroïne de bronze",
+      "stop": "Place du Martroi et rue Jeanne-d'Arc",
+      "location": "Place du Martroi, 45000 Orléans, France",
+      "launch": "face à la grande statue équestre de Jeanne d'Arc, puis en vous engageant dans la rue Jeanne-d'Arc vers la cathédrale.",
+      "summary": "La place et la grande perspective ne montrent pas le Moyen Âge : elles montrent la manière dont le XIXe siècle a réinventé Jeanne et monumentalise l'histoire.",
+      "historical_note": "La statue équestre de Denis Foyatier est inaugurée en 1855. La rue Jeanne-d'Arc est une grande percée urbaine du XIXe siècle ; elle ne correspond donc pas à une rue que Jeanne aurait parcourue sous cette forme.",
+      "sources": [
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_jeannedarc.pdf",
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_aufildelaville.pdf",
+        "https://www.orleans.fr/actualites/detail/prosper-jollois-et-charles-pensee-aux-origines-de-la-legende-jeanne-darc"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Nous voici place du Martroi. Le contraste avec la maison que nous venons de quitter est spectaculaire. Jeanne n'est plus une jeune femme hébergée quelques jours dans une ville assiégée. Elle est maintenant au-dessus de nous, à cheval, en bronze, au centre d'un vaste espace public. Cette transformation est précisément notre sujet."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"La grande statue équestre est l'œuvre du sculpteur Denis Foyatier et date de 1855. Elle appartient à un dix-neuvième siècle passionné par les héros nationaux, les monuments publics et la construction d'un récit collectif de la France. Jeanne offre alors un personnage exceptionnel : jeune, victorieuse à Orléans, liée au roi et au sacrifice, revendiquée à la fois par des sensibilités religieuses et patriotiques."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Cela ne veut pas dire que le dix-neuvième siècle invente Jeanne. Les événements de 1429 sont bien réels et extraordinairement documentés. Mais chaque époque choisit ce qu'elle met en avant. Une personne historique possède une biographie ; une héroïne publique possède en plus des statues, des cérémonies, des images, des rues et parfois des usages politiques contradictoires."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Maintenant, placez-vous dans l'axe de la rue Jeanne-d'Arc et regardez la cathédrale au bout de la perspective. C'est presque trop parfait : une rue portant le nom de Jeanne conduit l'œil vers Sainte-Croix. Notre cerveau fabrique immédiatement une scène médiévale. On imagine des cavaliers, des bannières, peut-être Jeanne remontant cette voie vers la cathédrale."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Et c'est précisément le piège. Cette grande percée appartient au dix-neuvième siècle. Jeanne n'a jamais vu cette perspective. Nous marchons donc dans une mise en scène urbaine de l'histoire. Ce n'est pas un faux décor : c'est une vraie ville, mais une ville qui a choisi d'organiser son espace pour donner davantage de force à certains monuments et à certaines mémoires."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"En avançant vers Sainte-Croix, observez le phénomène. Plus nous nous rapprochons, plus la cathédrale occupe le champ de vision. Le monument semble devenir la destination naturelle du récit de Jeanne. Pourtant, une deuxième surprise nous attend : la façade et les grandes tours que nous regardons n'appartiennent pas, elles non plus, au paysage que Jeanne a connu en 1429."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Retenez donc une idée avant d'arriver à la cathédrale : une ville historique n'est jamais simplement restée ancienne. Elle a été réécrite. Orléans est particulièrement intéressante parce que l'on peut voir cette réécriture à l'œuvre, de la maison reconstruite à la statue du Martroi, puis à cette rue qui organise notre regard. Maintenant, allons découvrir le monument qui donne peut-être l'illusion la plus spectaculaire de tous."}
+      ]
+    },
+    {
+      "id": "orleans-walk-ep06",
+      "episode": 6,
+      "title": "Sainte-Croix : la cathédrale que Jeanne n'a pas vue",
+      "stop": "Cathédrale Sainte-Croix",
+      "location": "Place Sainte-Croix, 45000 Orléans, France",
+      "launch": "sur le parvis, puis à poursuivre à l'intérieur.",
+      "summary": "Jeanne a connu une cathédrale à cet emplacement, mais pas celle que nous contemplons : destructions et reconstructions en font un livre d'histoire de plusieurs siècles.",
+      "historical_note": "L'édifice médiéval a subi de très lourdes destructions pendant les guerres de Religion. La reconstruction s'étend sur plusieurs siècles ; la cathédrale actuelle est officiellement inaugurée le 8 mai 1829.",
+      "sources": [
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/presse/Dossier_de_presse_FJA_2023.pdf",
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_aufildelaville.pdf"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Face à Sainte-Croix, notre cerveau fait encore quelque chose de très naturel : il voit du gothique et pense Moyen Âge. Pourtant, si Jeanne revenait ici, elle reconnaîtrait le lieu mais certainement pas cette façade monumentale. Une cathédrale existait bien à Orléans en 1429. Celle que nous voyons est le résultat d'une histoire beaucoup plus longue de destructions et de reconstructions."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Une cathédrale n'est pas simplement une grande église. C'est l'église de l'évêque, le siège de son autorité religieuse. Dans une société médiévale où religion, politique et vie collective sont profondément imbriquées, un tel bâtiment occupe une place centrale dans la ville. Il est à la fois lieu de culte, symbole, repère urbain et chantier mobilisant des générations."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Au seizième siècle, les guerres de Religion frappent Orléans et Sainte-Croix subit des destructions majeures. La reconstruction reprend ensuite, notamment sous Henri IV, puis se poursuit sous les règnes suivants. Voilà pourquoi l'architecture peut nous tromper : des bâtisseurs des dix-septième et dix-huitième siècles continuent à travailler dans un langage gothique, bien après ce que nous appelons habituellement le Moyen Âge."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Regardez maintenant les proportions, les tours, la verticalité. Tout est conçu pour faire monter le regard. Mais ne cherchez pas une pureté parfaite de style. Le bâtiment est une continuité volontaire construite sur des ruptures. Des parties médiévales, des reprises modernes, des décors royaux et des interventions plus tardives coexistent. C'est exactement ce qui rend le monument historiquement précieux."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"À l'intérieur, cherchez le cycle de vitraux consacré à Jeanne d'Arc. Là encore, ne le confondez pas avec un reportage de 1429. Ces images appartiennent à une époque qui raconte Jeanne rétrospectivement. Elles choisissent des scènes, construisent une continuité et transforment son parcours en récit visuel. Nous pouvons donc lire deux histoires en même temps : la vie de Jeanne telle qu'elle est commémorée, et la manière dont les siècles suivants veulent la regarder."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Il existe un détail presque parfait pour notre journée : la cathédrale actuelle est officiellement inaugurée le 8 mai 1829, exactement quatre cents ans après la délivrance d'Orléans. L'architecture et la mémoire johannique finissent ainsi par se rejoindre volontairement dans le calendrier."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Alors, où en sommes-nous ? Ce monument enseigne quelque chose qui vaut pour toute ville ancienne : ce qui paraît médiéval ne l'est pas forcément entièrement, et une reconstruction n'efface pas l'histoire ; elle en ajoute une nouvelle couche. À quelques pas d'ici, l'Hôtel Groslot va nous faire changer radicalement d'atmosphère. Nous quittons les voûtes gothiques pour une demeure de la Renaissance où, en 1560, un jeune roi va mourir."}
+      ]
+    },
+    {
+      "id": "orleans-walk-ep07",
+      "episode": 7,
+      "title": "Groslot : quand un roi meurt à Orléans",
+      "stop": "Hôtel Groslot",
+      "location": "2 place de l'Étape, 45000 Orléans, France",
+      "launch": "devant la façade de briques rouges, puis à poursuivre à l'intérieur.",
+      "summary": "François II meurt ici en 1560. Derrière ce décès se dessinent Marie Stuart, les Guise et une France qui entre dans les guerres de Religion.",
+      "historical_note": "L'Hôtel Groslot est construit de 1549 à 1558 pour Jacques Groslot. François II y meurt en décembre 1560. L'épisode replace ce décès dans son contexte sans lui attribuer une causalité unique dans le déclenchement des guerres de Religion.",
+      "sources": [
+        "https://www.orleans.fr/actualites/detail/nouveau-livret-pour-lhotel-groslotnouveau-livret-pour-lhotel-groslot",
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_aufildelaville.pdf"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Quelques dizaines de mètres ont suffi pour changer d'univers. Face à nous, l'Hôtel Groslot ne cherche pas la même verticalité que la cathédrale. La brique rouge, la pierre claire, les fenêtres et le décor nous placent dans la Renaissance. Le bâtiment est construit entre 1549 et 1558 pour Jacques Groslot, bailli d'Orléans. C'est une demeure de pouvoir civil, pas une forteresse et pas une église."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"En 1560, Orléans devient pendant quelques semaines l'un des centres politiques du royaume. Le roi François II est très jeune : il n'a pas vingt ans. Il est marié à Marie Stuart, reine d'Écosse. Cette union relie la cour de France à une histoire européenne beaucoup plus vaste, où se croisent l'Écosse, l'Angleterre, les Tudor, les rivalités dynastiques et la fracture religieuse entre catholiques et protestants."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"François II tombe malade à Orléans et meurt dans l'Hôtel Groslot en décembre 1560. Sa mort change immédiatement les équilibres de cour. Son jeune frère Charles IX devient roi sous la forte influence de leur mère Catherine de Médicis. Dans le même temps, les tensions religieuses qui traversent le royaume deviennent de plus en plus dangereuses."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Il faut résister à une causalité trop simple : François II ne meurt pas et, soudain, les guerres de Religion commencent. La fracture est déjà profonde. Mais son décès retire une pièce importante d'un système politique fragile. Deux ans plus tard, en 1562, la France bascule dans une série de guerres civiles religieuses qui vont durer plusieurs décennies. Orléans en sera directement touchée."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Si vous visitez l'intérieur, gardez cette sensation : nous sommes dans une demeure qui a changé de fonction. D'abord hôtel particulier, elle devient ensuite hôtel de ville après la Révolution. Les décors que vous voyez ne sont donc pas tous figés dans l'état de 1560. Là encore, le monument est une superposition d'usages et de mémoires."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Et pensez un instant à Marie Stuart. À la mort de François II, elle est une jeune veuve d'environ dix-huit ans. Elle retourne ensuite en Écosse. Son destin la conduira à une longue captivité en Angleterre puis à son exécution en 1587 sur ordre d'Élisabeth Ire. Un décès survenu dans cette maison ouvre donc, si l'on tire le fil, sur l'une des grandes tragédies politiques de l'Europe du seizième siècle."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Nous allons maintenant sortir des palais et des grands personnages. Le Campo Santo, tout proche, va nous ramener à une réalité beaucoup plus universelle : pendant des siècles, une ville est aussi un lieu où les morts restent au milieu des vivants. Puis la rue de Bourgogne nous rendra aux habitants ordinaires, aux maisons, aux ateliers et aux commerces."}
+      ]
+    },
+    {
+      "id": "orleans-walk-ep08",
+      "episode": 8,
+      "title": "Campo Santo : les morts au cœur de la ville",
+      "stop": "Campo Santo",
+      "location": "Rue Fernand-Rabier, 45000 Orléans, France",
+      "launch": "une fois entré dans l'espace du Campo Santo, en prenant quelques secondes pour regarder les arcades.",
+      "summary": "Ce grand espace paisible fut le cimetière de la ville du XIIe au XVIIIe siècle : une occasion de comprendre combien la mort était autrefois intégrée à la cité.",
+      "historical_note": "Le Campo Santo est documenté comme cimetière urbain du XIIe au XVIIIe siècle. Les usages actuels de l'espace sont évidemment postérieurs.",
+      "sources": [
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_aufildelaville.pdf",
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/CVL_Parcs_et_jardins_dans_les_VPAH_en_Centre_Val_de_Loire_2022-.pdf"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Le calme de cet endroit est trompeur. Pendant des siècles, nous aurions été ici dans le grand cimetière d'Orléans. Le Campo Santo est utilisé comme espace funéraire du douzième au dix-huitième siècle. Il borde le quartier de la cathédrale et rappelle une différence majeure entre notre manière d'organiser la ville et celle des sociétés anciennes."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Aujourd'hui, nous repoussons généralement les grands cimetières hors des centres urbains. Au Moyen Âge et encore longtemps après, la mort est beaucoup plus présente au cœur de la communauté. On vit près des églises, on prie pour les morts, on traverse des espaces funéraires et l'organisation religieuse de la cité structure aussi l'organisation des sépultures."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Regardez les arcades qui entourent l'espace. Elles donnent aujourd'hui une impression presque méditative. Mais ne transformons pas le passé en décor romantique. Un cimetière urbain est un lieu pratique, social et religieux, soumis à des problèmes de place, à des hiérarchies et à des transformations. Les villes grandissent ; leurs rapports à l'hygiène, à la santé et à l'espace changent ; les cimetières finissent par être déplacés."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Le Campo Santo possède une autre qualité pour notre visite : il nous impose une respiration. Depuis ce matin, nous avons rencontré César, Jeanne d'Arc, des rois, une cathédrale et des guerres. Ici, l'histoire redevient celle de milliers de personnes dont nous ne connaissons presque aucun nom. Elles ont pourtant constitué l'immense majorité de la population d'Orléans."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"En sortant, nous allons rejoindre la rue de Bourgogne. Regardez alors les façades non comme une collection de jolies maisons anciennes, mais comme les parois d'une ville vécue : rez-de-chaussée de commerce, étages d'habitation, bois, pierre, incendies possibles, bruit, voisinage et circulation. Nous allons essayer de raconter l'Orléans de ceux qui n'ont jamais eu de statue."}
+      ]
+    },
+    {
+      "id": "orleans-walk-ep09",
+      "episode": 9,
+      "title": "Rue de Bourgogne : comment vivait une ville ancienne ?",
+      "stop": "Rue de Bourgogne",
+      "location": "Rue de Bourgogne, 45000 Orléans, France",
+      "launch": "en entrant dans la partie ancienne de la rue de Bourgogne et en prenant le temps de regarder les façades.",
+      "summary": "Pans de bois, commerces et densité : après les héros, la rue permet de raconter la vie quotidienne et la transformation lente de l'habitat urbain.",
+      "historical_note": "Les façades visibles appartiennent à des périodes différentes ; l'épisode évite de présenter toute la rue actuelle comme un décor intact du XVe siècle.",
+      "sources": [
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_aufildelaville.pdf",
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/document/urbanisme/entretien_patrimoine/Reglement-ZPPAUP.pdf",
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_industrie.pdf"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Bienvenue dans une autre histoire d'Orléans. Ici, pas besoin de chercher un roi ou une bataille. Regardez les façades. Certaines maisons anciennes conservent des pans de bois des quinzième et seizième siècles ; d'autres ont été reprises, enduites, transformées ou reconstruites. La rue que nous parcourons est un catalogue de changements plus qu'un décor figé."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Le pan de bois répond à une logique de construction efficace. Une ossature de bois porte la maison, tandis que les remplissages complètent les parois. Dans une ville dense, les parcelles sont souvent étroites et profondes. Le rez-de-chaussée peut accueillir une activité, tandis que l'on habite au-dessus. Les rues deviennent ainsi à la fois lieux de circulation, de production, de vente et de voisinage."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Imaginez aussi ce qui manque à notre regard : le son et les odeurs. Pas de moteurs, certes, mais des charrettes, des animaux, des ateliers, des cloches, des voix, des marchandises et des déchets. L'eau courante, l'éclairage public, l'assainissement et la collecte moderne n'existent pas sous leurs formes actuelles. Une ville ancienne peut être belle à regarder aujourd'hui et avoir été extrêmement rude à vivre."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Orléans est aussi une ville de savoir. Son histoire universitaire ancienne a attiré étudiants et juristes, ajoutant à la circulation des marchands celle des idées. Cela signifie auberges, logements, livres, débats et parfois agitation. Une ville importante ne vit pas uniquement de ce qu'elle produit ; elle vit aussi de ceux qui y passent et de ce qu'ils apportent avec eux."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Plus tard, ce secteur accueille aussi des activités industrielles. La confiserie Saintoin s'installe rue de Bourgogne au dix-huitième siècle et la grande histoire du vinaigre d'Orléans se développe tout près. Les anciens quartiers ne cessent donc pas d'être productifs lorsqu'ils cessent d'être médiévaux : ils changent simplement de techniques et d'échelle."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"En allant vers Saint-Aignan, retenez ceci : les maisons sont des archives. La taille d'une fenêtre, la forme d'un pan de bois, un rez-de-chaussée commercial ou une façade reprise racontent des choix économiques aussi sûrement qu'un texte. Notre dernière grande étape historique va pourtant nous faire remonter brusquement de près de mille ans avant Jeanne : à Orléans, une autre figure est réputée avoir sauvé la ville, face à Attila."}
+      ]
+    },
+    {
+      "id": "orleans-walk-ep10",
+      "episode": 10,
+      "title": "Saint-Aignan, Attila et le retour à la Loire",
+      "stop": "Église Saint-Aignan puis quais",
+      "location": "Place Saint-Aignan, 45000 Orléans, France",
+      "launch": "sur la place Saint-Aignan ; la fin de l'épisode accompagne ensuite le retour vers la Loire et le quai des Augustins.",
+      "summary": "En 451, la tradition associe déjà le salut d'Orléans à Aignan face aux Huns. La boucle se referme ensuite sur la Loire, devenue tour à tour route, frontière et paysage.",
+      "historical_note": "Le rôle d'Aignan lors de la menace hunnique de 451 appartient à une tradition ancienne mêlant faits historiques et élaboration hagiographique. Le récit le présente comme tel et ne transforme pas les épisodes légendaires en certitudes documentaires.",
+      "sources": [
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_aufildelaville.pdf",
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/orleans_mag/onsort218.pdf",
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_bords_loire.pdf"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Nous terminons notre grande traversée historique à Saint-Aignan. Ce choix peut surprendre : après une journée dominée par Jeanne d'Arc, voici un autre personnage auquel Orléans associe depuis très longtemps l'idée d'un salut de la ville. Pour le rencontrer, il faut remonter jusqu'en 451, près de mille ans avant le siège des Anglais."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Cette année-là, les Huns d'Attila progressent en Gaule. Aignan est évêque d'Orléans. Les traditions qui racontent l'événement lui attribuent un rôle majeur dans la résistance morale de la cité et dans la recherche de secours. Mais il faut manier cette histoire avec précision : les récits de saints, les hagiographies, sont écrits pour édifier autant que pour informer. Ils peuvent conserver des événements réels tout en les enveloppant de motifs religieux et merveilleux."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Ce qui est historiquement remarquable, c'est que la mémoire collective d'Orléans possède ainsi plusieurs figures de délivrance. Aignan au cinquième siècle, Jeanne au quinzième. Elles ne sont pas équivalentes et nos sources ne sont pas de même nature, mais le rapprochement nous apprend comment une ville raconte les moments où elle croit avoir échappé à la catastrophe."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Regardez aussi l'église actuelle sans imaginer qu'elle soit celle du cinquième siècle. Comme Sainte-Croix, Saint-Aignan est le résultat d'une longue histoire architecturale. La crypte constitue l'un des témoignages patrimoniaux majeurs du lieu, mais son accès dépend des visites organisées. Même lorsqu'on ne descend pas sous terre, le simple fait de savoir que plusieurs états de la ville reposent les uns sous les autres change notre façon de marcher."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Nous pouvons maintenant redescendre vers la Loire. Le fleuve que nous retrouvons est exactement le même que ce matin, mais il n'a plus le même sens. Aux Tourelles, il était un obstacle militaire. Sur le pont, il était un passage. À l'Hôtel Cabu, il expliquait la naissance et le commerce de la ville. Dans la rue de Bourgogne, il alimentait indirectement un monde de marchands et d'industries."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Voilà peut-être le meilleur résumé d'Orléans : ce n'est pas une ville construite autour d'une seule héroïne. C'est une ville construite autour d'une géographie, puis réécrite par deux mille ans d'histoire. Jeanne y tient une place immense parce qu'en 1429 cette géographie devient soudain le théâtre d'un basculement politique et militaire."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Lorsque vous retrouverez le 44 quai des Augustins, essayez de regarder une dernière fois l'autre rive. Ce matin, elle était simplement le centre-ville à rejoindre. Désormais, vous pouvez y superposer Cenabum, les murailles, le vieux pont, les marchands, Jeanne, la cathédrale détruite puis reconstruite, François II, les maisons de bois et les quais industriels. La promenade s'arrête ici. Mais à partir de maintenant, Orléans devrait être beaucoup plus difficile à voir comme une simple carte postale."}
+      ]
+    }
+  ],
+  "capsules": [
+    {
+      "id": "orleans-walk-g01",
+      "after_episode": 1,
+      "title": "Gourmand — À quoi ressemblait vraiment le vieux pont ?",
+      "summary": "Reconstituer mentalement le pont des Tourelles sans le confondre avec le pont George-V.",
+      "sources": ["https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_bords_loire.pdf"],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Le vieux pont d'Orléans n'était pas simplement une chaussée posée sur l'eau. Il constituait un morceau de ville fortifié. Plusieurs arches franchissaient un fleuve dont le chenal et les îles ont varié au cours des siècles. Des ouvrages défensifs protégeaient ses extrémités et le passage pouvait être interrompu ou contrôlé."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Il faut aussi oublier la circulation moderne. Sur un pont médiéval, la largeur disponible est précieuse. Piétons, chevaux, charrettes et soldats partagent un espace limité. En période de siège, chaque porte, chaque ouvrage et chaque portion de tablier devient un point tactique."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"C'est pourquoi la prise des Tourelles n'est pas un détail spectaculaire ajouté à l'histoire de Jeanne : elle touche directement le système de franchissement de la Loire. Si vous regardez le pont George-V maintenant, utilisez-le comme une règle de mesure, mais décalez mentalement l'ancien passage légèrement en amont."}
+      ]
+    },
+    {
+      "id": "orleans-walk-g02",
+      "after_episode": 1,
+      "title": "Gourmand — Comment assiège-t-on une ville sans l'encercler complètement ?",
+      "summary": "Bastilles, ravitaillement et pression : le siège médiéval est autant une bataille de logistique que de murailles.",
+      "sources": ["https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_jeannedarc.pdf"],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Un siège médiéval ne ressemble pas toujours à un cercle continu d'hommes autour d'une ville. Une grande armée coûte cher, mange énormément et doit elle-même être ravitaillée. Autour d'Orléans, les Anglais utilisent donc des bastilles : des positions fortifiées placées sur des axes importants."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"L'objectif est de rendre les entrées difficiles, de contrôler les passages, de menacer les convois et d'épuiser la ville. Mais des espaces subsistent entre les positions. Défenseurs et assiégeants effectuent des sorties, des attaques et des opérations de ravitaillement. Le siège est donc mobile et dangereux, pas une attente passive derrière des murs."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Cela explique aussi pourquoi l'arrivée de ravitaillement avec Jeanne le 29 avril est importante et pourquoi les jours suivants sont consacrés à attaquer les bastilles anglaises une par une. Pour délivrer Orléans, il ne suffit pas d'attendre que l'ennemi parte : il faut casser le réseau qui l'étrangle."}
+      ]
+    },
+    {
+      "id": "orleans-walk-g03",
+      "after_episode": 4,
+      "title": "Gourmand — Comment sait-on ce que Jeanne a réellement dit ?",
+      "summary": "Un cas presque unique : les procès de Jeanne ont conservé une quantité extraordinaire de paroles et de témoignages.",
+      "sources": ["https://www.archives-nationales.culture.gouv.fr/evenements/1429-jeanne-darc-le-premier-portrait"],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Jeanne d'Arc est une personne du quinzième siècle exceptionnellement documentée. La raison est tragique : après sa capture, elle est jugée à Rouen en 1431. Les interrogatoires et la procédure produisent des textes qui conservent une partie de ses réponses."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Puis, vingt-cinq ans après sa mort, un procès en réhabilitation recueille de nombreux témoignages de personnes qui l'ont connue. Ces documents ne sont pas des enregistrements modernes : ils ont leurs intentions, leur procédure, leurs traductions et leurs biais. Mais pour une jeune femme de son époque et de son milieu, la densité documentaire est extraordinaire."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"C'est ce qui autorise l'historien à travailler sur ses paroles avec beaucoup plus de matière que pour la plupart de ses contemporains. Paradoxalement, nous connaissons mieux certaines réponses de Jeanne que son visage."}
+      ]
+    },
+    {
+      "id": "orleans-walk-g04",
+      "after_episode": 5,
+      "title": "Gourmand — À quoi ressemblait Jeanne ? Personne ne le sait vraiment",
+      "summary": "Des milliers d'images, mais aucun portrait certain réalisé d'après nature.",
+      "sources": ["https://www.archives-nationales.culture.gouv.fr/evenements/1429-jeanne-darc-le-premier-portrait"],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Voici une contradiction délicieuse : Jeanne d'Arc est l'une des femmes les plus représentées de l'histoire de France, mais nous ignorons son vrai visage. Aucun portrait réalisé d'après nature ne nous est parvenu."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Le fameux petit dessin contemporain associé à son épopée est tracé dans un registre par le greffier parisien Clément de Fauquembergue. Il représente une femme armée avec une bannière, mais son auteur ne semble pas avoir vu Jeanne. Ce n'est donc pas un portrait au sens moderne."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Chaque statue que nous regardons aujourd'hui nous parle donc autant de l'artiste et de son époque que de Jeanne. Au Martroi, le bronze de 1855 ne révèle pas son visage : il révèle le visage que le dix-neuvième siècle voulait lui donner."}
+      ]
+    },
+    {
+      "id": "orleans-walk-g05",
+      "after_episode": 5,
+      "title": "Gourmand — Pourquoi des Français combattaient-ils avec les Anglais ?",
+      "summary": "Les Bourguignons rappellent que la guerre de Cent Ans est aussi une guerre civile française.",
+      "sources": ["https://www.archives-nationales.culture.gouv.fr/evenements/1429-jeanne-darc-le-premier-portrait"],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Dire simplement les Français contre les Anglais rend 1429 presque incompréhensible. Le royaume de France est aussi traversé par une guerre civile entre grands partis. Les ducs de Bourgogne disposent d'un puissant ensemble territorial et sont alors alliés aux Anglais."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Cette alliance s'explique notamment par le conflit entre Bourguignons et Armagnacs, aggravé par l'assassinat du duc Jean sans Peur en 1419 lors d'une rencontre avec le dauphin Charles. Son fils Philippe le Bon se rapproche alors durablement du camp anglais."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Le résultat est essentiel : en 1429, la question n'est pas de défendre une nation française déjà unie sous un seul pouvoir. Il s'agit de reconstruire une légitimité politique dans un royaume profondément fracturé. Cela donne au sacre de Charles VII à Reims une importance que nous sous-estimons facilement aujourd'hui."}
+      ]
+    },
+    {
+      "id": "orleans-walk-g06",
+      "after_episode": 7,
+      "title": "Gourmand — Marie Stuart : d'Orléans à l'une des grandes tragédies des Tudor",
+      "summary": "La mort de François II à Groslot relie Orléans à l'Écosse, Élisabeth Ire et aux rivalités religieuses européennes.",
+      "sources": ["https://www.orleans.fr/actualites/detail/nouveau-livret-pour-lhotel-groslotnouveau-livret-pour-lhotel-groslot"],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Lorsque François II meurt à Orléans en 1560, son épouse Marie Stuart perd à la fois un mari et sa position de reine de France. Mais elle est déjà reine d'Écosse depuis son enfance. Son histoire ne fait donc que changer de théâtre."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"De retour en Écosse, Marie se retrouve au milieu de conflits politiques et religieux. Catholique, elle devient aussi une figure autour de laquelle peuvent se cristalliser les oppositions à la reine protestante d'Angleterre Élisabeth Ire. Sa généalogie lui donne en effet une prétention dynastique dangereuse aux yeux du pouvoir anglais."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Après des années de captivité en Angleterre, Marie est exécutée en 1587. Quand vous repenserez à l'Hôtel Groslot, souvenez-vous donc que la mort d'un adolescent roi dans une demeure d'Orléans ouvre un fil qui mène jusqu'au cœur de la rivalité entre l'Écosse et l'Angleterre élisabéthaine."}
+      ]
+    },
+    {
+      "id": "orleans-walk-g07",
+      "after_episode": 9,
+      "title": "Gourmand — Pourquoi Orléans est devenue une ville de vinaigriers",
+      "summary": "Le vinaigre relie la Loire, le commerce du vin, des caves médiévales et une puissante industrie orléanaise.",
+      "sources": [
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/document/culture/musees/offre_pedagogique/2022/cabu/dossier/Dossier-PEDA_Orleans_et_la_Loire.pdf",
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_industrie.pdf",
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/FOCUS_Cave_et_carrieres_2026.pdf"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Orléans possède une spécialité historique inattendue : le vinaigre. La corporation des vinaigriers-buffetiers, sauciers et moutardiers reçoit des statuts dès 1394. Ce n'est donc pas une invention industrielle récente."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"La Loire et le commerce du vin jouent un rôle essentiel. De grandes quantités de vin transitent dans la région et Orléans développe un savoir-faire de transformation en vinaigre. Plus tard, des entreprises comme Dessaux atteignent une échelle industrielle considérable. Les anciens bâtiments de la vinaigrerie font même partie du patrimoine industriel de la ville."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Le détail le plus savoureux se trouve sous terre. Des caves médiévales ont été réutilisées pour stocker les barriques avant transformation, et d'anciennes carrières ont accueilli des cuves de vinaigre. L'histoire culinaire d'Orléans est donc liée à la fois au fleuve et au sous-sol."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Si vous voyez aujourd'hui une bouteille de vinaigre d'Orléans, vous pouvez ainsi la lire comme un condensé d'histoire urbaine : navigation, commerce du vin, corporation médiévale, caves, chimie de la fermentation et industrie du dix-neuvième siècle."}
+      ]
+    },
+    {
+      "id": "orleans-walk-g08",
+      "after_episode": 10,
+      "title": "Gourmand — Saint Aignan face à Attila : histoire, mémoire ou légende ?",
+      "summary": "Comment l'historien travaille quand les sources racontent à la fois un événement et la sainteté d'un personnage.",
+      "sources": [
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/orleans_mag/onsort218.pdf",
+        "https://www.orleans.fr/fileadmin/orleans/MEDIA/kiosque/ville_art_histoire/vdh_aufildelaville.pdf"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"En 451, Attila et les Huns sont bien présents en Gaule et Orléans se trouve réellement menacée. Aignan est bien l'évêque de la ville. À partir de là, les récits construisent progressivement une figure de défenseur et d'intercesseur qui appartient autant à l'histoire religieuse qu'à l'histoire militaire."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Pour l'historien, le problème n'est pas de choisir brutalement entre tout est vrai et tout est faux. Il faut demander quand chaque récit est écrit, dans quel but, ce que l'auteur pouvait savoir et quels motifs littéraires appartiennent aux vies de saints. Plus une source est tardive et édifiante, plus on doit être prudent sur les détails spectaculaires."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Mais la légende elle-même devient un fait historique lorsqu'une ville la transmet pendant des siècles. Même si nous ne pouvons pas certifier chaque geste attribué à Aignan, nous pouvons étudier pourquoi Orléans a choisi de se souvenir de lui comme d'un protecteur. C'est exactement le même mécanisme de mémoire que nous avons observé avec Jeanne, mais avec des sources beaucoup plus difficiles."}
+      ]
+    }
+  ]
+}
