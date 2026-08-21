@@ -1,0 +1,4 @@
+prestart_photo_rail=removed
+per_episode_web_photo_link=enabled
+per_episode_local_photo=preserved
+return_to_plan=preserved
