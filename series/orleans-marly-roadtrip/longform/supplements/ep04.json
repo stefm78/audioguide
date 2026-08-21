@@ -1,0 +1,37 @@
+{
+  "episode_id": "orleans-marly-ep04",
+  "sources": [
+    "https://www.chateaudemaintenon.fr/son-aqueduc-_r_28.html",
+    "https://www.chateaudemaintenon.fr/sites/chateau-maintenon/files/brochures/pdf/guide_de_viste_maintenon-2021-interactif.pdf"
+  ],
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Le projet de Maintenon devient encore plus impressionnant lorsqu’on cesse de regarder seulement les arches. Avant même d’arriver ici, près de quarante kilomètres de canal entre Pontgouin et Berchères ont déjà été creusés à flanc de coteau et mis en eau avec succès dès 1685. Cela veut dire qu’on ne parle pas d’un rêve resté sur une table à dessin. Une partie gigantesque du système fonctionne réellement. Et c’est précisément ce qui rend l’échec final intéressant : les ingénieurs ne sont pas incapables, le roi n’a pas seulement lancé une folie irréalisable. Ils ont déjà déplacé de la terre, construit des ouvrages, réglé des pentes et fait circuler de l’eau. Le problème arrive lorsque le relief cesse d’être coopératif et qu’il faut franchir de grandes vallées sans perdre la pente extrêmement faible nécessaire à l’écoulement."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "C’est ici que la topographie devient presque un personnage du récit. Un canal gravitaire n’obéit ni au prestige du roi ni à l’impatience de Louvois : l’eau descend. Si la pente est trop forte, elle devient difficile à maîtriser ; si elle est trop faible ou remonte, elle n’avance plus. Il faut donc mesurer sur des dizaines de kilomètres des différences de niveau minuscules par rapport à la distance totale. À Maintenon, plusieurs solutions sont étudiées. Le projet initial de pont-aqueduc est démesuré : la documentation du château évoque un ouvrage d’environ 1 300 mètres, dont 955 mètres d’arcades sur trois étages, culminant à 73 mètres. Vauban défend finalement une solution plus économique combinant un rang d’arcades et de gigantesques siphons. Le vestige que nous voyons aujourd’hui est donc aussi la trace d’un projet revu à la baisse avant même d’être abandonné."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Et puis il faut alimenter le chantier lui-même. Des milliers d’hommes ne construisent rien sans matériaux. Grès, sable, silex, briques, chaux : tout cela doit être extrait, préparé et transporté. Vauban fait aménager des cours d’eau pour rapprocher les matériaux du chantier. Là encore, la grande histoire du Roi-Soleil devient une histoire de charrois, de bateaux, de pelles, de fours à chaux et de muscles. Une arche spectaculaire n’est que la partie visible d’une immense chaîne d’approvisionnement. C’est exactement le genre de réalité qu’un grand projet politique peut masquer : plus un ouvrage paraît monumental, plus il repose sur une masse de gestes ordinaires répétés des milliers de fois."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Puis la guerre tranche. En 1688 commence la guerre de la Ligue d’Augsbourg. Les troupes affectées au chantier sont mobilisées ailleurs. Les travaux continuent quelque temps, mais le projet est arrêté en 1692 puis définitivement abandonné en 1694. Voilà la limite la plus nette du pouvoir absolu : Louis XIV peut ordonner, financer, mobiliser et transformer profondément un territoire, mais il ne peut pas abolir simultanément la gravité, le coût, le temps, les priorités militaires et la disponibilité des hommes. Maintenon ne raconte donc pas l’impuissance du roi ; il raconte quelque chose de plus subtil. Le pouvoir est immense, mais il reste matériel. Et plus son ambition grandit, plus il devient dépendant de contraintes qu’aucun cérémonial ne peut faire disparaître."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "episode_id": "orleans-marly-ep06",
+  "sources": [
+    "https://www.destination-yvelines.fr/chateaux/chateau-de-dampierre/",
+    "https://www.destination-yvelines.fr/visiter-village-dampierre/"
+  ],
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Dampierre est particulièrement intéressant parce qu’il nous montre comment l’architecture de cour se diffuse hors de la résidence royale. Entre 1675 et 1688, Jules Hardouin-Mansart travaille ici pour la famille de Luynes, liée par mariage à Colbert, alors qu’il mène aussi les grands chantiers du règne de Louis XIV. Cela ne signifie pas que Dampierre soit un petit Versailles copié au rabais. Cela signifie plutôt qu’un même vocabulaire architectural circule dans le monde des élites : composition symétrique, cour d’honneur, hiérarchie des façades, articulation entre demeure et jardin. Pour un grand seigneur, employer l’architecte du roi est en soi un message. On montre que l’on possède les moyens financiers, les réseaux et la culture nécessaires pour parler la même langue que la cour."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Il faut s’arrêter un instant sur ce mot de réseau. À la cour, une famille ne possède pas seulement des terres et des titres : elle possède aussi des alliances, des parentés, des offices, des protections et une réputation. Le lien matrimonial avec la famille de Colbert inscrit les Luynes dans un univers où proximité politique et prestige social se renforcent mutuellement. Une demeure comme Dampierre sert alors de scène à cette position. On y reçoit des parents, des alliés, des visiteurs de rang, parfois des gens dont on espère l’appui. On y montre que la maison sait tenir son rang sans avoir besoin de l’expliquer. C’est cela qui rend l’architecture si politique : une façade ne vote pas une loi et une cour d’honneur ne commande pas une armée, mais elles rendent immédiatement visible la place que leurs propriétaires revendiquent dans la hiérarchie du royaume."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Mais une grande demeure aristocratique n’est pas seulement une façade à admirer. Comme à Châteaudun, il faut imaginer tout ce qui la fait fonctionner, avec une différence : nous sommes désormais dans un univers où les codes de réception sont encore plus sophistiqués. Arriver suppose franchir des seuils successifs. Tout le monde n’entre pas partout. Certains visiteurs sont reçus dans des espaces plus publics ; les proches accèdent plus loin ; les domestiques circulent par d’autres parcours et rendent possible cette impression de facilité. Les cuisines, les écuries, les réserves, le linge, le chauffage et l’entretien constituent l’envers d’un décor qui doit justement donner l’impression que rien n’est difficile. Plus une maison paraît élégante et naturelle, plus elle repose sur du travail invisible. C’est un bon parallèle avec Versailles : la splendeur est toujours une production collective."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Cette organisation produit aussi une expérience très précise pour celui qui arrive. Avant même d’avoir parlé au maître des lieux, on a traversé une grille, une cour, peut-être attendu qu’un domestique transmette un nom, puis été conduit vers une pièce correspondant à son rang et au degré de familiarité qu’on lui accorde. L’espace filtre les personnes. Il transforme une relation sociale abstraite en parcours physique : vous êtes reçu ici, vous n’allez pas plus loin ; tel autre visiteur, lui, passe une porte supplémentaire. C’est une répétition à plus petite échelle de ce que nous allons rencontrer à Marly. Le pouvoir ne consiste pas seulement à posséder un lieu ; il consiste à organiser qui peut le traverser, jusqu’où et en présence de qui. Voilà pourquoi une demeure de cour est une excellente préparation à la résidence plus sélective de Louis XIV."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Le contraste entre le château et le village aide aussi à lire cette hiérarchie. Dampierre est installé dans la vallée, avec sa cour, ses grilles, son parc et ses volumes qui dominent symboliquement un environnement beaucoup plus resserré. Nous ne sommes plus sur l’éperon défensif de Châteaudun. La puissance n’a plus besoin d’être perchée derrière un donjon pour être visible. Elle se met en scène par l’ordre, les perspectives, les matériaux et la séparation des espaces. Cette différence résume plusieurs siècles de notre voyage : le pouvoir fortifié cherchait d’abord à résister ; le pouvoir de cour cherche aussi à organiser les regards et les comportements. Il ne supprime pas la contrainte, il la rend souvent plus discrète."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Et les fameux 17 Tournants ? Gardons-les à leur juste place. Cette route sinueuse est aujourd’hui un repère très connu des cyclistes franciliens et donne un peu de relief à notre fin de trajet. Elle n’a pas besoin d’être transformée en monument du Grand Siècle pour être intéressante. Au contraire, c’est un bon moment pour rappeler que notre itinéraire mélange plusieurs couches de temps : un château du XVIIe siècle, un paysage ancien, une route moderne et nos propres usages de voyageurs. Le récit historique gagne en crédibilité quand il accepte ces décalages. Nous pouvons donc profiter de la route sans lui inventer un passé royal. Puis, à mesure que nous approchons de Marly, une dernière question se prépare : si Dampierre montre comment un grand seigneur se place dans l’orbite de la cour, que se passe-t-il lorsque le roi décide lui-même de réduire le cercle et de choisir qui aura le droit de s’approcher ?"
+    }
+  ]
+}

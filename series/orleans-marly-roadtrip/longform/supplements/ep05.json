@@ -1,0 +1,46 @@
+{
+  "episode_id": "orleans-marly-ep05",
+  "sources": [
+    "https://www.chateau-rambouillet.fr/decouvrir/un-domaine-au-caeur-de-la-foret",
+    "https://www.chateau-rambouillet.fr/decouvrir/histoire-du-chateau-de-rambouillet",
+    "https://www.parc-naturel-chevreuse.fr/reliefs-et-gres-des-vaux-de-cernay",
+    "https://www.parc-naturel-chevreuse.fr/nature-et-peinture-de-paysage-la-colonie-des-peintres-de-cernay-au-19e"
+  ],
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Une forêt royale n’est pas simplement un morceau de nature laissé tranquille. Pour qu’elle serve durablement à la chasse, il faut gérer des accès, surveiller le gibier, entretenir des chemins, connaître les étangs et les clairières, mobiliser des hommes qui savent où passent les animaux et préparer la journée avant l’arrivée des invités. La chasse aristocratique est donc une activité de plein air, mais aussi une organisation. Des piqueurs, des veneurs, des valets, des chevaux et des chiens forment tout un monde professionnel autour d’un plaisir réservé aux élites. Quand un souverain invite quelqu’un à chasser, il ne lui offre pas seulement une promenade. Il l’intègre pour quelques heures à un dispositif où proximité, conversation et loisir se mêlent. Rambouillet devient ainsi intéressant pour notre fil rouge : le paysage n’est pas seulement possédé, il est organisé pour produire une expérience sociale et politique."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "L’histoire de Rambouillet montre d’ailleurs combien cette combinaison entre retrait et pouvoir peut durer. François Ier y séjourne pour chasser et y meurt en 1547. Plus tard, le comte de Toulouse, fils légitimé de Louis XIV, fait du domaine son principal lieu de vie et y reçoit le roi et la cour. Louis XVI l’achète en 1783, précisément parce qu’il cherche un refuge associé à un vaste territoire de chasse. Puis l’Empire et même la République reprennent le lieu, jusqu’aux chasses présidentielles du XXe siècle. Le régime change, mais l’idée persiste : se retirer de la capitale ou de la grande résidence officielle ne signifie pas cesser de gouverner. Au contraire, certains échanges deviennent possibles justement parce que le cadre est plus détendu, plus choisi et moins public. Rambouillet prépare ainsi très bien Marly : l’intimité peut être une technique de pouvoir."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Puis le paysage change encore en entrant dans les Vaux de Cernay. Le plateau et la grande forêt cèdent la place à un relief plus découpé, avec des pentes, des chaos de grès, de l’eau et des sous-bois. Ce n’est pas un hasard si ce décor attire au XIXe siècle des peintres paysagistes. Ils viennent chercher ici quelque chose qui contraste avec la ville et avec les paysages trop ordonnés : des rochers, des cascades, des arbres, des chemins et une impression de nature puissante. Le Parc naturel régional rappelle l’existence d’une véritable colonie de peintres de Cernay. Nous changeons donc encore de regard sur le territoire. À Rambouillet, la forêt a été recherchée pour la chasse et le retrait des puissants ; à Cernay, le même type d’espace boisé devient matière artistique, lieu d’observation et source d’émotion."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Pour les peintres qui viennent travailler dans ces vallons, la nature n’est d’ailleurs pas seulement un sujet que l’on contemple de loin. Il faut marcher, choisir un point de vue, attendre une lumière, observer la couleur d’un rocher humide ou la manière dont un arbre coupe la perspective. Le paysage devient une expérience corporelle. Cette attention est presque l’inverse de celle du chasseur, qui lit le même territoire à travers les traces, les passages du gibier et les possibilités de poursuite. Deux groupes peuvent donc parcourir une même forêt et ne pas voir la même chose. C’est une idée simple mais précieuse pour notre voyage : le paysage n’existe jamais seulement dans la géographie ; il existe aussi dans l’usage et dans le regard de ceux qui le traversent."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Ce passage est utile parce qu’il nous évite une idée trop simple : un paysage n’a pas une signification éternelle. Une forêt peut être réserve de chasse, source de bois, obstacle à traverser, refuge, sujet de peinture ou espace de promenade selon l’époque et selon celui qui la regarde. Le pouvoir agit sur le paysage, mais les sociétés changent aussi la manière de le percevoir. Nous approchons maintenant de Dampierre, où cette relation va se resserrer encore : il ne s’agira plus seulement d’utiliser une forêt ou un vallon, mais de construire une demeure dont l’architecture elle-même parle la langue de la cour. Après le sauvage recherché par les peintres, nous allons retrouver un monde où tout — façade, cour, jardin, réception — est organisé pour situer chacun dans une hiérarchie."
+    }
+  ]
+}

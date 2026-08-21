@@ -1,0 +1,37 @@
+{
+  "episode_id": "orleans-marly-ep03",
+  "sources": [
+    "https://www.cathedrale-chartres.org/cathedrale/monument/lhistoire/les-grandes-lignes/",
+    "https://www.cathedrale-chartres.org/cathedrale/monument/larchitecture/la-cathedrale-du-xiiie-siecle/"
+  ],
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Ce qui stupéfie à Chartres, ce n’est pas seulement la hauteur : c’est la vitesse. Après l’incendie de 1194, l’essentiel du grand chantier gothique est mené en moins d’un quart de siècle. Pour une construction de cette ampleur, c’est exceptionnel. Cela suppose qu’un grand nombre de décisions, de ressources et de savoir-faire convergent suffisamment longtemps. Imaginez la chaîne : extraire la pierre, la dégrossir, la transporter, la monter, fabriquer les charpentes provisoires, préparer les mortiers, fournir le bois, le fer, les outils et les cordages. Une cathédrale n’est pas dessinée puis matérialisée comme par magie. C’est un flux permanent de matière. Le chantier doit manger du bois presque autant que de la pierre : échafaudages, cintres, engins de levage, charpentes. Les blocs doivent arriver au bon moment, au bon endroit, avec des équipes capables de poursuivre le travail sans que l’ensemble s’arrête. La prouesse architecturale est donc aussi une prouesse d’organisation."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Et qui dirige tout cela ? Nous aimerions parfois disposer d’un nom unique, celui d’un génie qui aurait conçu Chartres comme on signe aujourd’hui un bâtiment. Or le site officiel de la cathédrale rappelle que nous ne connaissons pas le nom des maîtres d’œuvre du grand chantier et que plusieurs se sont probablement succédé. C’est une leçon intéressante. Le monument est cohérent sans être l’œuvre isolée d’un héros. Les maîtres d’œuvre appartiennent à une culture technique qui circule entre les grands chantiers du nord de la France. Ils connaissent des solutions déjà testées ailleurs, les adaptent, changent certains choix en cours de route. Le gothique n’est donc pas une invention tombée du ciel un matin de 1194 : c’est un langage qui se perfectionne parce que des hommes observent, transmettent, expérimentent et corrigent. Autrement dit, la cathédrale est à la fois locale par son usage et européenne par la circulation des idées et des techniques."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "La lumière permet de comprendre pourquoi toute cette technique compte. Ouvrir de grandes baies dans un mur lourd pose un problème simple : plus on enlève de matière, plus il faut reporter ailleurs les efforts qui tiennent le bâtiment. Les voûtes, les piles et les arcs-boutants travaillent ensemble pour guider ces poussées vers le sol. Cela autorise des surfaces vitrées immenses. Le résultat n’est pas seulement esthétique. Dans une culture où les images ont une fonction religieuse, mémorielle et pédagogique, le vitrail transforme la lumière en récit. Les personnages, les couleurs, les scènes bibliques, les figures de saints et parfois les traces des donateurs constituent un monde visuel que l’on ne lit pas comme une bande dessinée moderne, mais qui donne au bâtiment une densité symbolique extraordinaire. La structure devient donc le moyen d’une expérience : la pierre porte, mais c’est la lumière que le visiteur retient."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Voilà pourquoi notre détour chronologique par le XIIIe siècle est utile. Plus tard, à Versailles ou à Marly, un pouvoir monarchique très centralisé pourra concentrer d’immenses moyens sur un projet voulu par le roi. Chartres montre un autre modèle. L’Église, le chapitre cathédral, les donateurs, les artisans, les maîtres d’œuvre et toute une économie urbaine convergent autour d’un chantier sans qu’un souverain moderne ne commande chaque détail. Le monument nous oblige donc à abandonner une vision trop simple de l’histoire où tout progrès d’organisation viendrait nécessairement de l’État. Bien avant Louis XIV, une société médiévale sait mener des projets d’une complexité vertigineuse. La différence n’est pas entre le désordre médiéval et l’ordre moderne ; elle est entre des formes différentes de coordination, de financement, d’autorité et de croyance."
+    }
+  ]
+}
