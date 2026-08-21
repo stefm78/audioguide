@@ -1,0 +1,78 @@
+{
+  "series": "Cathédrale Sainte-Croix d'Orléans",
+  "source": "Wikimedia Commons",
+  "render": {"format":"webp","quality":82,"max_width":1200},
+  "photos": [
+    {
+      "id":"facade-wide",
+      "commons_title":"File:Facade of the Orleans Cathedral.jpg",
+      "target":"assets/photos/facade-wide.webp",
+      "max_width":1400,
+      "author":"Ivonna Nowicka",
+      "license":"CC BY-SA 4.0",
+      "source_page":"https://commons.wikimedia.org/wiki/File:Facade_of_the_Orleans_Cathedral.jpg",
+      "caption":"Les deux tours et la flèche de Sainte-Croix.",
+      "alt":"Façade de la cathédrale Sainte-Croix d'Orléans avec ses deux tours et sa flèche"
+    },
+    {
+      "id":"perspective-rue-jeanne-darc",
+      "commons_title":"File:Orléans (Loiret) - Rue Jeanne d'Arc et cathédrale Sainte-Croix.jpg",
+      "target":"assets/photos/perspective-rue-jeanne-darc.webp",
+      "author":"Patrick Monchicourt",
+      "license":"CC BY-SA 2.0",
+      "source_page":"https://commons.wikimedia.org/wiki/File:Orl%C3%A9ans_(Loiret)_-_Rue_Jeanne_d%27Arc_et_cath%C3%A9drale_Sainte-Croix.jpg",
+      "caption":"La perspective de la rue Jeanne-d'Arc vers Sainte-Croix.",
+      "alt":"Perspective de la rue Jeanne-d'Arc menant à la cathédrale Sainte-Croix"
+    },
+    {
+      "id":"nef",
+      "commons_title":"File:Orleans - Cathedral int 01.jpg",
+      "target":"assets/photos/nef.webp",
+      "author":"Selbymay",
+      "license":"CC BY-SA 3.0",
+      "source_page":"https://commons.wikimedia.org/wiki/File:Orleans_-_Cathedral_int_01.jpg",
+      "caption":"La nef et le chœur : hauteur, rythme des piliers et lumière.",
+      "alt":"Vue intérieure de la nef et du chœur de la cathédrale Sainte-Croix"
+    },
+    {
+      "id":"transept",
+      "commons_title":"File:Transept de la Cathédrale d'Orléans.jpg",
+      "target":"assets/photos/transept.webp",
+      "author":"Nono vlf",
+      "license":"CC BY-SA 4.0",
+      "source_page":"https://commons.wikimedia.org/wiki/File:Transept_de_la_Cath%C3%A9drale_d%27Orl%C3%A9ans.jpg",
+      "caption":"Le transept, point clé pour comprendre les destructions de 1568.",
+      "alt":"Intérieur du transept de la cathédrale Sainte-Croix d'Orléans"
+    },
+    {
+      "id":"choeur",
+      "commons_title":"File:Orleans - Cathedral int 02.jpg",
+      "target":"assets/photos/choeur.webp",
+      "author":"Selbymay",
+      "license":"CC BY-SA 3.0",
+      "source_page":"https://commons.wikimedia.org/wiki/File:Orleans_-_Cathedral_int_02.jpg",
+      "caption":"Le chœur, espace liturgique au cœur de la cathédrale.",
+      "alt":"Chœur de la cathédrale Sainte-Croix d'Orléans"
+    },
+    {
+      "id":"vitraux-jeanne",
+      "commons_title":"File:Vitraux de la cathédrale Sainte-Croix d'Orléans - Jeanne d'Arc.jpg",
+      "target":"assets/photos/vitraux-jeanne.webp",
+      "author":"Avi1111 / Avishai Teicher",
+      "license":"CC BY-SA 4.0",
+      "source_page":"https://commons.wikimedia.org/wiki/File:Vitraux_de_la_cath%C3%A9drale_Sainte-Croix_d%27Orl%C3%A9ans_-_Jeanne_d%27Arc.jpg",
+      "caption":"Un vitrail du cycle johannique : Jeanne racontée plusieurs siècles après 1429.",
+      "alt":"Vitrail consacré à Jeanne d'Arc dans la cathédrale Sainte-Croix"
+    },
+    {
+      "id":"orgue",
+      "commons_title":"File:Orléans (Loiret) - Cathédrale Sainte-Croix - Orgue.jpg",
+      "target":"assets/photos/orgue.webp",
+      "author":"Patrick Monchicourt",
+      "license":"CC BY-SA 2.0",
+      "source_page":"https://commons.wikimedia.org/wiki/File:Orl%C3%A9ans_(Loiret)_-_Cath%C3%A9drale_Sainte-Croix_-_Orgue.jpg",
+      "caption":"Le grand orgue, venu de Saint-Benoît-sur-Loire au XIXe siècle.",
+      "alt":"Grand orgue de la cathédrale Sainte-Croix d'Orléans"
+    }
+  ]
+}
