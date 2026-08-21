@@ -92,9 +92,27 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          timeout 780s python scripts/render_audioguide_fr.py guide.json > render.log 2>&1
-          cat render.log
           out="audio/guides/${{ matrix.guide }}"
+          rendered=false
+          for attempt in 1 2 3; do
+            rm -rf "$out"
+            echo "Render attempt ${attempt}/3 for ${{ matrix.guide }}"
+            if timeout 780s python scripts/render_audioguide_fr.py guide.json > render.log 2>&1; then
+              rendered=true
+              break
+            fi
+            cat render.log
+            if [ "$attempt" -lt 3 ]; then
+              echo "Transient render failure; retrying in 4 seconds."
+              sleep 4
+            fi
+          done
+          if [ "$rendered" != true ]; then
+            echo "Render failed after 3 attempts."
+            cat render.log
+            exit 1
+          fi
+          cat render.log
           test -s "$out/guide.mp3"
           test -s "$out/resolved-cast.json"
           python - "$out/resolved-cast.json" <<'PY'
