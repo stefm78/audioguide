@@ -1,6 +1,7 @@
 {
   "series": "Cathédrale Sainte-Croix d'Orléans",
   "source": "Wikimedia Commons",
+  "asset_policy": "generated-local-webp",
   "render": {"format":"webp","quality":82,"max_width":1200},
   "photos": [
     {
