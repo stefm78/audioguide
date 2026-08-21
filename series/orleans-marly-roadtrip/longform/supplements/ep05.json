@@ -33,6 +33,13 @@
       "speaker": "Narrateur",
       "preset": "narrateur-vif",
       "pause_after_ms": 650,
+      "text": "Pour les peintres qui viennent travailler dans ces vallons, la nature n’est d’ailleurs pas seulement un sujet que l’on contemple de loin. Il faut marcher, choisir un point de vue, attendre une lumière, observer la couleur d’un rocher humide ou la manière dont un arbre coupe la perspective. Le paysage devient une expérience corporelle. Cette attention est presque l’inverse de celle du chasseur, qui lit le même territoire à travers les traces, les passages du gibier et les possibilités de poursuite. Deux groupes peuvent donc parcourir une même forêt et ne pas voir la même chose. C’est une idée simple mais précieuse pour notre voyage : le paysage n’existe jamais seulement dans la géographie ; il existe aussi dans l’usage et dans le regard de ceux qui le traversent."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
       "text": "Ce passage est utile parce qu’il nous évite une idée trop simple : un paysage n’a pas une signification éternelle. Une forêt peut être réserve de chasse, source de bois, obstacle à traverser, refuge, sujet de peinture ou espace de promenade selon l’époque et selon celui qui la regarde. Le pouvoir agit sur le paysage, mais les sociétés changent aussi la manière de le percevoir. Nous approchons maintenant de Dampierre, où cette relation va se resserrer encore : il ne s’agira plus seulement d’utiliser une forêt ou un vallon, mais de construire une demeure dont l’architecture elle-même parle la langue de la cour. Après le sauvage recherché par les peintres, nous allons retrouver un monde où tout — façade, cour, jardin, réception — est organisé pour situer chacun dans une hiérarchie."
     }
   ]
