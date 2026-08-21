@@ -1,0 +1,377 @@
+{
+  "series": "D’Orléans à Marly — De Jeanne au Roi-Soleil",
+  "production_version": 1,
+  "route_date": "2026-08-22",
+  "start_time": "09:00",
+  "start_location": "Orléans, France",
+  "end_location": "Marly-le-Roi, France",
+  "target_arrival": "14:15–14:45",
+  "hard_arrival": "15:00",
+  "lead_in_ms": 450,
+  "episodes": [
+    {
+      "id": "orleans-marly-ep01",
+      "episode": 1,
+      "title": "Quitter Orléans : après avoir sauvé le royaume, comment fabrique-t-on le pouvoir ?",
+      "stop": "Orléans → Beauce → Châteaudun",
+      "location": "D955, Orléans vers Châteaudun, France",
+      "launch": "à lancer une fois sorti d’Orléans, lorsque la ville et la Loire commencent à disparaître derrière vous.",
+      "summary": "Le voyage quitte la Loire mais conserve son fil : après les forteresses, la Renaissance et 1429, le retour vers Marly va suivre la transformation du pouvoir royal dans le paysage.",
+      "historical_note": "Épisode de liaison avec les séries Val de Loire et Orléans. Les évocations des étapes précédentes servent de repères et n’introduisent aucun fait nouveau non sourcé.",
+      "sources": [
+        "https://www.chateau-chateaudun.fr/decouvrir/qui-etait-jean-de-dunois",
+        "https://www.chateau-chateaudun.fr/decouvrir/un-parcours-de-visite-tactile-et-accessible/un-chateau-perche-sur-le-loir-station-n-1"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Nous quittons Orléans. Et pour la première fois depuis une bonne partie de notre voyage, la Loire va cesser de nous accompagner. Ce n’est pourtant pas une rupture. Depuis Angers, Saumur et les châteaux du Val de Loire, nous avons suivi une même question sans toujours la formuler : comment le pouvoir se rend-il visible ? Au début, il élève des murs pour survivre. Puis il ouvre des fenêtres, dessine des jardins, attire des artistes, construit des palais. Et à Orléans, nous avons retrouvé le moment brutal où tout cela redevient secondaire : en 1429, avant de montrer sa puissance, la monarchie française doit simplement éviter l’effondrement."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Regardez maintenant ce que fait le paysage. La ville s’efface, le fleuve disparaît et l’horizon s’ouvre. Nous entrons dans la Beauce, l’un des grands plateaux céréaliers français. Ici, le spectaculaire n’est pas un monument : c’est le vide apparent. Peu de relief, des terres immenses, des clochers qui deviennent des points de repère. Pour un voyageur d’avant l’automobile, voir loin n’est pas seulement agréable. Cela signifie repérer une ville, une route, une troupe, un clocher, parfois un danger."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Notre première étape va nous permettre de ne pas refermer trop vite le chapitre de Jeanne d’Arc. À Châteaudun nous allons retrouver Jean de Dunois, le capitaine d’Orléans pendant le siège, celui que l’on appelait alors le Bâtard d’Orléans. Il combat avec Jeanne, mais lui survit près de quarante ans. Et c’est précisément ce qui nous intéresse : que devient le monde des capitaines lorsque le royaume cesse peu à peu d’être en permanence au bord de la catastrophe ?"},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Le château que nous allons voir contient presque la réponse dans ses pierres. Un donjon du Moyen Âge y côtoie une aile résidentielle du quinzième siècle puis des développements de la Renaissance. Défendre, habiter, représenter son rang : les trois fonctions coexistent. Châteaudun n’est donc pas une parenthèse entre Orléans et Chartres. C’est la charnière qui nous permet de passer du temps de Jeanne au temps où les grands du royaume recommencent à bâtir pour durer."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Alors, où en sommes-nous ? Nous venons de quitter le fleuve qui organisait notre voyage, mais nous n’avons pas quitté notre histoire. Nous allons maintenant suivre une autre ligne : celle du pouvoir qui se fixe dans les bâtiments, puis prétend agir sur le territoire lui-même. À Châteaudun, cherchez moins un joli château qu’un homme sorti de la guerre et devenu bâtisseur."}
+      ]
+    },
+    {
+      "id": "orleans-marly-ep02",
+      "episode": 2,
+      "title": "Châteaudun : que devient le monde de Jeanne après la victoire ?",
+      "stop": "Château de Châteaudun",
+      "location": "Place Jehan de Dunois, 28200 Châteaudun, France",
+      "launch": "à lancer à l’approche de Châteaudun ; si vous vous arrêtez, poursuivez devant le panorama du château et de la vallée du Loir.",
+      "summary": "Dunois relie directement Orléans au château : compagnon de Jeanne et grand chef militaire, il transforme une forteresse en résidence qui annonce un autre rapport au pouvoir.",
+      "historical_note": "Jean de Dunois est bien capitaine d’Orléans et compagnon d’armes de Jeanne. Le château associe un donjon du XIIe siècle, des constructions de Dunois au XVe et l’aile Longueville du XVIe siècle.",
+      "sources": [
+        "https://www.chateau-chateaudun.fr/decouvrir/qui-etait-jean-de-dunois",
+        "https://www.chateau-chateaudun.fr/decouvrir/un-parcours-de-visite-tactile-et-accessible/un-chateau-perche-sur-le-loir-station-n-1",
+        "https://www.chateau-chateaudun.fr/agenda/visite-du-chateau"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Voici Châteaudun. Si vous êtes passager, cherchez le relief avant même de chercher le château. La ville s’approche d’une vallée et, soudain, le terrain tombe vers le Loir. Le château occupe un éperon rocheux et domine la rivière de plus de quarante mètres. C’est un emplacement de forteresse : voir, tenir la hauteur, contrôler un passage. Le gros donjon rond nous ramène au douzième siècle. Mais si nous nous arrêtions à cette image, nous manquerions le personnage qui nous conduit ici depuis Orléans."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Jean de Dunois naît probablement en 1403. Il est fils naturel de Louis d’Orléans, frère du roi Charles VI, d’où son surnom de Bâtard d’Orléans. Ne mettez pas immédiatement dans ce mot toute la violence de son sens moderne. Une naissance hors mariage limite certaines transmissions, mais elle n’efface ni le sang princier, ni les réseaux familiaux, ni une carrière possible. Dunois est élevé dans la famille de son père et devient très jeune un homme de guerre de premier plan."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"En 1428, lorsque les Anglais assiègent Orléans, Dunois est l’un des hommes qui tiennent réellement la situation militaire. Il coordonne notamment l’entrée de renforts dans la ville. Lorsque Jeanne arrive en avril 1429, elle n’entre donc pas dans un désert de commandement. Elle rejoint des capitaines expérimentés. Leur rencontre est l’un des rappels les plus utiles de tout notre voyage : l’histoire n’oppose pas une héroïne solitaire à une armée. Elle combine une figure exceptionnelle, des soldats, des chefs, des habitants, de la logistique et un moment politique très particulier."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Dunois poursuit ensuite sa carrière bien après la mort de Jeanne. Il participe à la reconquête du royaume, devient comte de Dunois et entreprend ici de grands travaux. Observez mentalement la différence entre le vieux donjon et l’aile qu’il fait édifier au quinzième siècle. La guerre n’a pas disparu, mais une demeure princière n’a pas le même message qu’une grosse tour défensive. Elle doit loger, recevoir, prier, administrer et montrer le rang de celui qui l’habite."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Ses descendants poursuivront encore cette transformation avec l’aile Longueville au siècle suivant. Voilà pourquoi Châteaudun résume à lui seul une évolution que nous avons observée tout au long de la Loire : la forteresse ne disparaît pas d’un coup pour devenir château de conte de fées. Les fonctions se superposent. Un mur peut être une défense hier, un signe d’ancienneté demain et un décor prestigieux après-demain."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Alors, où en sommes-nous ? Orléans nous avait montré le royaume en danger. Châteaudun nous montre l’un de ceux qui ont contribué à le sauver, devenu seigneur bâtisseur. Nous allons maintenant faire quelque chose d’étrange : remonter plus de deux siècles en arrière en allant à Chartres. Ce recul n’est pas une erreur. Il va poser une question essentielle : avant qu’un roi puisse mobiliser un État puissant, qui était capable de construire quelque chose d’aussi énorme qu’une cathédrale ?"}
+      ]
+    },
+    {
+      "id": "orleans-marly-ep03",
+      "episode": 3,
+      "title": "Chartres : qui pouvait bâtir une montagne avant l’État moderne ?",
+      "stop": "Cathédrale Notre-Dame de Chartres",
+      "location": "16 Cloître Notre-Dame, 28000 Chartres, France",
+      "launch": "à lancer dès que les flèches commencent à apparaître dans la Beauce, puis à poursuivre à l’arrêt devant la cathédrale.",
+      "summary": "Chartres n’est pas la suite chronologique de Jeanne : c’est un contrepoint. L’édifice gothique construit après l’incendie de 1194 montre la capacité d’une société médiévale à concentrer des ressources, des métiers et une vision commune.",
+      "historical_note": "La cathédrale actuelle est principalement construite entre 1194 et environ 1230, en réutilisant notamment la façade occidentale et la flèche sud antérieures à l’incendie.",
+      "sources": [
+        "https://www.cathedrale-chartres.org/cathedrale/monument/lhistoire/les-grandes-dates/",
+        "https://www.cathedrale-chartres.org/cathedrale/monument/lhistoire/les-grandes-lignes/",
+        "https://www.cathedrale-chartres.org/cathedrale/monument/larchitecture/la-cathedrale-du-xiiie-siecle/"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Si vous êtes passager, regardez loin devant vous. Dans la Beauce, une ville peut d’abord apparaître comme deux traits verticaux. C’est l’un des grands effets de Chartres : avant de voir des rues, on voit une silhouette. Et pour comprendre ce que cela pouvait signifier au Moyen Âge, il faut enlever mentalement les silos, les pylônes, les zones commerciales et tout ce qui concurrence aujourd’hui l’horizon. Pendant des kilomètres, la cathédrale devait signaler la ville comme une montagne fabriquée par des hommes."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Nous faisons ici volontairement un bond en arrière. Dunois appartient au quinzième siècle. La grande reconstruction gothique de Chartres commence après l’incendie du 10 juin 1194 et l’essentiel du nouvel édifice monte jusque vers 1230. Pourquoi revenir deux cents ans avant Jeanne ? Parce que cette cathédrale corrige une idée fausse : le Moyen Âge n’attend pas l’État moderne pour savoir organiser des projets gigantesques."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Un chantier comme celui-ci rassemble des revenus ecclésiastiques, des donations, des carrières, des charretiers, des tailleurs de pierre, des charpentiers, des verriers, des forgerons, des maîtres d’œuvre et une logistique qui doit durer année après année. Les sources de la cathédrale rappellent que l’évêque et les chanoines engagent des revenus importants et que des seigneurs donnent à leur tour. Il n’existe pas un ministère des grands travaux : il existe un tissu d’institutions, de croyances, de patrimoines et de métiers capables de converger vers un même édifice."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Si vous entrez quelques minutes, ne cherchez pas à tout comprendre. Faites plutôt une expérience physique. Levez les yeux. Les murs semblent minces parce qu’une partie de l’effort est reportée vers l’extérieur par les arcs-boutants. La lumière traverse des milliers de morceaux de verre coloré. Une cathédrale gothique n’est pas seulement haute parce qu’on aime la hauteur. Sa structure permet d’ouvrir les murs et de transformer la pierre en cadre pour la lumière."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Et regardez les deux flèches : elles ne sont pas jumelles. La flèche sud appartient pour l’essentiel au douzième siècle ; la flèche nord reçoit sa haute terminaison flamboyante au début du seizième. Le bâtiment que nous appelons d’un seul nom est donc, lui aussi, un empilement de temps. Cela rejoint ce que les châteaux de la Loire nous ont appris : un grand monument n’est presque jamais la photographie figée d’une seule époque."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Alors, où en sommes-nous ? Châteaudun montrait un prince qui transforme sa forteresse. Chartres montre une société entière capable de concentrer des ressources sur un projet dépassant une vie humaine. En repartant vers Maintenon, nous allons faire un saut de près de cinq siècles. Cette fois, la concentration des moyens va prendre une autre forme : un roi va envisager de détourner une rivière pour que ses fontaines fonctionnent."}
+      ]
+    },
+    {
+      "id": "orleans-marly-ep04",
+      "episode": 4,
+      "title": "Maintenon : quand un roi veut déplacer une rivière",
+      "stop": "Château et aqueduc de Maintenon",
+      "location": "Place Aristide Briand, 28130 Maintenon, France",
+      "launch": "à lancer entre Chartres et Maintenon ; la fin de l’épisode accompagne le passage dans la ville sans exiger de visite du domaine.",
+      "summary": "Le problème d’eau de Versailles conduit Louis XIV à lancer un projet démesuré : détourner une partie de l’Eure. Maintenon révèle à la fois la capacité et les limites de l’État royal.",
+      "historical_note": "Les travaux du canal de l’Eure avancent dans les années 1680. La guerre de la Ligue d’Augsbourg retire des troupes en 1688 ; le projet est arrêté en 1692 puis définitivement abandonné en 1694.",
+      "sources": [
+        "https://www.chateaudemaintenon.fr/son-aqueduc-_r_28.html",
+        "https://www.chateaudemaintenon.fr/sites/chateau-maintenon/files/brochures/pdf/guide_de_viste_maintenon-2021-interactif.pdf"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Nous arrivons maintenant dans un monde très différent de Chartres. À Versailles, Louis XIV dispose d’un palais qui doit éblouir l’Europe. Jardins, bassins, cascades, jets d’eau : tout doit sembler obéir au souverain. Sauf qu’il existe un adversaire dont même un roi absolu ne peut abolir les règles par décret : la physique. Versailles manque d’eau pour alimenter en permanence l’immense théâtre hydraulique voulu dans les jardins."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"L’idée qui nous conduit à Maintenon est spectaculaire : prendre de l’eau dans le bassin de l’Eure et l’amener vers Versailles sur des dizaines de kilomètres. Les ingénieurs travaillent sur les pentes, les niveaux, les canaux, les remblais, les siphons. Une quarantaine de kilomètres de canal sont creusés entre Pontgouin et Berchères et mis en eau dès 1685. Mais lorsqu’il faut franchir les vallées, la difficulté change d’échelle."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"À Maintenon, un aqueduc monumental commence à s’élever. Vauban défend une solution plus réaliste que certains projets initiaux : un seul rang d’arcades associé à des systèmes de siphons. Le détail est important. Vauban n’est pas ici le dessinateur d’un rêve gratuit. Il cherche au contraire à ramener une ambition royale à quelque chose de techniquement et financièrement praticable. Même dans un régime de grande puissance, l’ingénieur doit négocier avec le terrain."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Puis la politique rattrape l’ingénierie. En 1688 commence la guerre de la Ligue d’Augsbourg. Des troupes affectées au chantier sont mobilisées ailleurs. Les travaux ralentissent, le projet est arrêté en 1692 puis définitivement abandonné en 1694. Les arches que l’on voit aujourd’hui ne sont donc pas les ruines d’un aqueduc qui aurait longtemps fonctionné. Elles sont le monument d’un projet interrompu."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"C’est peut-être l’une des étapes les plus intelligentes de notre retour. À Chartres, nous nous demandions comment une société médiévale rassemble assez de forces pour bâtir une cathédrale. À Maintenon, l’État royal peut mobiliser des milliers d’hommes, des ingénieurs et des sommes énormes, mais il ne peut pas tout faire simultanément. La guerre, le coût, les niveaux du terrain et la disponibilité de la main-d’œuvre imposent encore leurs limites."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Alors, où en sommes-nous ? Nous avons vu un roi vouloir faire voyager l’eau vers Versailles. Gardez soigneusement cette idée. Dans quelques heures, à Marly, nous retrouverons une autre réponse au même problème : non plus détourner une rivière lointaine, mais faire grimper l’eau de la Seine à l’aide d’une gigantesque machine. Avant cela, la route va changer de nature. Nous quittons les grands horizons et entrons dans les forêts où le pouvoir royal se met aussi en scène par la chasse."}
+      ]
+    },
+    {
+      "id": "orleans-marly-ep05",
+      "episode": 5,
+      "title": "Rambouillet et les Vaux : le paysage peut-il devenir politique ?",
+      "stop": "Forêt de Rambouillet → Vaux-de-Cernay",
+      "location": "Rambouillet → Cernay-la-Ville, Yvelines, France",
+      "launch": "à lancer en entrant dans le massif forestier de Rambouillet ; aucun arrêt n’est nécessaire.",
+      "summary": "La forêt n’est pas un vide entre deux châteaux : chasse royale, invitations, allées et contrôle du territoire en font un paysage politique avant que les Vaux-de-Cernay ne rompent volontairement cette géométrie.",
+      "historical_note": "Rambouillet est durablement lié aux chasses des princes, rois, empereurs puis présidents. Les Vaux-de-Cernay deviennent au XIXe siècle un foyer majeur de peinture de paysage.",
+      "sources": [
+        "https://www.chateau-rambouillet.fr/decouvrir/un-domaine-au-caeur-de-la-foret",
+        "https://www.parc-naturel-chevreuse.fr/voir-faire/visites-accompagnees/guides-de-parc/offre-groupes/nos-paysages-vieilles-pierres-et",
+        "https://www.parc-naturel-chevreuse.fr/nature-et-peinture-de-paysage-la-colonie-des-peintres-de-cernay-au-19e"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Le paysage vient de changer. Après les horizons agricoles et les grands monuments qui dominent de loin, la route entre sous les arbres. Et ce serait une erreur de considérer cette forêt comme le temps mort entre Maintenon et Dampierre. Pendant des siècles, une grande forêt giboyeuse proche de Paris est une ressource, un territoire de chasse et un espace de pouvoir. François Ier fréquente Rambouillet ; le comte de Toulouse, fils légitimé de Louis XIV, en fait un domaine majeur ; Louis XVI l’achète ensuite. Les régimes changent, mais l’usage politique de la forêt persiste jusque dans les chasses présidentielles."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Pourquoi la chasse nous intéresse-t-elle ? Parce qu’elle n’est pas seulement le fait de poursuivre un animal. Une grande chasse exige chevaux, chiens, personnels, connaissances du terrain, entretien des allées et organisation des invités. Elle transforme le paysage en infrastructure sociale. Être convié, être placé près du souverain, partager le repas ou la curée : tout cela produit de la hiérarchie. Le pouvoir n’habite donc pas uniquement la salle du trône. Il se déplace dans les bois avec les corps, les chevaux et les invitations."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Si vous êtes passager, observez aussi la géométrie des routes forestières lorsque le dessin du terrain le permet. Les allées rectilignes et certains carrefours en étoile rendent la forêt lisible et circulable. Là encore, le paysage n’est pas seulement naturel. Il est aménagé pour des usages humains : exploiter, surveiller, circuler, chasser. Ce que nous avons vu avec l’eau à Maintenon réapparaît ici sous une forme plus douce : le pouvoir aime rendre l’espace praticable à ses propres usages."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Puis les Vaux-de-Cernay vont offrir un contraste presque théâtral. Le relief se resserre, le grès affleure, les bois semblent plus sauvages, l’eau et les anciens moulins donnent au fond de vallée une texture différente. Au dix-neuvième siècle, ce caractère pittoresque attire une colonie de peintres paysagistes ; Cernay rivalise alors en réputation avec Barbizon. C’est intéressant parce que la même nature peut être lue successivement comme ressource de chasse, décor romantique, motif artistique puis patrimoine protégé."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Cette portion de route est aussi l’endroit idéal pour le sandwich si vous êtes passager. L’audioguide n’a rien à vous faire cocher. Il accompagne simplement le changement de décor. Le conducteur, lui, garde évidemment toute son attention à la route ; si manger devient une distraction, la pause de sécurité prime sur notre programme."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Alors, où en sommes-nous ? À Maintenon, le pouvoir voulait déplacer l’eau. À Rambouillet, il organise aussi les bois, les déplacements et les invitations. Nous allons maintenant retrouver un château, Dampierre. Mais nous ne le regarderons pas comme un monument de plus. Il va nous montrer comment une grande famille aristocratique adopte, presque au même moment que Versailles, le langage architectural de la cour."}
+      ]
+    },
+    {
+      "id": "orleans-marly-ep06",
+      "episode": 6,
+      "title": "Dampierre : vivre dans l’orbite de Versailles",
+      "stop": "Château de Dampierre et D91",
+      "location": "2 Grande Rue, 78720 Dampierre-en-Yvelines, France",
+      "launch": "à lancer en approchant de Dampierre ; poursuivre en quittant le village vers la D91 et les 17 Tournants.",
+      "summary": "Dampierre devient intéressant parce qu’il partage le vocabulaire de la cour : grande famille, Hardouin-Mansart et reconstruction contemporaine de l’affirmation de Versailles.",
+      "historical_note": "Le château est reconstruit de 1675 à 1688 pour le duc de Chevreuse, lié à la famille de Colbert, avec Jules Hardouin-Mansart, Premier architecte du roi.",
+      "sources": [
+        "https://www.destination-yvelines.fr/chateaux/chateau-de-dampierre/"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Nous voici à Dampierre. Le piège serait de penser : encore un château. Nous en avons vu assez pendant ce voyage pour ne plus collectionner les façades. Cherchons plutôt ce qui change. Au dix-septième siècle, Dampierre appartient à la grande famille de Luynes. Par mariage, le maître des lieux est aussi lié à Colbert, l’un des hommes les plus importants du gouvernement de Louis XIV. Et pour reconstruire le château, il fait appel à Jules Hardouin-Mansart, qui devient le grand architecte du roi."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Les travaux s’étendent de 1675 à 1688, exactement au moment où Versailles devient le centre de gravité de la cour. Il ne faut pas appeler Dampierre un petit Versailles : ce serait trop facile et historiquement paresseux. Mais on peut reconnaître un même monde de références. Symétrie, ordre, hiérarchie des volumes, pierre et brique, cour d’honneur, jardins : une grande demeure aristocratique doit parler un langage compréhensible par ceux qui fréquentent la cour."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Ce que le voyage nous permet de voir maintenant est assez remarquable. À Châteaudun, Dunois conserve la masse d’un donjon médiéval tout en construisant une résidence. À Dampierre, deux siècles plus tard, la question défensive n’organise plus la composition. La puissance d’un grand aristocrate se montre autrement : régularité, accès, mise en scène de l’arrivée, qualité des appartements, jardins, proximité culturelle avec la cour. Le château est devenu un instrument social."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"En quittant Dampierre, la route va bientôt enchaîner les virages des fameux 17 Tournants. Ne leur demandons pas une légende qu’ils n’ont pas. Ce ne sont pas un col alpin ni un lieu fondateur de l’histoire de France. Ils sont simplement une excellente ponctuation physique : après la Beauce horizontale et les longues perspectives, la route se replie sur elle-même. Le voyage nous fait sentir par le volant que nous sommes entrés dans un autre relief."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Et surtout, nous approchons maintenant de Versailles sans y aller. C’est volontaire. Nous avons déjà parlé de Versailles à Maintenon par son manque d’eau, à Rambouillet par la sociabilité de cour et ici par Hardouin-Mansart. Ajouter le palais sur notre route ferait de Versailles une réponse alors qu’il doit rester la grande présence invisible de notre dernier épisode. Car Marly n’a de sens que si l’on comprend ce dont Louis XIV cherche à s’éloigner."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Alors, où en sommes-nous ? Nous avons parcouru les formes successives de la puissance : tenir une forteresse, bâtir une cathédrale, détourner une rivière, aménager une forêt, construire une demeure de cour. Il nous reste une dernière question. Que fait l’homme le plus puissant du royaume lorsqu’il trouve Versailles lui-même trop grand, trop public, trop encombré de monde ? Il invente Marly."}
+      ]
+    },
+    {
+      "id": "orleans-marly-ep07",
+      "episode": 7,
+      "title": "Marly : le roi s’éloigne de Versailles sans quitter le pouvoir",
+      "stop": "Domaine royal de Marly / arrivée à Marly-le-Roi",
+      "location": "Marly-le-Roi, France",
+      "launch": "à lancer dans les dernières minutes avant Marly ou une fois arrivé ; cette conclusion ne nécessite aucune visite.",
+      "summary": "Marly referme le voyage : résidence plus petite et plus sélective, palais des eaux et machine gigantesque, le refuge de Louis XIV reste un instrument de pouvoir.",
+      "historical_note": "Marly est une résidence voulue plus intime et sélective que Versailles. La Machine de Marly pompe l’eau de la Seine pour alimenter les jardins de Marly puis contribuer à ceux de Versailles. Le château historique a disparu.",
+      "sources": [
+        "https://musee-domaine-marly.fr/le-parcours/",
+        "https://musee-domaine-marly.fr/"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Nous arrivons à Marly. Et il faut commencer par une absence : le grand pavillon de Louis XIV n’est plus là. Les bâtiments qui faisaient de Marly une résidence royale ont disparu. Cela pourrait sembler une mauvaise manière de terminer un voyage rempli de châteaux. C’est au contraire une excellente conclusion, parce que nous sommes désormais capables de regarder un paysage et d’y replacer ce qui n’existe plus."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Pourquoi Marly ? Versailles est le grand théâtre de la monarchie. Il accueille la cour, les cérémonies, les visiteurs, les administrations, les sollicitations. Louis XIV veut aussi un endroit plus réduit, où il choisit davantage ceux qui l’entourent. Marly devient cette résidence singulière : un pavillon pour le roi, douze pavillons disposés autour, des jardins et des eaux. On y vient sur invitation. Et c’est ici que l’intimité devient elle-même une forme de pouvoir."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Imaginez ce que signifie être admis. À Versailles, voir le roi fait partie d’un système de cour extraordinairement codifié. À Marly, être choisi pour accompagner le souverain dans un séjour plus restreint peut signaler une faveur. L’espace est plus petit, mais l’enjeu social n’est pas forcément moindre. Le roi ne cesse pas de régner lorsqu’il se distrait. Il continue de distribuer de la proximité, et la proximité d’un souverain est une ressource politique."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Et voici le fil que nous avions laissé ouvert à Maintenon : l’eau. Pour faire vivre les jeux d’eau de Marly et contribuer à ceux de Versailles, on construit sur la Seine une machine gigantesque. Des roues actionnent un ensemble de pompes et de mécanismes destinés à faire monter l’eau sur le coteau avant de l’envoyer vers des réservoirs. Ce que Maintenon nous montrait sous la forme d’un canal inachevé réapparaît ici comme une extraordinaire installation mécanique."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"La boucle de notre matinée est maintenant complète. À Chartres, des générations de métiers savent lever une cathédrale de pierre. À Maintenon, l’État royal veut détourner l’Eure. À Rambouillet, la forêt devient un espace organisé de sociabilité et de chasse. À Dampierre, l’aristocratie parle le langage architectural de la cour. À Marly, eau, architecture, paysage, technique et invitation sont réunis dans un seul dispositif au service du roi."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Et si nous reculons encore davantage, jusqu’au début de notre voyage, le fil devient plus beau. Nous avons vu des forteresses parce qu’il fallait défendre un territoire ; des châteaux de la Renaissance parce que le pouvoir voulait désormais séduire et recevoir ; Orléans parce qu’en 1429 la monarchie devait survivre ; Châteaudun parce que ses capitaines deviennent bâtisseurs ; puis, peu à peu, un État et une cour capables de modifier l’eau, les forêts, les routes et la manière même d’approcher le souverain."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":750,"text":"Alors, où en sommes-nous ? Nous sommes rentrés. Mais notre trajet n’a pas seulement relié Orléans à Marly. Il a relié deux images du pouvoir. À Orléans, en 1429, un roi doit encore reconquérir sa légitimité. À Marly, deux siècles et demi plus tard, son descendant peut choisir qui aura le privilège de s’approcher de lui dans une résidence construite pour ses plaisirs et alimentée par une machine capable de faire monter la Seine. Entre les deux, la France n’est pas simplement devenue plus riche ou plus belle. Elle a changé d’échelle dans sa manière d’organiser le pouvoir. Voilà la dernière image du voyage."}
+      ]
+    }
+  ],
+  "capsules": [
+    {
+      "id": "orleans-marly-g01",
+      "kind": "gourmand",
+      "after_episode": 2,
+      "title": "Gourmand — « Bâtard d’Orléans » : insulte ou identité politique ?",
+      "summary": "Comprendre pourquoi le surnom de Dunois ne signifie pas au XVe siècle ce qu’il évoque immédiatement aujourd’hui.",
+      "sources": ["https://www.chateau-chateaudun.fr/decouvrir/qui-etait-jean-de-dunois"],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Le surnom Bâtard d’Orléans surprend parce que nous l’entendons avec nos oreilles modernes. Au quinzième siècle, il désigne d’abord une réalité juridique et généalogique : Jean est né hors mariage de Louis d’Orléans. Cela peut affecter certains droits de succession, mais cela ne l’expulse pas automatiquement de la famille ni des réseaux de pouvoir."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Dunois est élevé parmi les Orléans, reçoit une éducation de son rang, devient chevalier très jeune et construit une carrière militaire puis diplomatique exceptionnelle. Son ascendance reste même une ressource politique : il est proche du sang royal et sert son cousin Charles VII."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Le cas de Dunois est donc un bon vaccin contre l’anachronisme. Un mot existe dans deux époques, mais il ne porte pas forcément la même charge sociale. Lorsque vous entendez Bâtard d’Orléans, traduisez mentalement : fils naturel d’un prince, statut irrégulier mais appartenance dynastique parfaitement visible."}
+      ]
+    },
+    {
+      "id": "orleans-marly-m01",
+      "kind": "immersion",
+      "after_episode": 2,
+      "title": "Mise en situation — Un messager monte au château de Dunois",
+      "summary": "Vers 1460, un personnage composite découvre un château qui reste forteresse mais fonctionne déjà comme demeure, administration et signe de rang.",
+      "sources": [
+        "https://www.chateau-chateaudun.fr/decouvrir/un-parcours-de-visite-tactile-et-accessible/un-chateau-perche-sur-le-loir-station-n-1",
+        "https://www.chateau-chateaudun.fr/decouvrir/qui-etait-jean-de-dunois"
+      ],
+      "segments": [
+        {"scene":"Statut","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Ce qui suit est une reconstitution. Le décor, les gestes et les contraintes sont documentés ; les personnages et leurs paroles sont composites. Rien n’est présenté comme une citation. Nous sommes vers 1460, plusieurs décennies après la délivrance d’Orléans."},
+        {"scene":"La montée","character_id":"messager","speaker":"Le messager","preset":"messagere-adulte-denise","pause_after_ms":260,"text":"Encore cette côte… Au moins, on comprend pourquoi ils ont mis la grosse tour là-haut. Depuis la vallée, on la voit avant même de distinguer les maisons."},
+        {"scene":"La porte","character_id":"sentinelle","speaker":"Le garde","preset":"sentinelle-nerveuse","pause_after_ms":220,"text":"Votre nom, votre maître et la raison de votre venue."},
+        {"scene":"La porte","character_id":"messager","speaker":"Le messager","preset":"messagere-adulte-denise","pause_after_ms":220,"text":"Je porte une lettre scellée. Elle doit entrer dans la maison de monseigneur de Dunois. Je ne demande pas à voir le seigneur lui-même."},
+        {"scene":"La porte","character_id":"sentinelle","speaker":"Le garde","preset":"sentinelle-nerveuse","pause_after_ms":260,"text":"C’est préférable. On ne franchit pas une porte parce qu’on a beaucoup galopé. Donnez la lettre. On vérifiera le sceau et quelqu’un vous dira où attendre."},
+        {"scene":"La cour","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":550,"text":"Notre messager composite entrerait dans un lieu qui n’est déjà plus seulement une machine de défense. Il verrait la vieille masse du donjon, mais aussi une chapelle et l’aile résidentielle construite pour Dunois. Des hommes y gardent des portes, d’autres administrent, cuisinent, entretiennent les chevaux, rédigent, reçoivent. Le château est un petit monde organisé autour de la maison du prince."},
+        {"scene":"Retour aux faits","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Retour aux faits. Le château perché, le donjon du douzième siècle, la chapelle et l’aile de Dunois au quinzième sont documentés. Dunois est bien le bâtisseur de cette nouvelle résidence. Le messager, le garde et leurs paroles sont inventés ; ils servent seulement à faire entendre une réalité banale mais essentielle : dans une grande demeure, l’accès au puissant est déjà filtré. Gardez cette idée, car à Marly le contrôle de l’accès deviendra lui-même un instrument de cour."}
+      ]
+    },
+    {
+      "id": "orleans-marly-g02",
+      "kind": "gourmand",
+      "after_episode": 3,
+      "title": "Gourmand — Comment Chartres a-t-elle pu monter si vite ?",
+      "summary": "Un chantier presque continu de 1194 à environ 1230 oblige à penser organisation, carrières, finances et métiers plutôt que miracle technique.",
+      "sources": [
+        "https://www.cathedrale-chartres.org/cathedrale/monument/lhistoire/les-grandes-dates/",
+        "https://www.cathedrale-chartres.org/cathedrale/monument/larchitecture/la-cathedrale-du-xiiie-siecle/"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"L’une des choses les plus étonnantes de Chartres est la vitesse relative du chantier. Après l’incendie de 1194, la construction du grand édifice actuel se poursuit jusque vers 1230 sans interruption majeure apparente. Pour une cathédrale de cette taille, c’est exceptionnel."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Il faut imaginer une chaîne plutôt qu’une foule désordonnée. On extrait et taille une partie de la pierre, on transporte, on monte des échafaudages et des engins de levage, on approvisionne en bois, en fer, en chaux, en verre. Des équipes spécialisées travaillent sur des zones différentes. Le maître d’œuvre organise une séquence où la matière doit arriver au bon moment."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Le financement compte tout autant que la technique. L’évêque et le chapitre disposent de revenus ; des donations s’ajoutent. La vraie prouesse n’est donc pas qu’un génie solitaire aurait dessiné une cathédrale. C’est qu’une institution a pu maintenir pendant des décennies une organisation assez stable pour que des centaines de décisions convergent vers le même bâtiment."}
+      ]
+    },
+    {
+      "id": "orleans-marly-m02",
+      "kind": "immersion",
+      "after_episode": 3,
+      "title": "Mise en situation — Une charrette de pierre arrive à Chartres",
+      "summary": "Une scène composite vers 1205 fait entendre le chantier comme une chaîne logistique plutôt que comme une image romantique de bâtisseurs anonymes.",
+      "sources": [
+        "https://www.cathedrale-chartres.org/cathedrale/monument/lhistoire/les-grandes-dates/",
+        "https://www.cathedrale-chartres.org/cathedrale/monument/larchitecture/la-cathedrale-du-xiiie-siecle/"
+      ],
+      "segments": [
+        {"scene":"Statut","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Ce qui suit est une reconstitution. Le chantier et sa chronologie sont documentés ; le charretier, le tailleur de pierre et leurs paroles sont composites. Rien n’est présenté comme une citation. Imaginons Chartres vers 1205."},
+        {"scene":"Arrivée","character_id":"marin","speaker":"Le charretier","preset":"marin-bourru","pause_after_ms":240,"text":"Doucement ! Si l’essieu casse ici, je vous laisse tirer les blocs à la main jusqu’au chantier."},
+        {"scene":"Arrivée","character_id":"ouvrier","speaker":"Le tailleur","preset":"soldat-jovial","pause_after_ms":220,"text":"Pose-les près du lot marqué. Pas sous l’échafaudage. Ceux-là doivent être repris avant de monter."},
+        {"scene":"Arrivée","character_id":"marin","speaker":"Le charretier","preset":"marin-bourru","pause_after_ms":220,"text":"Je livre de la pierre depuis trois jours et chaque homme me donne un autre endroit."},
+        {"scene":"Arrivée","character_id":"ouvrier","speaker":"Le tailleur","preset":"soldat-jovial","pause_after_ms":280,"text":"Parce que le mur monte. Ce qui était près de la grue lundi gêne le passage vendredi. Si tu veux que la cathédrale reste au sol, alors oui, garde toujours la même place."},
+        {"scene":"Le chantier","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Autour d’eux, on entendrait du fer, des marteaux, des roues, des ordres courts et des animaux. Les pierres ne sautent pas de la carrière au sommet d’une voûte. Elles traversent une succession de gestes : extraire, transporter, tracer, dégrossir, tailler, hisser, ajuster. Le chantier est une ville provisoire attachée à la ville existante."},
+        {"scene":"Retour aux faits","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Retour aux faits. Nous savons que la cathédrale est reconstruite avec une rapidité exceptionnelle après 1194 et que de vastes ressources y sont consacrées. Nous ne connaissons évidemment pas cette charrette ni ces ouvriers précis. Leur scène sert à rappeler une vérité robuste : le gothique n’est pas une formule magique ; c’est de la géométrie, des matériaux, de l’argent, des métiers et surtout une organisation capable de durer."}
+      ]
+    },
+    {
+      "id": "orleans-marly-g03",
+      "kind": "gourmand",
+      "after_episode": 4,
+      "title": "Gourmand — Pourquoi Versailles avait-il toujours soif ?",
+      "summary": "Le palais le plus célèbre d’Europe est installé sur un site qui ne possède pas naturellement l’eau nécessaire à son gigantesque programme de fontaines.",
+      "sources": ["https://www.chateaudemaintenon.fr/son-aqueduc-_r_28.html"],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Le paradoxe de Versailles est simple : Louis XIV veut l’un des plus extraordinaires jardins d’eau d’Europe sur un site qui ne dispose pas naturellement d’un grand débit à la hauteur de cette ambition. Les fontaines ne peuvent pas toutes jouer en permanence comme dans notre imaginaire touristique."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"On multiplie donc les solutions : réservoirs, pompes, étangs, réseaux de collecte et projets toujours plus éloignés. Le canal de l’Eure est l’une des réponses les plus spectaculaires. L’enjeu n’est pas l’eau potable de quelques appartements : c’est un programme politique et esthétique où l’eau doit sembler obéir au dessin du jardin."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Cette contrainte produit une belle leçon sur le pouvoir. Plus une monarchie veut donner l’impression que rien ne lui résiste, plus elle révèle parfois les résistances très concrètes qu’elle doit surmonter. Le terrain, la gravité et la distance deviennent presque des personnages de l’histoire de Versailles."}
+      ]
+    },
+    {
+      "id": "orleans-marly-m03",
+      "kind": "immersion",
+      "after_episode": 4,
+      "title": "Mise en situation — Sur le chantier de l’aqueduc",
+      "summary": "Un conducteur de travaux et un soldat-ouvrier composites font entendre le poids des niveaux, de la main-d’œuvre et de la guerre dans un chantier royal.",
+      "sources": ["https://www.chateaudemaintenon.fr/son-aqueduc-_r_28.html"],
+      "segments": [
+        {"scene":"Statut","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Ce qui suit est une reconstitution. Le chantier, l’emploi de milliers d’hommes, les problèmes de niveau et le retrait de troupes en 1688 sont documentés. Les personnages et leurs paroles sont composites. Vauban, Louvois et Louis XIV ne reçoivent ici aucun faux dialogue."},
+        {"scene":"Le niveau","character_id":"erudit","speaker":"Le conducteur de travaux","preset":"erudit-solennel","pause_after_ms":240,"text":"Reprenez la mesure. Si nous perdons la pente ici, l’eau ne se souviendra pas que le chantier appartient au roi. Elle ira seulement là où la gravité la mène."},
+        {"scene":"Le niveau","character_id":"soldat","speaker":"Le soldat-ouvrier","preset":"soldat-jovial","pause_after_ms":220,"text":"On m’avait appris à tenir un mousquet, pas à pousser de la terre dans une brouette."},
+        {"scene":"Le niveau","character_id":"erudit","speaker":"Le conducteur de travaux","preset":"erudit-solennel","pause_after_ms":220,"text":"Aujourd’hui, votre ennemi est une vallée. Et je vous assure qu’elle se défend très bien."},
+        {"scene":"La rumeur","character_id":"soldat","speaker":"Le soldat-ouvrier","preset":"soldat-jovial","pause_after_ms":280,"text":"On dit que des régiments vont repartir. Il y a de nouveau la guerre."},
+        {"scene":"La rumeur","character_id":"erudit","speaker":"Le conducteur de travaux","preset":"erudit-solennel","pause_after_ms":420,"text":"Alors les arches attendront. Une armée peut quitter un chantier en une semaine. Une rivière, elle, ne changera pas d’altitude pour nous faire plaisir."},
+        {"scene":"Retour aux faits","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Retour aux faits. La guerre de la Ligue d’Augsbourg mobilise en 1688 des troupes affectées au chantier. Les travaux se poursuivent encore, mais le projet est arrêté en 1692 et abandonné en 1694. Nous avons inventé les deux hommes et leurs mots ; nous n’avons pas inventé le problème central : même un chantier royal dépend d’une pente exacte, d’une main-d’œuvre disponible et d’une situation politique stable."}
+      ]
+    },
+    {
+      "id": "orleans-marly-g04",
+      "kind": "gourmand",
+      "after_episode": 5,
+      "title": "Gourmand — Pourquoi la chasse est-elle une affaire de pouvoir ?",
+      "summary": "Derrière la poursuite du gibier se cache une organisation du territoire, des hommes et surtout de l’invitation.",
+      "sources": ["https://www.chateau-rambouillet.fr/decouvrir/un-domaine-au-caeur-de-la-foret"],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"La chasse de cour est coûteuse. Elle suppose un territoire, du gibier, des chiens, des chevaux, des personnels spécialisés, des relais et des chemins entretenus. Posséder ou contrôler ce dispositif manifeste donc déjà une capacité matérielle considérable."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Mais son enjeu le plus subtil est social. On chasse avec des gens choisis. La proximité physique avec le prince, les conversations possibles, la place dans le cortège ou au repas transforment un loisir en espace de relation politique. Le souverain peut récompenser par l’attention autant que par un titre."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"C’est pourquoi la continuité de Rambouillet est fascinante : rois, empereurs puis présidents utilisent tour à tour la forêt pour des chasses où l’invitation garde une fonction relationnelle. Les régimes ne sont évidemment pas équivalents, mais le paysage continue de servir de scène à la sociabilité du pouvoir."}
+      ]
+    },
+    {
+      "id": "orleans-marly-m04",
+      "kind": "immersion",
+      "after_episode": 5,
+      "title": "Mise en situation — Avant la chasse dans la forêt",
+      "summary": "Un piqueur et un invité composites montrent que la forêt royale est un dispositif logistique et social avant même que la chasse commence.",
+      "sources": ["https://www.chateau-rambouillet.fr/decouvrir/un-domaine-au-caeur-de-la-foret"],
+      "segments": [
+        {"scene":"Statut","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Ce qui suit est une reconstitution composite. Les chasses royales à Rambouillet, les équipages et la fonction sociale de l’invitation sont historiques ; les deux personnages n’ont pas existé sous ces noms et leurs paroles sont inventées."},
+        {"scene":"Carrefour","character_id":"officier","speaker":"Le piqueur","preset":"officier-autorite","pause_after_ms":220,"text":"Votre cheval reste derrière le relais jusqu’au signal. Si vous partez trop tôt, vous gênerez les chiens et vous perdrez tout le monde au premier carrefour."},
+        {"scene":"Carrefour","character_id":"notable","speaker":"L’invité","preset":"notable-hautain","pause_after_ms":220,"text":"Je pensais qu’il suffisait de suivre le roi."},
+        {"scene":"Carrefour","character_id":"officier","speaker":"Le piqueur","preset":"officier-autorite","pause_after_ms":240,"text":"Tout le monde pense cela. C’est pour cette raison que nous passons la matinée à empêcher tout le monde de faire exactement la même chose."},
+        {"scene":"Carrefour","character_id":"notable","speaker":"L’invité","preset":"notable-hautain","pause_after_ms":260,"text":"Et si je me retrouve loin de Sa Majesté ?"},
+        {"scene":"Carrefour","character_id":"officier","speaker":"Le piqueur","preset":"officier-autorite","pause_after_ms":420,"text":"Alors vous aurez chassé. Pour être vu, monsieur, il fallait surtout être bien placé avant de partir."},
+        {"scene":"Retour aux faits","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Retour aux faits. Nous ne connaissons pas cet échange. En revanche, nous savons que Rambouillet accueille pendant des siècles des chasses de haut rang et que ces journées exigent une organisation considérable. La scène amplifie une idée historiquement solide : dans une cour, la proximité n’est jamais un simple hasard géographique. Elle est organisée, convoitée et signifiante."}
+      ]
+    },
+    {
+      "id": "orleans-marly-g05",
+      "kind": "gourmand",
+      "after_episode": 5,
+      "title": "Gourmand — Cernay : pourquoi des peintres viennent-ils chercher du sauvage aux portes de Paris ?",
+      "summary": "Au XIXe siècle, les Vaux-de-Cernay deviennent un haut lieu de peinture de paysage, aidés par les transports et une nouvelle culture du travail en plein air.",
+      "sources": [
+        "https://www.parc-naturel-chevreuse.fr/voir-faire/visites-accompagnees/guides-de-parc/offre-groupes/nos-paysages-vieilles-pierres-et",
+        "https://www.parc-naturel-chevreuse.fr/nature-et-peinture-de-paysage-la-colonie-des-peintres-de-cernay-au-19e"
+      ],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Au dix-neuvième siècle, les Vaux-de-Cernay acquièrent une réputation artistique remarquable. Le paysage offre exactement ce que recherchent des peintres de plein air : eau, bois, chaos de grès, vieux moulins, effets de lumière et relief beaucoup plus pittoresque que les plateaux voisins."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Le chemin de fer rapproche aussi ces paysages de Paris. Les artistes peuvent venir travailler sur le motif avec un matériel devenu plus mobile, notamment grâce à l’évolution des couleurs préparées et du chevalet. Cernay développe des auberges et une véritable sociabilité d’artistes."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"Le Parc naturel régional rappelle qu’à la fin du siècle l’école de Cernay peut rivaliser en notoriété avec Barbizon. Cette histoire nous donne une autre manière de regarder la route : un paysage n’existe jamais seulement par sa géologie. Il existe aussi par les regards successifs qui décident qu’il est utile, royal, sauvage, beau ou digne d’être protégé."}
+      ]
+    },
+    {
+      "id": "orleans-marly-g06",
+      "kind": "gourmand",
+      "after_episode": 6,
+      "title": "Gourmand — Hardouin-Mansart : reconnaître un langage de cour",
+      "summary": "Sans transformer Dampierre en copie de Versailles, apprendre à voir pourquoi l’architecte du roi produit un air de famille entre les grandes demeures de la fin du XVIIe siècle.",
+      "sources": ["https://www.destination-yvelines.fr/chateaux/chateau-de-dampierre/"],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Jules Hardouin-Mansart travaille pour le roi et pour les plus grands personnages du royaume. Cela ne signifie pas qu’il reproduit le même bâtiment partout. En revanche, il partage avec son époque un goût pour l’ordre lisible : axes, symétries, hiérarchie nette entre corps principal et ailes, articulation entre cour et jardin."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"À Dampierre, la brique et la pierre donnent une identité très différente du grand Versailles de pierre claire. Ce qui fait l’air de famille est moins la matière que la composition. Le visiteur comprend immédiatement où est le centre, comment on arrive et quelle partie du bâtiment domine les autres."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"C’est un langage social autant qu’esthétique. Une grande demeure doit accueillir une société qui connaît les codes de la cour. L’architecture prépare les parcours, distingue les espaces, met en valeur le maître des lieux. Elle transforme la hiérarchie sociale en géométrie."}
+      ]
+    },
+    {
+      "id": "orleans-marly-m05",
+      "kind": "immersion",
+      "after_episode": 6,
+      "title": "Mise en situation — Arriver chez un grand seigneur à Dampierre",
+      "summary": "Une visiteuse et un domestique composites font entendre la mise en scène de l’arrivée dans une grande demeure de cour vers la fin du XVIIe siècle.",
+      "sources": ["https://www.destination-yvelines.fr/chateaux/chateau-de-dampierre/"],
+      "segments": [
+        {"scene":"Statut","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Ce qui suit est une reconstitution. La reconstruction de Dampierre par Hardouin-Mansart et son appartenance à une grande famille de cour sont documentées. La visiteuse, le domestique et leurs paroles sont composites."},
+        {"scene":"Cour","character_id":"aristocrate","speaker":"La visiteuse","preset":"aristocrate-distante","pause_after_ms":220,"text":"Nous sommes attendus. Pourquoi la voiture s’arrête-t-elle ici ?"},
+        {"scene":"Cour","character_id":"domestique","speaker":"Le domestique","preset":"notable-hautain","pause_after_ms":220,"text":"Parce que l’équipage doit dégager la cour. Vos gens suivront. On vous conduira dans la maison par l’entrée prévue pour les visiteurs."},
+        {"scene":"Cour","character_id":"aristocrate","speaker":"La visiteuse","preset":"aristocrate-distante","pause_after_ms":240,"text":"Je pensais apercevoir le duc dès notre arrivée."},
+        {"scene":"Cour","character_id":"domestique","speaker":"Le domestique","preset":"notable-hautain","pause_after_ms":380,"text":"Madame, une grande maison serait bien mal organisée si son maître devait accueillir personnellement chaque roue qui franchit la grille."},
+        {"scene":"Lecture","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"La scène est volontairement simple. Elle nous fait entendre ce que la façade ne dit pas toute seule : une demeure de cour est un système d’accès. La cour distribue les voitures, les domestiques filtrent, les pièces hiérarchisent les visiteurs. Plus on avance dans la maison, plus la proximité avec le maître devient signifiante."},
+        {"scene":"Retour aux faits","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Retour aux faits. Nous n’avons pas de procès-verbal d’une telle arrivée à Dampierre. Nous avons utilisé des pratiques génériques de la grande maison d’Ancien Régime pour rendre audible une idée compatible avec le lieu. Le fait solide est ailleurs : entre 1675 et 1688, une famille située au cœur de la cour fait reconstruire Dampierre par l’architecte du roi. Le bâtiment est fait pour habiter ce monde social."}
+      ]
+    },
+    {
+      "id": "orleans-marly-g07",
+      "kind": "gourmand",
+      "after_episode": 7,
+      "title": "Gourmand — La Machine de Marly : comment faire monter une rivière ?",
+      "summary": "Pomper l’eau de la Seine sur un fort dénivelé demande une chaîne mécanique spectaculaire, plus proche d’une installation industrielle que d’une fontaine de palais.",
+      "sources": ["https://musee-domaine-marly.fr/le-parcours/"],
+      "segments": [
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"La Machine de Marly est facile à imaginer de travers. Elle ne transporte pas l’eau comme une simple pompe de jardin jusqu’à Versailles en un seul geste. Le problème est le dénivelé. Il faut capter l’énergie de la Seine, actionner des pompes et faire franchir à l’eau plusieurs niveaux avant de l’envoyer vers des réservoirs et des conduites."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":600,"text":"Le résultat est une immense installation de bois, de métal, de roues, de tringles et de pompes. Les contemporains la perçoivent comme une merveille technique. Elle est aussi bruyante, complexe, coûteuse à entretenir et loin de fournir une eau gratuite. La puissance technique a toujours une facture matérielle."},
+        {"character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":650,"text":"C’est ce qui rend le parallèle avec Maintenon si fort. Deux solutions monumentales répondent à la même obsession hydraulique : conduire une eau lointaine par gravité depuis l’Eure, ou élever mécaniquement celle de la Seine. L’une reste inachevée ; l’autre fonctionne et devient elle-même un monument de l’ingénierie royale."}
+      ]
+    },
+    {
+      "id": "orleans-marly-m06",
+      "kind": "immersion",
+      "after_episode": 7,
+      "title": "Mise en situation — Être invité à Marly",
+      "summary": "Deux courtisans composites font sentir pourquoi une résidence plus intime peut renforcer, et non diminuer, la puissance sociale du roi.",
+      "sources": ["https://musee-domaine-marly.fr/le-parcours/"],
+      "segments": [
+        {"scene":"Statut","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":700,"text":"Dernière reconstitution du voyage. La sélection des invités à Marly, le caractère plus restreint de la résidence et son rôle politique sont documentés. Les deux courtisans sont composites et leurs paroles sont inventées. Louis XIV ne parlera pas dans cette scène."},
+        {"scene":"Versailles","character_id":"courtisan1","speaker":"Le courtisan","preset":"notable-hautain","pause_after_ms":220,"text":"Vous partez demain ?"},
+        {"scene":"Versailles","character_id":"courtisan2","speaker":"L’autre courtisan","preset":"conspirateur","pause_after_ms":220,"text":"Si l’on m’avait choisi, je ne serais pas encore ici à vous répondre."},
+        {"scene":"Versailles","character_id":"courtisan1","speaker":"Le courtisan","preset":"notable-hautain","pause_after_ms":240,"text":"Ce n’est qu’un séjour à la campagne."},
+        {"scene":"Versailles","character_id":"courtisan2","speaker":"L’autre courtisan","preset":"conspirateur","pause_after_ms":280,"text":"Alors pourquoi chacun demande-t-il depuis huit jours qui sera du voyage ? À Versailles nous sommes des centaines à pouvoir espérer un regard. À Marly, il y aura moins de monde pour le partager."},
+        {"scene":"Versailles","character_id":"courtisan1","speaker":"Le courtisan","preset":"notable-hautain","pause_after_ms":260,"text":"Et que comptez-vous faire si vous n’êtes pas nommé ?"},
+        {"scene":"Versailles","character_id":"courtisan2","speaker":"L’autre courtisan","preset":"conspirateur","pause_after_ms":420,"text":"Ce que fait toute la cour : prétendre que cela m’est égal et chercher qui peut encore prononcer mon nom au bon moment."},
+        {"scene":"Retour aux faits","character_id":"narrateur","speaker":"Narrateur","preset":"narrateur-vif","pause_after_ms":750,"text":"Retour aux faits. Ces deux hommes n’ont jamais existé. Mais le mécanisme qu’ils rendent visible est au cœur de Marly : le roi choisit un cercle plus réduit d’invités et transforme ainsi l’accès à son loisir en faveur recherchée. Voilà notre dernière mise en situation. Nous avons commencé le voyage avec des forteresses qui contrôlaient un territoire ; nous le terminons avec un souverain qui peut contrôler jusqu’à la rareté de sa propre présence."}
+      ]
+    }
+  ]
+}
