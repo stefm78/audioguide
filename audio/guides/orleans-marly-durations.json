@@ -1,0 +1,28 @@
+{
+  "production_version": 3,
+  "editorial_model": "longform-duration-validated",
+  "minimum_main_duration_seconds": 540,
+  "main_total_duration_seconds": 4278.83,
+  "guides": {
+    "orleans-marly-ep01": 597.14,
+    "orleans-marly-ep02": 569.04,
+    "orleans-marly-ep03": 669.07,
+    "orleans-marly-ep04": 577.92,
+    "orleans-marly-ep05": 576.07,
+    "orleans-marly-ep06": 604.03,
+    "orleans-marly-ep07": 685.56,
+    "orleans-marly-g01": 48.65,
+    "orleans-marly-g02": 53.62,
+    "orleans-marly-g03": 45.79,
+    "orleans-marly-g04": 47.14,
+    "orleans-marly-g05": 48.58,
+    "orleans-marly-g06": 47.04,
+    "orleans-marly-g07": 50.9,
+    "orleans-marly-m01": 90.98,
+    "orleans-marly-m02": 85.1,
+    "orleans-marly-m03": 73.87,
+    "orleans-marly-m04": 62.47,
+    "orleans-marly-m05": 74.45,
+    "orleans-marly-m06": 67.27
+  }
+}

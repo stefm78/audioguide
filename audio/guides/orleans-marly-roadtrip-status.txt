@@ -1,8 +1,10 @@
-source_commit=2059b7ef70300515984f4997cb65c7aab020b1a7
-production_version=2
-editorial_model=longform
+source_commit=3d6deade51bf81a78189cd527de8249944896791
+production_version=3
+editorial_model=longform-duration-validated
 render=success
 mp3_count=20
 manifest_count=20
+duration_manifest_count=20
 french_manifest_count=20
+main_min_duration_seconds=540
 locale_guard=fr-FR
