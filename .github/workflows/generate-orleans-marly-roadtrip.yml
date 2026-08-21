@@ -28,7 +28,7 @@ concurrency:
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 24
     strategy:
       fail-fast: false
       matrix:
@@ -75,7 +75,14 @@ jobs:
           legacy = json.loads((base / 'series.json').read_text(encoding='utf-8'))
           episodes = []
           for rel in manifest['episode_files']:
-              episodes.append(json.loads((base / rel).read_text(encoding='utf-8')))
+              item = json.loads((base / rel).read_text(encoding='utf-8'))
+              supplement = base / manifest['supplement_dir'] / f"ep{int(item['episode']):02d}.json"
+              if supplement.exists():
+                  extra = json.loads(supplement.read_text(encoding='utf-8'))
+                  assert extra['episode_id'] == item['id'], (supplement, extra.get('episode_id'), item['id'])
+                  item['segments'] = item['segments'][:-1] + extra.get('segments', []) + item['segments'][-1:]
+                  item['sources'] = list(dict.fromkeys(item.get('sources', []) + extra.get('sources', [])))
+              episodes.append(item)
           items = {x['id']: x for x in episodes + legacy.get('capsules', [])}
           item = items[guide_id]
           if guide_id.startswith('orleans-marly-ep'):
@@ -101,7 +108,7 @@ jobs:
           pathlib.Path('guide.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
 
-      - name: Render guide in French
+      - name: Render guide in French and validate real duration
         shell: bash
         run: |
           set -euo pipefail
@@ -110,7 +117,7 @@ jobs:
           for attempt in 1 2 3; do
             rm -rf "$out"
             echo "Render attempt ${attempt}/3 for ${{ matrix.guide }}"
-            if timeout 900s python scripts/render_audioguide_fr.py guide.json > render.log 2>&1; then
+            if timeout 1080s python scripts/render_audioguide_fr.py guide.json > render.log 2>&1; then
               rendered=true
               break
             fi
@@ -124,17 +131,32 @@ jobs:
           cat render.log
           test -s "$out/guide.mp3"
           test -s "$out/resolved-cast.json"
-          python - "$out/resolved-cast.json" <<'PY'
-          import json, pathlib, sys
-          data = json.loads(pathlib.Path(sys.argv[1]).read_text(encoding='utf-8'))
+          python - "$out/resolved-cast.json" "$out/guide.mp3" "${{ matrix.guide }}" <<'PY'
+          import json, pathlib, re, subprocess, sys
+          import imageio_ffmpeg
+          cast_path, mp3_path, guide_id = map(pathlib.Path, sys.argv[1:])
+          data = json.loads(cast_path.read_text(encoding='utf-8'))
           assert data['segments'], 'No rendered segments'
           for segment in data['segments']:
               assert 'fr-FR' in segment['voice'], f"Non-French voice: {segment['voice']}"
               assert segment['text'].strip(), 'Empty segment'
+          ffmpeg = imageio_ffmpeg.get_ffmpeg_exe()
+          proc = subprocess.run([ffmpeg, '-hide_banner', '-i', str(mp3_path), '-f', 'null', '-'], text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+          match = re.search(r'Duration:\s*(\d+):(\d+):(\d+(?:\.\d+)?)', proc.stderr)
+          assert match, proc.stderr[-2000:]
+          h, m, s = match.groups()
+          duration = int(h) * 3600 + int(m) * 60 + float(s)
+          if str(guide_id).startswith('orleans-marly-ep'):
+              manifest = json.loads(pathlib.Path('series/orleans-marly-roadtrip/longform/manifest.json').read_text(encoding='utf-8'))
+              minimum = manifest['quality_gates']['main_episode_min_duration_seconds']
+              assert duration >= minimum, f'{guide_id}: {duration:.2f}s < {minimum}s'
+          duration_path = mp3_path.parent / 'duration.json'
+          duration_path.write_text(json.dumps({'id': str(guide_id), 'duration_seconds': round(duration, 2)}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(f'{guide_id}: duration={duration:.2f}s')
           PY
           cp render.log "$out/render.log"
           mkdir -p "bundle/${{ matrix.guide }}"
-          cp "$out/guide.mp3" "$out/resolved-cast.json" "$out/render.log" "bundle/${{ matrix.guide }}/"
+          cp "$out/guide.mp3" "$out/resolved-cast.json" "$out/render.log" "$out/duration.json" "bundle/${{ matrix.guide }}/"
 
       - name: Upload rendered guide
         uses: actions/upload-artifact@v4
@@ -170,18 +192,43 @@ jobs:
           set -euo pipefail
           mp3_count=$(find audio/guides -maxdepth 2 -type f -path '*/orleans-marly-*/guide.mp3' | wc -l | tr -d ' ')
           manifest_count=$(find audio/guides -maxdepth 2 -type f -path '*/orleans-marly-*/resolved-cast.json' | wc -l | tr -d ' ')
+          duration_count=$(find audio/guides -maxdepth 2 -type f -path '*/orleans-marly-*/duration.json' | wc -l | tr -d ' ')
           french_count=$(grep -RIl '"voice": "fr-FR-' audio/guides/orleans-marly-*/resolved-cast.json | wc -l | tr -d ' ')
           production_version=$(python -c "import json; print(json.load(open('series/orleans-marly-roadtrip/longform/manifest.json'))['production_version'])")
-          test "$production_version" = "2"
+          test "$production_version" = "3"
           test "$mp3_count" = "20"
           test "$manifest_count" = "20"
+          test "$duration_count" = "20"
           test "$french_count" = "20"
-          printf 'source_commit=%s\nproduction_version=%s\neditorial_model=longform\nrender=success\nmp3_count=%s\nmanifest_count=%s\nfrench_manifest_count=%s\nlocale_guard=fr-FR\n' "${{ github.sha }}" "$production_version" "$mp3_count" "$manifest_count" "$french_count" > audio/guides/orleans-marly-roadtrip-status.txt
+          python - <<'PY'
+          import json, pathlib
+          base = pathlib.Path('audio/guides')
+          manifest = json.loads(pathlib.Path('series/orleans-marly-roadtrip/longform/manifest.json').read_text(encoding='utf-8'))
+          minimum = manifest['quality_gates']['main_episode_min_duration_seconds']
+          durations = {}
+          for path in sorted(base.glob('orleans-marly-*/duration.json')):
+              data = json.loads(path.read_text(encoding='utf-8'))
+              durations[data['id']] = data['duration_seconds']
+          mains = {k: v for k, v in durations.items() if k.startswith('orleans-marly-ep')}
+          assert len(mains) == 7, mains
+          assert all(v >= minimum for v in mains.values()), mains
+          total = round(sum(mains.values()), 2)
+          payload = {
+              'production_version': manifest['production_version'],
+              'editorial_model': manifest['editorial_model'],
+              'minimum_main_duration_seconds': minimum,
+              'main_total_duration_seconds': total,
+              'guides': durations,
+          }
+          (base / 'orleans-marly-durations.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(json.dumps(payload, ensure_ascii=False))
+          PY
+          printf 'source_commit=%s\nproduction_version=%s\neditorial_model=longform-duration-validated\nrender=success\nmp3_count=%s\nmanifest_count=%s\nduration_manifest_count=%s\nfrench_manifest_count=%s\nmain_min_duration_seconds=540\nlocale_guard=fr-FR\n' "${{ github.sha }}" "$production_version" "$mp3_count" "$manifest_count" "$duration_count" "$french_count" > audio/guides/orleans-marly-roadtrip-status.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audio/guides/orleans-marly-roadtrip-status.txt
+          git add audio/guides/orleans-marly-roadtrip-status.txt audio/guides/orleans-marly-durations.json
           for dir in audio/guides/orleans-marly-*; do [ -e "$dir" ] && git add "$dir"; done
           if ! git diff --cached --quiet; then
-            git commit -m 'Generate long-form Orleans to Marly audio'
+            git commit -m 'Generate duration-validated Orleans to Marly audio'
             git push
           fi
