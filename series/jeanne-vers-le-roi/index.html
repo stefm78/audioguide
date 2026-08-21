@@ -22,7 +22,7 @@
 
 <section class="playerbox" id="playerbox">
   <div class="player-head"><button class="playbig" id="playbig" aria-label="Lancer l’épisode">▶</button><div><h2>Épisode complet</h2><p>Une narration continue : dialogues, voyage, attente, puis audience à Chinon.</p></div></div>
-  <audio id="audio" controls preload="metadata" src="../../audio/guides/jeanne-vers-le-roi-ep01/guide.mp3?v=1"></audio>
+  <audio id="audio" controls preload="metadata" src="../../audio/guides/jeanne-vers-le-roi-ep01/guide.mp3?v=2"></audio>
 </section>
 
 <nav class="quicklinks" aria-label="Liens rapides">
@@ -51,7 +51,7 @@
 </main>
 <div class="sticky" id="sticky"><div><strong>Laissez-moi parler au roi</strong><small id="state">Lecture en cours</small></div><button id="stickytoggle" aria-label="Lecture ou pause">❚❚</button></div>
 <script>
-const VERSION='jeanne-roi-1';const audio=document.querySelector('#audio'),playbig=document.querySelector('#playbig'),sticky=document.querySelector('#sticky'),stickytoggle=document.querySelector('#stickytoggle'),state=document.querySelector('#state');
+const VERSION='jeanne-roi-2';const audio=document.querySelector('#audio'),playbig=document.querySelector('#playbig'),sticky=document.querySelector('#sticky'),stickytoggle=document.querySelector('#stickytoggle'),state=document.querySelector('#state');
 function toggle(){if(audio.paused)audio.play().catch(()=>{});else audio.pause()}playbig.addEventListener('click',toggle);stickytoggle.addEventListener('click',toggle);audio.addEventListener('play',()=>{playbig.textContent='❚❚';stickytoggle.textContent='❚❚';sticky.classList.add('on');state.textContent='Lecture en cours'});audio.addEventListener('pause',()=>{playbig.textContent='▶';stickytoggle.textContent='▶';state.textContent='En pause'});audio.addEventListener('ended',()=>{playbig.textContent='▶';stickytoggle.textContent='▶';state.textContent='Épisode terminé'});
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 Promise.all([fetch(`manifest.json?v=${VERSION}`).then(r=>r.json()),fetch(`episodes/jeanne-vers-le-roi-ep01.json?v=${VERSION}`).then(r=>r.json())]).then(([m,e])=>{
