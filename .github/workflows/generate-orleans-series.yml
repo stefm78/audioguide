@@ -1,0 +1,105 @@
+name: Generate Orleans series audio
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - feat/orleans-series
+    paths:
+      - 'series/orleans/episodes/*.json'
+      - 'scripts/voice-palette.json'
+      - 'scripts/render_audioguide.py'
+      - 'scripts/render_audioguide_fr.py'
+      - '.github/workflows/generate-orleans-series.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: orleans-series-audio-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        episode: ['01','02','03','04','05','06','07','08']
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install audio dependencies
+        run: |
+          python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'imageio-ffmpeg==0.6.0'
+      - name: Render episode in French
+        shell: bash
+        run: |
+          set -euo pipefail
+          ep="${{ matrix.episode }}"
+          guide="series/orleans/episodes/orleans-ep${ep}.json"
+          timeout 720s python scripts/render_audioguide_fr.py "$guide" > "render-${ep}.log" 2>&1
+          cat "render-${ep}.log"
+          out="audio/guides/orleans-ep${ep}"
+          test -s "$out/guide.mp3"
+          test -s "$out/resolved-cast.json"
+          python - "$out/resolved-cast.json" <<'PY'
+          import json, pathlib, sys
+          data = json.loads(pathlib.Path(sys.argv[1]).read_text(encoding="utf-8"))
+          assert data["segments"], "No rendered segments"
+          for segment in data["segments"]:
+              assert "fr-FR" in segment["voice"], f"Non-French voice resolved: {segment['voice']}"
+              assert segment["text"].strip(), "Empty segment"
+          PY
+          cp "render-${ep}.log" "$out/render.log"
+          mkdir -p "bundle/orleans-ep${ep}"
+          cp "$out/guide.mp3" "$out/resolved-cast.json" "$out/render.log" "bundle/orleans-ep${ep}/"
+      - name: Upload rendered episode
+        uses: actions/upload-artifact@v4
+        with:
+          name: orleans-${{ matrix.episode }}
+          path: bundle/
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: render
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Refresh source branch before publication
+        run: git pull --rebase origin "${GITHUB_REF_NAME}"
+      - name: Download rendered episodes
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          pattern: orleans-*
+          path: audio/guides
+          merge-multiple: true
+      - name: Validate and commit production output
+        if: always()
+        shell: bash
+        run: |
+          set -u
+          mp3_count=$(find audio/guides -maxdepth 2 -type f -path '*/orleans-ep*/guide.mp3' 2>/dev/null | wc -l | tr -d ' ')
+          manifest_count=$(find audio/guides -maxdepth 2 -type f -path '*/orleans-ep*/resolved-cast.json' 2>/dev/null | wc -l | tr -d ' ')
+          french_count=$(grep -RIl '"voice": "fr-FR-' audio/guides/orleans-ep*/resolved-cast.json 2>/dev/null | wc -l | tr -d ' ')
+          if [ "$mp3_count" = "8" ] && [ "$manifest_count" = "8" ] && [ "$french_count" = "8" ]; then result=success; else result=failure; fi
+          printf 'source_commit=%s\nrender=%s\nmp3_count=%s\nmanifest_count=%s\nfrench_manifest_count=%s\nlocale_guard=fr-FR\n' "${{ github.sha }}" "$result" "$mp3_count" "$manifest_count" "$french_count" > audio/guides/orleans-series-status.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/guides/orleans-series-status.txt
+          for dir in audio/guides/orleans-ep*; do [ -e "$dir" ] && git add "$dir"; done
+          if ! git diff --cached --quiet; then
+            git commit -m 'Generate Orleans series audio'
+            git push origin HEAD:"${GITHUB_REF_NAME}"
+          fi
+          test "$result" = success
