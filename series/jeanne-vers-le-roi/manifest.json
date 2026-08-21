@@ -1,0 +1,31 @@
+{
+  "series": "Jeanne d’Arc — De Vaucouleurs à Chinon",
+  "production_version": 1,
+  "format": "fiction-historique",
+  "estimated_minutes": "28–35",
+  "episode": {
+    "id": "jeanne-vers-le-roi-ep01",
+    "title": "Laissez-moi parler au roi",
+    "summary": "Une fiction historique en neuf scènes : Jeanne doit convaincre un parent, Robert de Baudricourt, des hommes d’armes, un religieux, une escorte, des gardes et des conseillers avant d’être enfin admise devant Charles. Les dialogues sont reconstruits, mais les principaux obstacles et personnages s’appuient sur les sources du XVe siècle.",
+    "audio": "../../audio/guides/jeanne-vers-le-roi-ep01/guide.mp3"
+  },
+  "scenes": [
+    {"n":1,"title":"Convaincre l’oncle","place":"Burey / environs de Vaucouleurs","idea":"Obtenir simplement le droit d’aller parler au capitaine."},
+    {"n":2,"title":"Le capitaine dit non","place":"Vaucouleurs","idea":"Baudricourt refuse : première confrontation avec le pouvoir militaire."},
+    {"n":3,"title":"Convaincre ceux qui peuvent convaincre","place":"Maison Le Royer, Vaucouleurs","idea":"Jean de Metz et Bertrand de Poulengy deviennent des relais de crédibilité."},
+    {"n":4,"title":"Être testée avant d’être crue","place":"Vaucouleurs","idea":"La revendication religieuse doit elle aussi résister à la suspicion."},
+    {"n":5,"title":"La troisième porte","place":"Vaucouleurs","idea":"Baudricourt accepte enfin de fournir une escorte."},
+    {"n":6,"title":"Onze jours de route","place":"De Vaucouleurs vers la Loire","idea":"Une mission peut échouer à chaque pont, porte ou patrouille."},
+    {"n":7,"title":"Écrire avant d’entrer","place":"Sainte-Catherine-de-Fierbois","idea":"Même arrivée presque au but, il faut demander officiellement audience."},
+    {"n":8,"title":"Chinon : encore attendre","place":"Chinon","idea":"Les conseillers du prince doivent décider si Jeanne mérite seulement d’être reçue."},
+    {"n":9,"title":"Enfin, le roi","place":"Forteresse de Chinon","idea":"Orléans puis Reims : Jeanne expose au prince une direction politique et militaire."}
+  ],
+  "web_resources": [
+    {"label":"Miniature vers 1484 — Jeanne conduite à Chinon","url":"https://commons.wikimedia.org/wiki/File:Vigiles_de_Charles_VII,_fol._55v,_Jeanne_d%27Arc_conduite_%C3%A0_Chinon.jpg","note":"Représentation tardive mais proche chronologiquement du XVe siècle."},
+    {"label":"Jeanne présentée à Charles VII — peinture de 1832","url":"https://commons.wikimedia.org/wiki/File:Jeanne_d%27Arc_pr%C3%A9sent%C3%A9e_%C3%A0_Charles_VII_(cropped).jpg","note":"Image romantique, utile comme imaginaire du XIXe siècle, pas comme photographie de la scène."},
+    {"label":"Dossier Wikimedia Commons — Jeanne d’Arc","url":"https://commons.wikimedia.org/wiki/Jeanne_d%27Arc","note":"Plusieurs représentations, manuscrits et documents."},
+    {"label":"Vaucouleurs — Google Maps","url":"https://www.google.com/maps/search/?api=1&query=Vaucouleurs%2C+France","note":"Point de départ politique de la mission."},
+    {"label":"Sainte-Catherine-de-Fierbois — Google Maps","url":"https://www.google.com/maps/search/?api=1&query=Sainte-Catherine-de-Fierbois%2C+France","note":"Étape de la lettre demandant l’audience."},
+    {"label":"Forteresse royale de Chinon — Google Maps","url":"https://www.google.com/maps/search/?api=1&query=Forteresse+Royale+de+Chinon%2C+France","note":"Lieu de la rencontre avec Charles."}
+  ]
+}
