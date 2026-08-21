@@ -28,7 +28,7 @@ concurrency:
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 20
     strategy:
       fail-fast: false
       matrix:
@@ -63,25 +63,38 @@ jobs:
       - name: Install audio dependencies
         run: python -m pip install --disable-pip-version-check 'edge-tts==7.2.8' 'imageio-ffmpeg==0.6.0'
 
-      - name: Extract guide from collection
+      - name: Extract guide from production sources
         shell: bash
         run: |
           set -euo pipefail
           python - "${{ matrix.guide }}" <<'PY'
-          import json, pathlib, sys
+          import json, pathlib, re, sys
           guide_id = sys.argv[1]
-          collection = json.loads(pathlib.Path('series/orleans-marly-roadtrip/series.json').read_text(encoding='utf-8'))
-          items = {x['id']: x for x in collection.get('episodes', []) + collection.get('capsules', [])}
+          base = pathlib.Path('series/orleans-marly-roadtrip')
+          manifest = json.loads((base / 'longform/manifest.json').read_text(encoding='utf-8'))
+          legacy = json.loads((base / 'series.json').read_text(encoding='utf-8'))
+          episodes = []
+          for rel in manifest['episode_files']:
+              episodes.append(json.loads((base / rel).read_text(encoding='utf-8')))
+          items = {x['id']: x for x in episodes + legacy.get('capsules', [])}
           item = items[guide_id]
+          if guide_id.startswith('orleans-marly-ep'):
+              words = sum(len(re.findall(r"\b[\wÀ-ÿ'-]+\b", s['text'])) for s in item['segments'])
+              assert words >= manifest['quality_gates']['main_episode_min_words'], (guide_id, words)
+              visual = item.get('visual_reference') or {}
+              assert visual.get('image_url', '').startswith('https://commons.wikimedia.org/'), guide_id
+              assert visual.get('source_page', '').startswith('https://commons.wikimedia.org/'), guide_id
+              assert visual.get('license'), guide_id
+              print(f'{guide_id}: {words} words; visual={visual.get("title")}')
           payload = {
               'id': guide_id,
-              'production_version': collection.get('production_version', 1),
+              'production_version': manifest['production_version'],
               'title': item['title'],
-              'series': collection['series'],
+              'series': manifest['series'],
               'episode': item.get('episode'),
               'location': item.get('location', 'Orléans → Marly-le-Roi, France'),
               'historical_note': item.get('historical_note'),
-              'lead_in_ms': collection.get('lead_in_ms', 450),
+              'lead_in_ms': manifest.get('lead_in_ms', 450),
               'sources': item.get('sources', []),
               'segments': item['segments'],
           }
@@ -97,18 +110,14 @@ jobs:
           for attempt in 1 2 3; do
             rm -rf "$out"
             echo "Render attempt ${attempt}/3 for ${{ matrix.guide }}"
-            if timeout 780s python scripts/render_audioguide_fr.py guide.json > render.log 2>&1; then
+            if timeout 900s python scripts/render_audioguide_fr.py guide.json > render.log 2>&1; then
               rendered=true
               break
             fi
             cat render.log
-            if [ "$attempt" -lt 3 ]; then
-              echo "Transient render failure; retrying in 4 seconds."
-              sleep 4
-            fi
+            if [ "$attempt" -lt 3 ]; then sleep 4; fi
           done
           if [ "$rendered" != true ]; then
-            echo "Render failed after 3 attempts."
             cat render.log
             exit 1
           fi
@@ -162,15 +171,17 @@ jobs:
           mp3_count=$(find audio/guides -maxdepth 2 -type f -path '*/orleans-marly-*/guide.mp3' | wc -l | tr -d ' ')
           manifest_count=$(find audio/guides -maxdepth 2 -type f -path '*/orleans-marly-*/resolved-cast.json' | wc -l | tr -d ' ')
           french_count=$(grep -RIl '"voice": "fr-FR-' audio/guides/orleans-marly-*/resolved-cast.json | wc -l | tr -d ' ')
+          production_version=$(python -c "import json; print(json.load(open('series/orleans-marly-roadtrip/longform/manifest.json'))['production_version'])")
+          test "$production_version" = "2"
           test "$mp3_count" = "20"
           test "$manifest_count" = "20"
           test "$french_count" = "20"
-          printf 'source_commit=%s\nrender=success\nmp3_count=%s\nmanifest_count=%s\nfrench_manifest_count=%s\nlocale_guard=fr-FR\n' "${{ github.sha }}" "$mp3_count" "$manifest_count" "$french_count" > audio/guides/orleans-marly-roadtrip-status.txt
+          printf 'source_commit=%s\nproduction_version=%s\neditorial_model=longform\nrender=success\nmp3_count=%s\nmanifest_count=%s\nfrench_manifest_count=%s\nlocale_guard=fr-FR\n' "${{ github.sha }}" "$production_version" "$mp3_count" "$manifest_count" "$french_count" > audio/guides/orleans-marly-roadtrip-status.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add audio/guides/orleans-marly-roadtrip-status.txt
           for dir in audio/guides/orleans-marly-*; do [ -e "$dir" ] && git add "$dir"; done
           if ! git diff --cached --quiet; then
-            git commit -m 'Generate Orleans to Marly roadtrip audio'
+            git commit -m 'Generate long-form Orleans to Marly audio'
             git push
           fi

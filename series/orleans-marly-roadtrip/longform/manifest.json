@@ -1,0 +1,29 @@
+{
+  "series": "D’Orléans à Marly — De Jeanne au Roi-Soleil",
+  "production_version": 2,
+  "editorial_model": "longform",
+  "route_date": "2026-08-22",
+  "lead_in_ms": 450,
+  "episode_files": [
+    "longform/ep01.json",
+    "longform/ep02.json",
+    "longform/ep03.json",
+    "longform/ep04.json",
+    "longform/ep05.json",
+    "longform/ep06.json",
+    "longform/ep07.json"
+  ],
+  "capsules_source": "series.json",
+  "visual_policy": {
+    "mode": "external-web-only",
+    "provider": "Wikimedia Commons",
+    "local_image_assets": false,
+    "attribution_required": true
+  },
+  "quality_gates": {
+    "main_episode_min_words": 1000,
+    "main_episode_count": 7,
+    "total_audio_ids": 20,
+    "locale": "fr-FR"
+  }
+}
