@@ -1,0 +1,4 @@
+publication_trigger=2026-08-21T22:26:00+02:00
+status=trigger-main-audio-render
+expected_audio_count=20
+locale_guard=fr-FR
