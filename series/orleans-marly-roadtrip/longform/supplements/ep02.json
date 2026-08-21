@@ -1,0 +1,31 @@
+{
+  "episode_id": "orleans-marly-ep02",
+  "sources": [
+    "https://www.chateau-chateaudun.fr/decouvrir/le-chateau-de-chateaudun-premier-des-chateaux-de-la-loire",
+    "https://www.chateau-chateaudun.fr/decouvrir/un-chateau-perche-sur-les-bords-du-loir",
+    "https://www.chateau-chateaudun.fr/decouvrir/un-parcours-de-visite-tactile-et-accessible/un-chateau-perche-sur-le-loir-station-n-1"
+  ],
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Pour mesurer ce changement, il faut imaginer le château non comme une coque vide, mais comme une petite société. Le Centre des monuments nationaux indique que Dunois veut pouvoir recevoir une cour d’environ une centaine de personnes. Cent personnes, cela veut dire des chambres, des cuisines, des réserves, des serviteurs, des officiers, des chevaux, des visiteurs, des gens qui attendent une audience et d’autres qui travaillent sans jamais apparaître dans les portraits. Une résidence princière est donc aussi une machine logistique. Le confort ne consiste pas seulement à ajouter des coussins ou de grandes fenêtres : il faut faire arriver de la nourriture, chauffer certaines pièces, éclairer, entretenir le linge, garder les accès et organiser la circulation entre les espaces publics, les espaces de service et les appartements du seigneur. Quand Dunois construit un vaste logis, il affirme certes son goût et son rang, mais il se donne surtout les moyens matériels de tenir sa place parmi les grands du royaume."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "La chapelle raconte une autre facette de cette ambition. Dunois fait édifier une chapelle destinée notamment à abriter une relique de la Passion du Christ qu’il a reçue de Charles VII. Elle obtient ensuite le statut très rare de Sainte-Chapelle, privilège réservé à un cercle dynastique extrêmement restreint. Ce n’est pas un détail décoratif. Au Moyen Âge tardif, la religion, la mémoire familiale et la représentation du rang s’entremêlent. Construire une chapelle prestigieuse, y conserver une relique et y organiser la prière pour les vivants et les morts, c’est inscrire une famille dans une durée qui dépasse la carrière d’un seul homme. Dunois est né hors mariage ; il n’en est pas moins profondément inséré dans la maison d’Orléans et dans le monde princier. Son château dit précisément cela : je ne suis pas seulement un soldat utile au roi, j’appartiens à une lignée, j’ai une maison, une mémoire et des héritiers."
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Le site lui-même permet enfin de comprendre comment l’idée de plaisir s’ajoute à celle de défense. L’éperon rocheux offre une position forte au-dessus du Loir, mais les transformations du XVe siècle tirent aussi parti du panorama. Le château possède un jardin suspendu sur une terrasse dominant la vallée. On ne quitte pas pour autant le monde médiéval pour entrer soudain dans la Renaissance italienne ; les historiens de l’architecture préfèrent parler de transitions, d’emprunts et de transformations progressives. Mais l’orientation change : la hauteur ne sert plus seulement à empêcher l’ennemi de monter. Elle sert aussi à regarder le territoire, à mettre en scène la demeure et à créer un espace réservé au seigneur et à ses proches. La même géographie qui protégeait la forteresse devient une ressource pour le confort et la représentation. Voilà une belle manière de résumer Châteaudun : le relief n’a pas changé, mais la façon de l’utiliser, elle, raconte un monde qui se transforme."
+    }
+  ]
+}
