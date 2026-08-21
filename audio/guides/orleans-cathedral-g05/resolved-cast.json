@@ -1,0 +1,56 @@
+{
+  "guide": {
+    "id": "orleans-cathedral-g05",
+    "title": "Le Roi-Soleil est caché dans le transept",
+    "location": "Cathédrale Sainte-Croix, Orléans, France",
+    "historical_note": "Le programme du transept est associé à Louis XIV ; les références au Roi-Soleil sont particulièrement lisibles sur les façades extérieures des transepts.",
+    "sources": [
+      "https://www.cathedrale-orleans.fr/_files/ugd/db191a_cd0d286df7eb4b57ac62559d9bb6310c.pdf",
+      "https://www.cathedrale-orleans.fr/_files/ugd/db191a_1357f6d333324124a1f36e78b66a11e2.pdf"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Petit jeu : cherchez Louis XIV dans une cathédrale gothique. Il n’est pas représenté comme un roi agenouillé au milieu de la nef. Sa présence est plus architecturale. Le transept reconstruit sous son règne est associé au Roi-Soleil et les roses des façades nord et sud portent des signes qui renvoient à lui.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 620,
+      "text": "À l’extérieur, on peut notamment observer une référence au masque solaire et à sa devise latine, « Nec pluribus impar ». C’est un rappel assez spectaculaire du système de l’Ancien Régime : le roi finance, protège et marque les grands monuments religieux du royaume.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Cela donne à Sainte-Croix une chronologie visuelle étrange : le langage architectural imite le gothique, mais certains détails disent explicitement « XVIIe siècle ». La cathédrale est donc une sorte de costume médiéval dans lequel le Roi-Soleil a laissé sa signature.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

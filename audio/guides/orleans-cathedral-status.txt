@@ -1,0 +1,6 @@
+source_commit=33dd96462f96ae17c42d46f372208a989a841c91
+render=success
+mp3_count=16
+manifest_count=16
+french_manifest_count=16
+locale_guard=fr-FR

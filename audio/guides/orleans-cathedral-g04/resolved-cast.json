@@ -1,0 +1,56 @@
+{
+  "guide": {
+    "id": "orleans-cathedral-g04",
+    "title": "Pourquoi s’appelle-t-elle Sainte-Croix ?",
+    "location": "Cathédrale Sainte-Croix, Orléans, France",
+    "historical_note": "La présence de reliques de la Sainte Croix est attestée selon la cathédrale depuis le VIIe siècle ; une présence dès le IVe siècle reste présentée comme possible, non certaine.",
+    "sources": [
+      "https://www.cathedrale-orleans.fr/",
+      "https://www.cathedrale-orleans.fr/depliants"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Pourquoi « Sainte-Croix » ? Pas parce que le plan de la cathédrale forme une croix, même si c’est vrai. Le nom vient de reliques considérées comme des fragments de la Croix du Christ. La cathédrale indique que leur présence à Orléans est attestée depuis au moins le VIIe siècle, et peut-être plus tôt.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 620,
+      "text": "Au Moyen Âge, une relique n’est pas un petit souvenir folklorique. Elle peut attirer des pèlerins, justifier un prestige, structurer des fêtes et donner son identité à une église. Le nom Sainte-Croix affirme donc quelque chose de très fort : ce lieu se définit par son lien avec la Croix du Christ.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "On peut évidemment poser la question moderne de l’authenticité matérielle des fragments. Mais pour comprendre l’histoire du monument, une autre question est tout aussi importante : qu’ont cru et fait les communautés qui les ont conservés ? La puissance historique d’une relique réside aussi dans les pratiques, les déplacements et les récits qu’elle provoque.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}
