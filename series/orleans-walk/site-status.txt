@@ -1,0 +1,6 @@
+status=source-ready
+page=https://stefm78.github.io/audioguide/series/orleans-walk/
+main_guides=10
+bonus_guides=8
+maps_sections=3
+images=9
