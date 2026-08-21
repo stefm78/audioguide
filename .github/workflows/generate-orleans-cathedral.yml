@@ -3,7 +3,7 @@ name: Generate Orleans cathedral audio
 on:
   pull_request:
     paths:
-      - 'series/orleans-cathedral/**'
+      - 'series/orleans-cathedral/episodes/**'
       - 'scripts/voice-palette.json'
       - 'scripts/render_audioguide.py'
       - 'scripts/render_audioguide_fr.py'
@@ -11,7 +11,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'series/orleans-cathedral/**'
+      - 'series/orleans-cathedral/episodes/**'
       - 'scripts/voice-palette.json'
       - 'scripts/render_audioguide.py'
       - 'scripts/render_audioguide_fr.py'
