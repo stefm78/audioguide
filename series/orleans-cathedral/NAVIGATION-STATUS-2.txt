@@ -1,0 +1,1 @@
+integration_pending_index_hook=yes
