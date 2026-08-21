@@ -1,0 +1,56 @@
+{
+  "guide": {
+    "id": "orleans-marly-g02",
+    "title": "Gourmand — Comment Chartres a-t-elle pu monter si vite ?",
+    "location": "Orléans → Marly-le-Roi, France",
+    "historical_note": null,
+    "sources": [
+      "https://www.cathedrale-chartres.org/cathedrale/monument/lhistoire/les-grandes-dates/",
+      "https://www.cathedrale-chartres.org/cathedrale/monument/larchitecture/la-cathedrale-du-xiiie-siecle/"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "L’une des choses les plus étonnantes de Chartres est la vitesse relative du chantier. Après l’incendie de 1194, la construction du grand édifice actuel se poursuit jusque vers 1230 sans interruption majeure apparente. Pour une cathédrale de cette taille, c’est exceptionnel.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "Il faut imaginer une chaîne plutôt qu’une foule désordonnée. On extrait et taille une partie de la pierre, on transporte, on monte des échafaudages et des engins de levage, on approvisionne en bois, en fer, en chaux, en verre. Des équipes spécialisées travaillent sur des zones différentes. Le maître d’œuvre organise une séquence où la matière doit arriver au bon moment.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Le financement compte tout autant que la technique. L’évêque et le chapitre disposent de revenus ; des donations s’ajoutent. La vraie prouesse n’est donc pas qu’un génie solitaire aurait dessiné une cathédrale. C’est qu’une institution a pu maintenir pendant des décennies une organisation assez stable pour que des centaines de décisions convergent vers le même bâtiment.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

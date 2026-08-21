@@ -1,0 +1,9 @@
+Using bundled ffmpeg: /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2
+01 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
+02 Le piqueur -> officier-autorite (fr-FR-RemyMultilingualNeural, -10%, -24Hz)
+03 L’invité -> notable-hautain (fr-FR-RemyMultilingualNeural, -2%, -6Hz)
+04 Le piqueur -> officier-autorite (fr-FR-RemyMultilingualNeural, -10%, -24Hz)
+05 L’invité -> notable-hautain (fr-FR-RemyMultilingualNeural, -2%, -6Hz)
+06 Le piqueur -> officier-autorite (fr-FR-RemyMultilingualNeural, -10%, -24Hz)
+07 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
+Rendered audio/guides/orleans-marly-m04/guide.mp3

@@ -1,0 +1,55 @@
+{
+  "guide": {
+    "id": "orleans-marly-g07",
+    "title": "Gourmand — La Machine de Marly : comment faire monter une rivière ?",
+    "location": "Orléans → Marly-le-Roi, France",
+    "historical_note": null,
+    "sources": [
+      "https://musee-domaine-marly.fr/le-parcours/"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "La Machine de Marly est facile à imaginer de travers. Elle ne transporte pas l’eau comme une simple pompe de jardin jusqu’à Versailles en un seul geste. Le problème est le dénivelé. Il faut capter l’énergie de la Seine, actionner des pompes et faire franchir à l’eau plusieurs niveaux avant de l’envoyer vers des réservoirs et des conduites.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "Le résultat est une immense installation de bois, de métal, de roues, de tringles et de pompes. Les contemporains la perçoivent comme une merveille technique. Elle est aussi bruyante, complexe, coûteuse à entretenir et loin de fournir une eau gratuite. La puissance technique a toujours une facture matérielle.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "C’est ce qui rend le parallèle avec Maintenon si fort. Deux solutions monumentales répondent à la même obsession hydraulique : conduire une eau lointaine par gravité depuis l’Eure, ou élever mécaniquement celle de la Seine. L’une reste inachevée ; l’autre fonctionne et devient elle-même un monument de l’ingénierie royale.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

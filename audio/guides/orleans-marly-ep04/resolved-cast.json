@@ -1,0 +1,98 @@
+{
+  "guide": {
+    "id": "orleans-marly-ep04",
+    "title": "Maintenon : quand un roi veut déplacer une rivière",
+    "location": "Place Aristide Briand, 28130 Maintenon, France",
+    "historical_note": "Les travaux du canal de l’Eure avancent dans les années 1680. La guerre de la Ligue d’Augsbourg retire des troupes en 1688 ; le projet est arrêté en 1692 puis définitivement abandonné en 1694.",
+    "sources": [
+      "https://www.chateaudemaintenon.fr/son-aqueduc-_r_28.html",
+      "https://www.chateaudemaintenon.fr/sites/chateau-maintenon/files/brochures/pdf/guide_de_viste_maintenon-2021-interactif.pdf"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Nous arrivons maintenant dans un monde très différent de Chartres. À Versailles, Louis XIV dispose d’un palais qui doit éblouir l’Europe. Jardins, bassins, cascades, jets d’eau : tout doit sembler obéir au souverain. Sauf qu’il existe un adversaire dont même un roi absolu ne peut abolir les règles par décret : la physique. Versailles manque d’eau pour alimenter en permanence l’immense théâtre hydraulique voulu dans les jardins.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "L’idée qui nous conduit à Maintenon est spectaculaire : prendre de l’eau dans le bassin de l’Eure et l’amener vers Versailles sur des dizaines de kilomètres. Les ingénieurs travaillent sur les pentes, les niveaux, les canaux, les remblais, les siphons. Une quarantaine de kilomètres de canal sont creusés entre Pontgouin et Berchères et mis en eau dès 1685. Mais lorsqu’il faut franchir les vallées, la difficulté change d’échelle.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "À Maintenon, un aqueduc monumental commence à s’élever. Vauban défend une solution plus réaliste que certains projets initiaux : un seul rang d’arcades associé à des systèmes de siphons. Le détail est important. Vauban n’est pas ici le dessinateur d’un rêve gratuit. Il cherche au contraire à ramener une ambition royale à quelque chose de techniquement et financièrement praticable. Même dans un régime de grande puissance, l’ingénieur doit négocier avec le terrain.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Puis la politique rattrape l’ingénierie. En 1688 commence la guerre de la Ligue d’Augsbourg. Des troupes affectées au chantier sont mobilisées ailleurs. Les travaux ralentissent, le projet est arrêté en 1692 puis définitivement abandonné en 1694. Les arches que l’on voit aujourd’hui ne sont donc pas les ruines d’un aqueduc qui aurait longtemps fonctionné. Elles sont le monument d’un projet interrompu.",
+      "sequence": 4,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "C’est peut-être l’une des étapes les plus intelligentes de notre retour. À Chartres, nous nous demandions comment une société médiévale rassemble assez de forces pour bâtir une cathédrale. À Maintenon, l’État royal peut mobiliser des milliers d’hommes, des ingénieurs et des sommes énormes, mais il ne peut pas tout faire simultanément. La guerre, le coût, les niveaux du terrain et la disponibilité de la main-d’œuvre imposent encore leurs limites.",
+      "sequence": 5,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Alors, où en sommes-nous ? Nous avons vu un roi vouloir faire voyager l’eau vers Versailles. Gardez soigneusement cette idée. Dans quelques heures, à Marly, nous retrouverons une autre réponse au même problème : non plus détourner une rivière lointaine, mais faire grimper l’eau de la Seine à l’aide d’une gigantesque machine. Avant cela, la route va changer de nature. Nous quittons les grands horizons et entrons dans les forêts où le pouvoir royal se met aussi en scène par la chasse.",
+      "sequence": 6,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

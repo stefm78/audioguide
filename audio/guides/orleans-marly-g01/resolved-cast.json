@@ -1,0 +1,55 @@
+{
+  "guide": {
+    "id": "orleans-marly-g01",
+    "title": "Gourmand — « Bâtard d’Orléans » : insulte ou identité politique ?",
+    "location": "Orléans → Marly-le-Roi, France",
+    "historical_note": null,
+    "sources": [
+      "https://www.chateau-chateaudun.fr/decouvrir/qui-etait-jean-de-dunois"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "Le surnom Bâtard d’Orléans surprend parce que nous l’entendons avec nos oreilles modernes. Au quinzième siècle, il désigne d’abord une réalité juridique et généalogique : Jean est né hors mariage de Louis d’Orléans. Cela peut affecter certains droits de succession, mais cela ne l’expulse pas automatiquement de la famille ni des réseaux de pouvoir.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "Dunois est élevé parmi les Orléans, reçoit une éducation de son rang, devient chevalier très jeune et construit une carrière militaire puis diplomatique exceptionnelle. Son ascendance reste même une ressource politique : il est proche du sang royal et sert son cousin Charles VII.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Le cas de Dunois est donc un bon vaccin contre l’anachronisme. Un mot existe dans deux époques, mais il ne porte pas forcément la même charge sociale. Lorsque vous entendez Bâtard d’Orléans, traduisez mentalement : fils naturel d’un prince, statut irrégulier mais appartenance dynastique parfaitement visible.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

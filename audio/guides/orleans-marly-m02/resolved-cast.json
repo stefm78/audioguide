@@ -1,0 +1,119 @@
+{
+  "guide": {
+    "id": "orleans-marly-m02",
+    "title": "Mise en situation — Une charrette de pierre arrive à Chartres",
+    "location": "Orléans → Marly-le-Roi, France",
+    "historical_note": null,
+    "sources": [
+      "https://www.cathedrale-chartres.org/cathedrale/monument/lhistoire/les-grandes-dates/",
+      "https://www.cathedrale-chartres.org/cathedrale/monument/larchitecture/la-cathedrale-du-xiiie-siecle/"
+    ]
+  },
+  "segments": [
+    {
+      "scene": "Statut",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Ce qui suit est une reconstitution. Le chantier et sa chronologie sont documentés ; le charretier, le tailleur de pierre et leurs paroles sont composites. Rien n’est présenté comme une citation. Imaginons Chartres vers 1205.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Arrivée",
+      "character_id": "marin",
+      "speaker": "Le charretier",
+      "preset": "marin-bourru",
+      "pause_after_ms": 240,
+      "text": "Doucement ! Si l’essieu casse ici, je vous laisse tirer les blocs à la main jusqu’au chantier.",
+      "sequence": 2,
+      "resolved_preset": "marin-bourru",
+      "voice": "fr-FR-HenriNeural",
+      "rate": "+4%",
+      "pitch": "-14Hz",
+      "volume": "+8%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Arrivée",
+      "character_id": "ouvrier",
+      "speaker": "Le tailleur",
+      "preset": "soldat-jovial",
+      "pause_after_ms": 220,
+      "text": "Pose-les près du lot marqué. Pas sous l’échafaudage. Ceux-là doivent être repris avant de monter.",
+      "sequence": 3,
+      "resolved_preset": "soldat-jovial",
+      "voice": "fr-FR-HenriNeural",
+      "rate": "+11%",
+      "pitch": "-4Hz",
+      "volume": "+9%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Arrivée",
+      "character_id": "marin",
+      "speaker": "Le charretier",
+      "preset": "marin-bourru",
+      "pause_after_ms": 220,
+      "text": "Je livre de la pierre depuis trois jours et chaque homme me donne un autre endroit.",
+      "sequence": 4,
+      "resolved_preset": "marin-bourru",
+      "voice": "fr-FR-HenriNeural",
+      "rate": "+4%",
+      "pitch": "-14Hz",
+      "volume": "+8%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Arrivée",
+      "character_id": "ouvrier",
+      "speaker": "Le tailleur",
+      "preset": "soldat-jovial",
+      "pause_after_ms": 280,
+      "text": "Parce que le mur monte. Ce qui était près de la grue lundi gêne le passage vendredi. Si tu veux que la cathédrale reste au sol, alors oui, garde toujours la même place.",
+      "sequence": 5,
+      "resolved_preset": "soldat-jovial",
+      "voice": "fr-FR-HenriNeural",
+      "rate": "+11%",
+      "pitch": "-4Hz",
+      "volume": "+9%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Le chantier",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "Autour d’eux, on entendrait du fer, des marteaux, des roues, des ordres courts et des animaux. Les pierres ne sautent pas de la carrière au sommet d’une voûte. Elles traversent une succession de gestes : extraire, transporter, tracer, dégrossir, tailler, hisser, ajuster. Le chantier est une ville provisoire attachée à la ville existante.",
+      "sequence": 6,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Retour aux faits",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Retour aux faits. Nous savons que la cathédrale est reconstruite avec une rapidité exceptionnelle après 1194 et que de vastes ressources y sont consacrées. Nous ne connaissons évidemment pas cette charrette ni ces ouvriers précis. Leur scène sert à rappeler une vérité robuste : le gothique n’est pas une formule magique ; c’est de la géométrie, des matériaux, de l’argent, des métiers et surtout une organisation capable de durer.",
+      "sequence": 7,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

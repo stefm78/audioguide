@@ -1,0 +1,118 @@
+{
+  "guide": {
+    "id": "orleans-marly-m04",
+    "title": "Mise en situation — Avant la chasse dans la forêt",
+    "location": "Orléans → Marly-le-Roi, France",
+    "historical_note": null,
+    "sources": [
+      "https://www.chateau-rambouillet.fr/decouvrir/un-domaine-au-caeur-de-la-foret"
+    ]
+  },
+  "segments": [
+    {
+      "scene": "Statut",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Ce qui suit est une reconstitution composite. Les chasses royales à Rambouillet, les équipages et la fonction sociale de l’invitation sont historiques ; les deux personnages n’ont pas existé sous ces noms et leurs paroles sont inventées.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Carrefour",
+      "character_id": "officier",
+      "speaker": "Le piqueur",
+      "preset": "officier-autorite",
+      "pause_after_ms": 220,
+      "text": "Votre cheval reste derrière le relais jusqu’au signal. Si vous partez trop tôt, vous gênerez les chiens et vous perdrez tout le monde au premier carrefour.",
+      "sequence": 2,
+      "resolved_preset": "officier-autorite",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-10%",
+      "pitch": "-24Hz",
+      "volume": "+3%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Carrefour",
+      "character_id": "notable",
+      "speaker": "L’invité",
+      "preset": "notable-hautain",
+      "pause_after_ms": 220,
+      "text": "Je pensais qu’il suffisait de suivre le roi.",
+      "sequence": 3,
+      "resolved_preset": "notable-hautain",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-2%",
+      "pitch": "-6Hz",
+      "volume": "+4%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Carrefour",
+      "character_id": "officier",
+      "speaker": "Le piqueur",
+      "preset": "officier-autorite",
+      "pause_after_ms": 240,
+      "text": "Tout le monde pense cela. C’est pour cette raison que nous passons la matinée à empêcher tout le monde de faire exactement la même chose.",
+      "sequence": 4,
+      "resolved_preset": "officier-autorite",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-10%",
+      "pitch": "-24Hz",
+      "volume": "+3%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Carrefour",
+      "character_id": "notable",
+      "speaker": "L’invité",
+      "preset": "notable-hautain",
+      "pause_after_ms": 260,
+      "text": "Et si je me retrouve loin de Sa Majesté ?",
+      "sequence": 5,
+      "resolved_preset": "notable-hautain",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-2%",
+      "pitch": "-6Hz",
+      "volume": "+4%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Carrefour",
+      "character_id": "officier",
+      "speaker": "Le piqueur",
+      "preset": "officier-autorite",
+      "pause_after_ms": 420,
+      "text": "Alors vous aurez chassé. Pour être vu, monsieur, il fallait surtout être bien placé avant de partir.",
+      "sequence": 6,
+      "resolved_preset": "officier-autorite",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-10%",
+      "pitch": "-24Hz",
+      "volume": "+3%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Retour aux faits",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Retour aux faits. Nous ne connaissons pas cet échange. En revanche, nous savons que Rambouillet accueille pendant des siècles des chasses de haut rang et que ces journées exigent une organisation considérable. La scène amplifie une idée historiquement solide : dans une cour, la proximité n’est jamais un simple hasard géographique. Elle est organisée, convoitée et signifiante.",
+      "sequence": 7,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

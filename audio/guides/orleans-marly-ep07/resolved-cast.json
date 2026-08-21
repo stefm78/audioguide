@@ -1,0 +1,112 @@
+{
+  "guide": {
+    "id": "orleans-marly-ep07",
+    "title": "Marly : le roi s’éloigne de Versailles sans quitter le pouvoir",
+    "location": "Marly-le-Roi, France",
+    "historical_note": "Marly est une résidence voulue plus intime et sélective que Versailles. La Machine de Marly pompe l’eau de la Seine pour alimenter les jardins de Marly puis contribuer à ceux de Versailles. Le château historique a disparu.",
+    "sources": [
+      "https://musee-domaine-marly.fr/le-parcours/",
+      "https://musee-domaine-marly.fr/"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Nous arrivons à Marly. Et il faut commencer par une absence : le grand pavillon de Louis XIV n’est plus là. Les bâtiments qui faisaient de Marly une résidence royale ont disparu. Cela pourrait sembler une mauvaise manière de terminer un voyage rempli de châteaux. C’est au contraire une excellente conclusion, parce que nous sommes désormais capables de regarder un paysage et d’y replacer ce qui n’existe plus.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Pourquoi Marly ? Versailles est le grand théâtre de la monarchie. Il accueille la cour, les cérémonies, les visiteurs, les administrations, les sollicitations. Louis XIV veut aussi un endroit plus réduit, où il choisit davantage ceux qui l’entourent. Marly devient cette résidence singulière : un pavillon pour le roi, douze pavillons disposés autour, des jardins et des eaux. On y vient sur invitation. Et c’est ici que l’intimité devient elle-même une forme de pouvoir.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Imaginez ce que signifie être admis. À Versailles, voir le roi fait partie d’un système de cour extraordinairement codifié. À Marly, être choisi pour accompagner le souverain dans un séjour plus restreint peut signaler une faveur. L’espace est plus petit, mais l’enjeu social n’est pas forcément moindre. Le roi ne cesse pas de régner lorsqu’il se distrait. Il continue de distribuer de la proximité, et la proximité d’un souverain est une ressource politique.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Et voici le fil que nous avions laissé ouvert à Maintenon : l’eau. Pour faire vivre les jeux d’eau de Marly et contribuer à ceux de Versailles, on construit sur la Seine une machine gigantesque. Des roues actionnent un ensemble de pompes et de mécanismes destinés à faire monter l’eau sur le coteau avant de l’envoyer vers des réservoirs. Ce que Maintenon nous montrait sous la forme d’un canal inachevé réapparaît ici comme une extraordinaire installation mécanique.",
+      "sequence": 4,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "La boucle de notre matinée est maintenant complète. À Chartres, des générations de métiers savent lever une cathédrale de pierre. À Maintenon, l’État royal veut détourner l’Eure. À Rambouillet, la forêt devient un espace organisé de sociabilité et de chasse. À Dampierre, l’aristocratie parle le langage architectural de la cour. À Marly, eau, architecture, paysage, technique et invitation sont réunis dans un seul dispositif au service du roi.",
+      "sequence": 5,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Et si nous reculons encore davantage, jusqu’au début de notre voyage, le fil devient plus beau. Nous avons vu des forteresses parce qu’il fallait défendre un territoire ; des châteaux de la Renaissance parce que le pouvoir voulait désormais séduire et recevoir ; Orléans parce qu’en 1429 la monarchie devait survivre ; Châteaudun parce que ses capitaines deviennent bâtisseurs ; puis, peu à peu, un État et une cour capables de modifier l’eau, les forêts, les routes et la manière même d’approcher le souverain.",
+      "sequence": 6,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 750,
+      "text": "Alors, où en sommes-nous ? Nous sommes rentrés. Mais notre trajet n’a pas seulement relié Orléans à Marly. Il a relié deux images du pouvoir. À Orléans, en 1429, un roi doit encore reconquérir sa légitimité. À Marly, deux siècles et demi plus tard, son descendant peut choisir qui aura le privilège de s’approcher de lui dans une résidence construite pour ses plaisirs et alimentée par une machine capable de faire monter la Seine. Entre les deux, la France n’est pas simplement devenue plus riche ou plus belle. Elle a changé d’échelle dans sa manière d’organiser le pouvoir. Voilà la dernière image du voyage.",
+      "sequence": 7,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

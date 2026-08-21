@@ -1,0 +1,99 @@
+{
+  "guide": {
+    "id": "orleans-marly-ep03",
+    "title": "Chartres : qui pouvait bâtir une montagne avant l’État moderne ?",
+    "location": "16 Cloître Notre-Dame, 28000 Chartres, France",
+    "historical_note": "La cathédrale actuelle est principalement construite entre 1194 et environ 1230, en réutilisant notamment la façade occidentale et la flèche sud antérieures à l’incendie.",
+    "sources": [
+      "https://www.cathedrale-chartres.org/cathedrale/monument/lhistoire/les-grandes-dates/",
+      "https://www.cathedrale-chartres.org/cathedrale/monument/lhistoire/les-grandes-lignes/",
+      "https://www.cathedrale-chartres.org/cathedrale/monument/larchitecture/la-cathedrale-du-xiiie-siecle/"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Si vous êtes passager, regardez loin devant vous. Dans la Beauce, une ville peut d’abord apparaître comme deux traits verticaux. C’est l’un des grands effets de Chartres : avant de voir des rues, on voit une silhouette. Et pour comprendre ce que cela pouvait signifier au Moyen Âge, il faut enlever mentalement les silos, les pylônes, les zones commerciales et tout ce qui concurrence aujourd’hui l’horizon. Pendant des kilomètres, la cathédrale devait signaler la ville comme une montagne fabriquée par des hommes.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Nous faisons ici volontairement un bond en arrière. Dunois appartient au quinzième siècle. La grande reconstruction gothique de Chartres commence après l’incendie du 10 juin 1194 et l’essentiel du nouvel édifice monte jusque vers 1230. Pourquoi revenir deux cents ans avant Jeanne ? Parce que cette cathédrale corrige une idée fausse : le Moyen Âge n’attend pas l’État moderne pour savoir organiser des projets gigantesques.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Un chantier comme celui-ci rassemble des revenus ecclésiastiques, des donations, des carrières, des charretiers, des tailleurs de pierre, des charpentiers, des verriers, des forgerons, des maîtres d’œuvre et une logistique qui doit durer année après année. Les sources de la cathédrale rappellent que l’évêque et les chanoines engagent des revenus importants et que des seigneurs donnent à leur tour. Il n’existe pas un ministère des grands travaux : il existe un tissu d’institutions, de croyances, de patrimoines et de métiers capables de converger vers un même édifice.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Si vous entrez quelques minutes, ne cherchez pas à tout comprendre. Faites plutôt une expérience physique. Levez les yeux. Les murs semblent minces parce qu’une partie de l’effort est reportée vers l’extérieur par les arcs-boutants. La lumière traverse des milliers de morceaux de verre coloré. Une cathédrale gothique n’est pas seulement haute parce qu’on aime la hauteur. Sa structure permet d’ouvrir les murs et de transformer la pierre en cadre pour la lumière.",
+      "sequence": 4,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Et regardez les deux flèches : elles ne sont pas jumelles. La flèche sud appartient pour l’essentiel au douzième siècle ; la flèche nord reçoit sa haute terminaison flamboyante au début du seizième. Le bâtiment que nous appelons d’un seul nom est donc, lui aussi, un empilement de temps. Cela rejoint ce que les châteaux de la Loire nous ont appris : un grand monument n’est presque jamais la photographie figée d’une seule époque.",
+      "sequence": 5,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Alors, où en sommes-nous ? Châteaudun montrait un prince qui transforme sa forteresse. Chartres montre une société entière capable de concentrer des ressources sur un projet dépassant une vie humaine. En repartant vers Maintenon, nous allons faire un saut de près de cinq siècles. Cette fois, la concentration des moyens va prendre une autre forme : un roi va envisager de détourner une rivière pour que ses fontaines fonctionnent.",
+      "sequence": 6,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

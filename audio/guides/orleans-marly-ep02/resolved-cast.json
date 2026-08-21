@@ -1,0 +1,99 @@
+{
+  "guide": {
+    "id": "orleans-marly-ep02",
+    "title": "Châteaudun : que devient le monde de Jeanne après la victoire ?",
+    "location": "Place Jehan de Dunois, 28200 Châteaudun, France",
+    "historical_note": "Jean de Dunois est bien capitaine d’Orléans et compagnon d’armes de Jeanne. Le château associe un donjon du XIIe siècle, des constructions de Dunois au XVe et l’aile Longueville du XVIe siècle.",
+    "sources": [
+      "https://www.chateau-chateaudun.fr/decouvrir/qui-etait-jean-de-dunois",
+      "https://www.chateau-chateaudun.fr/decouvrir/un-parcours-de-visite-tactile-et-accessible/un-chateau-perche-sur-le-loir-station-n-1",
+      "https://www.chateau-chateaudun.fr/agenda/visite-du-chateau"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Voici Châteaudun. Si vous êtes passager, cherchez le relief avant même de chercher le château. La ville s’approche d’une vallée et, soudain, le terrain tombe vers le Loir. Le château occupe un éperon rocheux et domine la rivière de plus de quarante mètres. C’est un emplacement de forteresse : voir, tenir la hauteur, contrôler un passage. Le gros donjon rond nous ramène au douzième siècle. Mais si nous nous arrêtions à cette image, nous manquerions le personnage qui nous conduit ici depuis Orléans.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Jean de Dunois naît probablement en 1403. Il est fils naturel de Louis d’Orléans, frère du roi Charles VI, d’où son surnom de Bâtard d’Orléans. Ne mettez pas immédiatement dans ce mot toute la violence de son sens moderne. Une naissance hors mariage limite certaines transmissions, mais elle n’efface ni le sang princier, ni les réseaux familiaux, ni une carrière possible. Dunois est élevé dans la famille de son père et devient très jeune un homme de guerre de premier plan.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "En 1428, lorsque les Anglais assiègent Orléans, Dunois est l’un des hommes qui tiennent réellement la situation militaire. Il coordonne notamment l’entrée de renforts dans la ville. Lorsque Jeanne arrive en avril 1429, elle n’entre donc pas dans un désert de commandement. Elle rejoint des capitaines expérimentés. Leur rencontre est l’un des rappels les plus utiles de tout notre voyage : l’histoire n’oppose pas une héroïne solitaire à une armée. Elle combine une figure exceptionnelle, des soldats, des chefs, des habitants, de la logistique et un moment politique très particulier.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Dunois poursuit ensuite sa carrière bien après la mort de Jeanne. Il participe à la reconquête du royaume, devient comte de Dunois et entreprend ici de grands travaux. Observez mentalement la différence entre le vieux donjon et l’aile qu’il fait édifier au quinzième siècle. La guerre n’a pas disparu, mais une demeure princière n’a pas le même message qu’une grosse tour défensive. Elle doit loger, recevoir, prier, administrer et montrer le rang de celui qui l’habite.",
+      "sequence": 4,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Ses descendants poursuivront encore cette transformation avec l’aile Longueville au siècle suivant. Voilà pourquoi Châteaudun résume à lui seul une évolution que nous avons observée tout au long de la Loire : la forteresse ne disparaît pas d’un coup pour devenir château de conte de fées. Les fonctions se superposent. Un mur peut être une défense hier, un signe d’ancienneté demain et un décor prestigieux après-demain.",
+      "sequence": 5,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Alors, où en sommes-nous ? Orléans nous avait montré le royaume en danger. Châteaudun nous montre l’un de ceux qui ont contribué à le sauver, devenu seigneur bâtisseur. Nous allons maintenant faire quelque chose d’étrange : remonter plus de deux siècles en arrière en allant à Chartres. Ce recul n’est pas une erreur. Il va poser une question essentielle : avant qu’un roi puisse mobiliser un État puissant, qui était capable de construire quelque chose d’aussi énorme qu’une cathédrale ?",
+      "sequence": 6,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

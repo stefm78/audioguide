@@ -1,0 +1,97 @@
+{
+  "guide": {
+    "id": "orleans-marly-ep06",
+    "title": "Dampierre : vivre dans l’orbite de Versailles",
+    "location": "2 Grande Rue, 78720 Dampierre-en-Yvelines, France",
+    "historical_note": "Le château est reconstruit de 1675 à 1688 pour le duc de Chevreuse, lié à la famille de Colbert, avec Jules Hardouin-Mansart, Premier architecte du roi.",
+    "sources": [
+      "https://www.destination-yvelines.fr/chateaux/chateau-de-dampierre/"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Nous voici à Dampierre. Le piège serait de penser : encore un château. Nous en avons vu assez pendant ce voyage pour ne plus collectionner les façades. Cherchons plutôt ce qui change. Au dix-septième siècle, Dampierre appartient à la grande famille de Luynes. Par mariage, le maître des lieux est aussi lié à Colbert, l’un des hommes les plus importants du gouvernement de Louis XIV. Et pour reconstruire le château, il fait appel à Jules Hardouin-Mansart, qui devient le grand architecte du roi.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Les travaux s’étendent de 1675 à 1688, exactement au moment où Versailles devient le centre de gravité de la cour. Il ne faut pas appeler Dampierre un petit Versailles : ce serait trop facile et historiquement paresseux. Mais on peut reconnaître un même monde de références. Symétrie, ordre, hiérarchie des volumes, pierre et brique, cour d’honneur, jardins : une grande demeure aristocratique doit parler un langage compréhensible par ceux qui fréquentent la cour.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Ce que le voyage nous permet de voir maintenant est assez remarquable. À Châteaudun, Dunois conserve la masse d’un donjon médiéval tout en construisant une résidence. À Dampierre, deux siècles plus tard, la question défensive n’organise plus la composition. La puissance d’un grand aristocrate se montre autrement : régularité, accès, mise en scène de l’arrivée, qualité des appartements, jardins, proximité culturelle avec la cour. Le château est devenu un instrument social.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "En quittant Dampierre, la route va bientôt enchaîner les virages des fameux 17 Tournants. Ne leur demandons pas une légende qu’ils n’ont pas. Ce ne sont pas un col alpin ni un lieu fondateur de l’histoire de France. Ils sont simplement une excellente ponctuation physique : après la Beauce horizontale et les longues perspectives, la route se replie sur elle-même. Le voyage nous fait sentir par le volant que nous sommes entrés dans un autre relief.",
+      "sequence": 4,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Et surtout, nous approchons maintenant de Versailles sans y aller. C’est volontaire. Nous avons déjà parlé de Versailles à Maintenon par son manque d’eau, à Rambouillet par la sociabilité de cour et ici par Hardouin-Mansart. Ajouter le palais sur notre route ferait de Versailles une réponse alors qu’il doit rester la grande présence invisible de notre dernier épisode. Car Marly n’a de sens que si l’on comprend ce dont Louis XIV cherche à s’éloigner.",
+      "sequence": 5,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Alors, où en sommes-nous ? Nous avons parcouru les formes successives de la puissance : tenir une forteresse, bâtir une cathédrale, détourner une rivière, aménager une forêt, construire une demeure de cour. Il nous reste une dernière question. Que fait l’homme le plus puissant du royaume lorsqu’il trouve Versailles lui-même trop grand, trop public, trop encombré de monde ? Il invente Marly.",
+      "sequence": 6,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "guide": {
+    "id": "orleans-marly-m03",
+    "title": "Mise en situation — Sur le chantier de l’aqueduc",
+    "location": "Orléans → Marly-le-Roi, France",
+    "historical_note": null,
+    "sources": [
+      "https://www.chateaudemaintenon.fr/son-aqueduc-_r_28.html"
+    ]
+  },
+  "segments": [
+    {
+      "scene": "Statut",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Ce qui suit est une reconstitution. Le chantier, l’emploi de milliers d’hommes, les problèmes de niveau et le retrait de troupes en 1688 sont documentés. Les personnages et leurs paroles sont composites. Vauban, Louvois et Louis XIV ne reçoivent ici aucun faux dialogue.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Le niveau",
+      "character_id": "erudit",
+      "speaker": "Le conducteur de travaux",
+      "preset": "erudit-solennel",
+      "pause_after_ms": 240,
+      "text": "Reprenez la mesure. Si nous perdons la pente ici, l’eau ne se souviendra pas que le chantier appartient au roi. Elle ira seulement là où la gravité la mène.",
+      "sequence": 2,
+      "resolved_preset": "erudit-solennel",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-5%",
+      "pitch": "-12Hz",
+      "volume": "+1%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Le niveau",
+      "character_id": "soldat",
+      "speaker": "Le soldat-ouvrier",
+      "preset": "soldat-jovial",
+      "pause_after_ms": 220,
+      "text": "On m’avait appris à tenir un mousquet, pas à pousser de la terre dans une brouette.",
+      "sequence": 3,
+      "resolved_preset": "soldat-jovial",
+      "voice": "fr-FR-HenriNeural",
+      "rate": "+11%",
+      "pitch": "-4Hz",
+      "volume": "+9%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Le niveau",
+      "character_id": "erudit",
+      "speaker": "Le conducteur de travaux",
+      "preset": "erudit-solennel",
+      "pause_after_ms": 220,
+      "text": "Aujourd’hui, votre ennemi est une vallée. Et je vous assure qu’elle se défend très bien.",
+      "sequence": 4,
+      "resolved_preset": "erudit-solennel",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-5%",
+      "pitch": "-12Hz",
+      "volume": "+1%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "La rumeur",
+      "character_id": "soldat",
+      "speaker": "Le soldat-ouvrier",
+      "preset": "soldat-jovial",
+      "pause_after_ms": 280,
+      "text": "On dit que des régiments vont repartir. Il y a de nouveau la guerre.",
+      "sequence": 5,
+      "resolved_preset": "soldat-jovial",
+      "voice": "fr-FR-HenriNeural",
+      "rate": "+11%",
+      "pitch": "-4Hz",
+      "volume": "+9%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "La rumeur",
+      "character_id": "erudit",
+      "speaker": "Le conducteur de travaux",
+      "preset": "erudit-solennel",
+      "pause_after_ms": 420,
+      "text": "Alors les arches attendront. Une armée peut quitter un chantier en une semaine. Une rivière, elle, ne changera pas d’altitude pour nous faire plaisir.",
+      "sequence": 6,
+      "resolved_preset": "erudit-solennel",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-5%",
+      "pitch": "-12Hz",
+      "volume": "+1%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Retour aux faits",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Retour aux faits. La guerre de la Ligue d’Augsbourg mobilise en 1688 des troupes affectées au chantier. Les travaux se poursuivent encore, mais le projet est arrêté en 1692 et abandonné en 1694. Nous avons inventé les deux hommes et leurs mots ; nous n’avons pas inventé le problème central : même un chantier royal dépend d’une pente exacte, d’une main-d’œuvre disponible et d’une situation politique stable.",
+      "sequence": 7,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

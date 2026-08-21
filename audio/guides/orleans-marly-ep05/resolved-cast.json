@@ -1,0 +1,99 @@
+{
+  "guide": {
+    "id": "orleans-marly-ep05",
+    "title": "Rambouillet et les Vaux : le paysage peut-il devenir politique ?",
+    "location": "Rambouillet → Cernay-la-Ville, Yvelines, France",
+    "historical_note": "Rambouillet est durablement lié aux chasses des princes, rois, empereurs puis présidents. Les Vaux-de-Cernay deviennent au XIXe siècle un foyer majeur de peinture de paysage.",
+    "sources": [
+      "https://www.chateau-rambouillet.fr/decouvrir/un-domaine-au-caeur-de-la-foret",
+      "https://www.parc-naturel-chevreuse.fr/voir-faire/visites-accompagnees/guides-de-parc/offre-groupes/nos-paysages-vieilles-pierres-et",
+      "https://www.parc-naturel-chevreuse.fr/nature-et-peinture-de-paysage-la-colonie-des-peintres-de-cernay-au-19e"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Le paysage vient de changer. Après les horizons agricoles et les grands monuments qui dominent de loin, la route entre sous les arbres. Et ce serait une erreur de considérer cette forêt comme le temps mort entre Maintenon et Dampierre. Pendant des siècles, une grande forêt giboyeuse proche de Paris est une ressource, un territoire de chasse et un espace de pouvoir. François Ier fréquente Rambouillet ; le comte de Toulouse, fils légitimé de Louis XIV, en fait un domaine majeur ; Louis XVI l’achète ensuite. Les régimes changent, mais l’usage politique de la forêt persiste jusque dans les chasses présidentielles.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Pourquoi la chasse nous intéresse-t-elle ? Parce qu’elle n’est pas seulement le fait de poursuivre un animal. Une grande chasse exige chevaux, chiens, personnels, connaissances du terrain, entretien des allées et organisation des invités. Elle transforme le paysage en infrastructure sociale. Être convié, être placé près du souverain, partager le repas ou la curée : tout cela produit de la hiérarchie. Le pouvoir n’habite donc pas uniquement la salle du trône. Il se déplace dans les bois avec les corps, les chevaux et les invitations.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Si vous êtes passager, observez aussi la géométrie des routes forestières lorsque le dessin du terrain le permet. Les allées rectilignes et certains carrefours en étoile rendent la forêt lisible et circulable. Là encore, le paysage n’est pas seulement naturel. Il est aménagé pour des usages humains : exploiter, surveiller, circuler, chasser. Ce que nous avons vu avec l’eau à Maintenon réapparaît ici sous une forme plus douce : le pouvoir aime rendre l’espace praticable à ses propres usages.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Puis les Vaux-de-Cernay vont offrir un contraste presque théâtral. Le relief se resserre, le grès affleure, les bois semblent plus sauvages, l’eau et les anciens moulins donnent au fond de vallée une texture différente. Au dix-neuvième siècle, ce caractère pittoresque attire une colonie de peintres paysagistes ; Cernay rivalise alors en réputation avec Barbizon. C’est intéressant parce que la même nature peut être lue successivement comme ressource de chasse, décor romantique, motif artistique puis patrimoine protégé.",
+      "sequence": 4,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Cette portion de route est aussi l’endroit idéal pour le sandwich si vous êtes passager. L’audioguide n’a rien à vous faire cocher. Il accompagne simplement le changement de décor. Le conducteur, lui, garde évidemment toute son attention à la route ; si manger devient une distraction, la pause de sécurité prime sur notre programme.",
+      "sequence": 5,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Alors, où en sommes-nous ? À Maintenon, le pouvoir voulait déplacer l’eau. À Rambouillet, il organise aussi les bois, les déplacements et les invitations. Nous allons maintenant retrouver un château, Dampierre. Mais nous ne le regarderons pas comme un monument de plus. Il va nous montrer comment une grande famille aristocratique adopte, presque au même moment que Versailles, le langage architectural de la cour.",
+      "sequence": 6,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

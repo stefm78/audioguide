@@ -1,0 +1,56 @@
+{
+  "guide": {
+    "id": "orleans-marly-g05",
+    "title": "Gourmand — Cernay : pourquoi des peintres viennent-ils chercher du sauvage aux portes de Paris ?",
+    "location": "Orléans → Marly-le-Roi, France",
+    "historical_note": null,
+    "sources": [
+      "https://www.parc-naturel-chevreuse.fr/voir-faire/visites-accompagnees/guides-de-parc/offre-groupes/nos-paysages-vieilles-pierres-et",
+      "https://www.parc-naturel-chevreuse.fr/nature-et-peinture-de-paysage-la-colonie-des-peintres-de-cernay-au-19e"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "Au dix-neuvième siècle, les Vaux-de-Cernay acquièrent une réputation artistique remarquable. Le paysage offre exactement ce que recherchent des peintres de plein air : eau, bois, chaos de grès, vieux moulins, effets de lumière et relief beaucoup plus pittoresque que les plateaux voisins.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "Le chemin de fer rapproche aussi ces paysages de Paris. Les artistes peuvent venir travailler sur le motif avec un matériel devenu plus mobile, notamment grâce à l’évolution des couleurs préparées et du chevalet. Cernay développe des auberges et une véritable sociabilité d’artistes.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Le Parc naturel régional rappelle qu’à la fin du siècle l’école de Cernay peut rivaliser en notoriété avec Barbizon. Cette histoire nous donne une autre manière de regarder la route : un paysage n’existe jamais seulement par sa géologie. Il existe aussi par les regards successifs qui décident qu’il est utile, royal, sauvage, beau ou digne d’être protégé.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

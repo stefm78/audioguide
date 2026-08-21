@@ -1,0 +1,133 @@
+{
+  "guide": {
+    "id": "orleans-marly-m06",
+    "title": "Mise en situation — Être invité à Marly",
+    "location": "Orléans → Marly-le-Roi, France",
+    "historical_note": null,
+    "sources": [
+      "https://musee-domaine-marly.fr/le-parcours/"
+    ]
+  },
+  "segments": [
+    {
+      "scene": "Statut",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Dernière reconstitution du voyage. La sélection des invités à Marly, le caractère plus restreint de la résidence et son rôle politique sont documentés. Les deux courtisans sont composites et leurs paroles sont inventées. Louis XIV ne parlera pas dans cette scène.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Versailles",
+      "character_id": "courtisan1",
+      "speaker": "Le courtisan",
+      "preset": "notable-hautain",
+      "pause_after_ms": 220,
+      "text": "Vous partez demain ?",
+      "sequence": 2,
+      "resolved_preset": "notable-hautain",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-2%",
+      "pitch": "-6Hz",
+      "volume": "+4%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Versailles",
+      "character_id": "courtisan2",
+      "speaker": "L’autre courtisan",
+      "preset": "conspirateur",
+      "pause_after_ms": 220,
+      "text": "Si l’on m’avait choisi, je ne serais pas encore ici à vous répondre.",
+      "sequence": 3,
+      "resolved_preset": "conspirateur",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-8%",
+      "pitch": "-12Hz",
+      "volume": "-12%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Versailles",
+      "character_id": "courtisan1",
+      "speaker": "Le courtisan",
+      "preset": "notable-hautain",
+      "pause_after_ms": 240,
+      "text": "Ce n’est qu’un séjour à la campagne.",
+      "sequence": 4,
+      "resolved_preset": "notable-hautain",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-2%",
+      "pitch": "-6Hz",
+      "volume": "+4%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Versailles",
+      "character_id": "courtisan2",
+      "speaker": "L’autre courtisan",
+      "preset": "conspirateur",
+      "pause_after_ms": 280,
+      "text": "Alors pourquoi chacun demande-t-il depuis huit jours qui sera du voyage ? À Versailles nous sommes des centaines à pouvoir espérer un regard. À Marly, il y aura moins de monde pour le partager.",
+      "sequence": 5,
+      "resolved_preset": "conspirateur",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-8%",
+      "pitch": "-12Hz",
+      "volume": "-12%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Versailles",
+      "character_id": "courtisan1",
+      "speaker": "Le courtisan",
+      "preset": "notable-hautain",
+      "pause_after_ms": 260,
+      "text": "Et que comptez-vous faire si vous n’êtes pas nommé ?",
+      "sequence": 6,
+      "resolved_preset": "notable-hautain",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-2%",
+      "pitch": "-6Hz",
+      "volume": "+4%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Versailles",
+      "character_id": "courtisan2",
+      "speaker": "L’autre courtisan",
+      "preset": "conspirateur",
+      "pause_after_ms": 420,
+      "text": "Ce que fait toute la cour : prétendre que cela m’est égal et chercher qui peut encore prononcer mon nom au bon moment.",
+      "sequence": 7,
+      "resolved_preset": "conspirateur",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-8%",
+      "pitch": "-12Hz",
+      "volume": "-12%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Retour aux faits",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 750,
+      "text": "Retour aux faits. Ces deux hommes n’ont jamais existé. Mais le mécanisme qu’ils rendent visible est au cœur de Marly : le roi choisit un cercle plus réduit d’invités et transforme ainsi l’accès à son loisir en faveur recherchée. Voilà notre dernière mise en situation. Nous avons commencé le voyage avec des forteresses qui contrôlaient un territoire ; nous le terminons avec un souverain qui peut contrôler jusqu’à la rareté de sa propre présence.",
+      "sequence": 8,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

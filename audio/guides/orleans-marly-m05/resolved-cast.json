@@ -1,0 +1,118 @@
+{
+  "guide": {
+    "id": "orleans-marly-m05",
+    "title": "Mise en situation — Arriver chez un grand seigneur à Dampierre",
+    "location": "Orléans → Marly-le-Roi, France",
+    "historical_note": null,
+    "sources": [
+      "https://www.destination-yvelines.fr/chateaux/chateau-de-dampierre/"
+    ]
+  },
+  "segments": [
+    {
+      "scene": "Statut",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Ce qui suit est une reconstitution. La reconstruction de Dampierre par Hardouin-Mansart et son appartenance à une grande famille de cour sont documentées. La visiteuse, le domestique et leurs paroles sont composites.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Cour",
+      "character_id": "aristocrate",
+      "speaker": "La visiteuse",
+      "preset": "aristocrate-distante",
+      "pause_after_ms": 220,
+      "text": "Nous sommes attendus. Pourquoi la voiture s’arrête-t-elle ici ?",
+      "sequence": 2,
+      "resolved_preset": "aristocrate-distante",
+      "voice": "fr-FR-VivienneMultilingualNeural",
+      "rate": "-8%",
+      "pitch": "+8Hz",
+      "volume": "-2%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Cour",
+      "character_id": "domestique",
+      "speaker": "Le domestique",
+      "preset": "notable-hautain",
+      "pause_after_ms": 220,
+      "text": "Parce que l’équipage doit dégager la cour. Vos gens suivront. On vous conduira dans la maison par l’entrée prévue pour les visiteurs.",
+      "sequence": 3,
+      "resolved_preset": "notable-hautain",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-2%",
+      "pitch": "-6Hz",
+      "volume": "+4%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Cour",
+      "character_id": "aristocrate",
+      "speaker": "La visiteuse",
+      "preset": "aristocrate-distante",
+      "pause_after_ms": 240,
+      "text": "Je pensais apercevoir le duc dès notre arrivée.",
+      "sequence": 4,
+      "resolved_preset": "aristocrate-distante",
+      "voice": "fr-FR-VivienneMultilingualNeural",
+      "rate": "-8%",
+      "pitch": "+8Hz",
+      "volume": "-2%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Cour",
+      "character_id": "domestique",
+      "speaker": "Le domestique",
+      "preset": "notable-hautain",
+      "pause_after_ms": 380,
+      "text": "Madame, une grande maison serait bien mal organisée si son maître devait accueillir personnellement chaque roue qui franchit la grille.",
+      "sequence": 5,
+      "resolved_preset": "notable-hautain",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "-2%",
+      "pitch": "-6Hz",
+      "volume": "+4%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Lecture",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "La scène est volontairement simple. Elle nous fait entendre ce que la façade ne dit pas toute seule : une demeure de cour est un système d’accès. La cour distribue les voitures, les domestiques filtrent, les pièces hiérarchisent les visiteurs. Plus on avance dans la maison, plus la proximité avec le maître devient signifiante.",
+      "sequence": 6,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Retour aux faits",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Retour aux faits. Nous n’avons pas de procès-verbal d’une telle arrivée à Dampierre. Nous avons utilisé des pratiques génériques de la grande maison d’Ancien Régime pour rendre audible une idée compatible avec le lieu. Le fait solide est ailleurs : entre 1675 et 1688, une famille située au cœur de la cour fait reconstruire Dampierre par l’architecte du roi. Le bâtiment est fait pour habiter ce monde social.",
+      "sequence": 7,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

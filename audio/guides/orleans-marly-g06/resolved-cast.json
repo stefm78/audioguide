@@ -1,0 +1,55 @@
+{
+  "guide": {
+    "id": "orleans-marly-g06",
+    "title": "Gourmand — Hardouin-Mansart : reconnaître un langage de cour",
+    "location": "Orléans → Marly-le-Roi, France",
+    "historical_note": null,
+    "sources": [
+      "https://www.destination-yvelines.fr/chateaux/chateau-de-dampierre/"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "Jules Hardouin-Mansart travaille pour le roi et pour les plus grands personnages du royaume. Cela ne signifie pas qu’il reproduit le même bâtiment partout. En revanche, il partage avec son époque un goût pour l’ordre lisible : axes, symétries, hiérarchie nette entre corps principal et ailes, articulation entre cour et jardin.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "À Dampierre, la brique et la pierre donnent une identité très différente du grand Versailles de pierre claire. Ce qui fait l’air de famille est moins la matière que la composition. Le visiteur comprend immédiatement où est le centre, comment on arrive et quelle partie du bâtiment domine les autres.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "C’est un langage social autant qu’esthétique. Une grande demeure doit accueillir une société qui connaît les codes de la cour. L’architecture prépare les parcours, distingue les espaces, met en valeur le maître des lieux. Elle transforme la hiérarchie sociale en géométrie.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

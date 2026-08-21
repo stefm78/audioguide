@@ -1,0 +1,9 @@
+Using bundled ffmpeg: /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2
+01 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
+02 Le messager -> messagere-adulte-denise (fr-FR-DeniseNeural, +11%, +4Hz)
+03 Le garde -> sentinelle-nerveuse (fr-FR-HenriNeural, +22%, +12Hz)
+04 Le messager -> messagere-adulte-denise (fr-FR-DeniseNeural, +11%, +4Hz)
+05 Le garde -> sentinelle-nerveuse (fr-FR-HenriNeural, +22%, +12Hz)
+06 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
+07 Narrateur -> narrateur-vif (fr-FR-RemyMultilingualNeural, +8%, +14Hz)
+Rendered audio/guides/orleans-marly-m01/guide.mp3

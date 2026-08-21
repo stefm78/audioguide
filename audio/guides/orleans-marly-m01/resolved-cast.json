@@ -1,0 +1,119 @@
+{
+  "guide": {
+    "id": "orleans-marly-m01",
+    "title": "Mise en situation — Un messager monte au château de Dunois",
+    "location": "Orléans → Marly-le-Roi, France",
+    "historical_note": null,
+    "sources": [
+      "https://www.chateau-chateaudun.fr/decouvrir/un-parcours-de-visite-tactile-et-accessible/un-chateau-perche-sur-le-loir-station-n-1",
+      "https://www.chateau-chateaudun.fr/decouvrir/qui-etait-jean-de-dunois"
+    ]
+  },
+  "segments": [
+    {
+      "scene": "Statut",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Ce qui suit est une reconstitution. Le décor, les gestes et les contraintes sont documentés ; les personnages et leurs paroles sont composites. Rien n’est présenté comme une citation. Nous sommes vers 1460, plusieurs décennies après la délivrance d’Orléans.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "La montée",
+      "character_id": "messager",
+      "speaker": "Le messager",
+      "preset": "messagere-adulte-denise",
+      "pause_after_ms": 260,
+      "text": "Encore cette côte… Au moins, on comprend pourquoi ils ont mis la grosse tour là-haut. Depuis la vallée, on la voit avant même de distinguer les maisons.",
+      "sequence": 2,
+      "resolved_preset": "messagere-adulte-denise",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+11%",
+      "pitch": "+4Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "La porte",
+      "character_id": "sentinelle",
+      "speaker": "Le garde",
+      "preset": "sentinelle-nerveuse",
+      "pause_after_ms": 220,
+      "text": "Votre nom, votre maître et la raison de votre venue.",
+      "sequence": 3,
+      "resolved_preset": "sentinelle-nerveuse",
+      "voice": "fr-FR-HenriNeural",
+      "rate": "+22%",
+      "pitch": "+12Hz",
+      "volume": "+8%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "La porte",
+      "character_id": "messager",
+      "speaker": "Le messager",
+      "preset": "messagere-adulte-denise",
+      "pause_after_ms": 220,
+      "text": "Je porte une lettre scellée. Elle doit entrer dans la maison de monseigneur de Dunois. Je ne demande pas à voir le seigneur lui-même.",
+      "sequence": 4,
+      "resolved_preset": "messagere-adulte-denise",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+11%",
+      "pitch": "+4Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "La porte",
+      "character_id": "sentinelle",
+      "speaker": "Le garde",
+      "preset": "sentinelle-nerveuse",
+      "pause_after_ms": 260,
+      "text": "C’est préférable. On ne franchit pas une porte parce qu’on a beaucoup galopé. Donnez la lettre. On vérifiera le sceau et quelqu’un vous dira où attendre.",
+      "sequence": 5,
+      "resolved_preset": "sentinelle-nerveuse",
+      "voice": "fr-FR-HenriNeural",
+      "rate": "+22%",
+      "pitch": "+12Hz",
+      "volume": "+8%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "La cour",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 550,
+      "text": "Notre messager composite entrerait dans un lieu qui n’est déjà plus seulement une machine de défense. Il verrait la vieille masse du donjon, mais aussi une chapelle et l’aile résidentielle construite pour Dunois. Des hommes y gardent des portes, d’autres administrent, cuisinent, entretiennent les chevaux, rédigent, reçoivent. Le château est un petit monde organisé autour de la maison du prince.",
+      "sequence": 6,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "scene": "Retour aux faits",
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Retour aux faits. Le château perché, le donjon du douzième siècle, la chapelle et l’aile de Dunois au quinzième sont documentés. Dunois est bien le bâtisseur de cette nouvelle résidence. Le messager, le garde et leurs paroles sont inventés ; ils servent seulement à faire entendre une réalité banale mais essentielle : dans une grande demeure, l’accès au puissant est déjà filtré. Gardez cette idée, car à Marly le contrôle de l’accès deviendra lui-même un instrument de cour.",
+      "sequence": 7,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

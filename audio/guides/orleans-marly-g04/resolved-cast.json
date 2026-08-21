@@ -1,0 +1,55 @@
+{
+  "guide": {
+    "id": "orleans-marly-g04",
+    "title": "Gourmand — Pourquoi la chasse est-elle une affaire de pouvoir ?",
+    "location": "Orléans → Marly-le-Roi, France",
+    "historical_note": null,
+    "sources": [
+      "https://www.chateau-rambouillet.fr/decouvrir/un-domaine-au-caeur-de-la-foret"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "La chasse de cour est coûteuse. Elle suppose un territoire, du gibier, des chiens, des chevaux, des personnels spécialisés, des relais et des chemins entretenus. Posséder ou contrôler ce dispositif manifeste donc déjà une capacité matérielle considérable.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "Mais son enjeu le plus subtil est social. On chasse avec des gens choisis. La proximité physique avec le prince, les conversations possibles, la place dans le cortège ou au repas transforment un loisir en espace de relation politique. Le souverain peut récompenser par l’attention autant que par un titre.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "C’est pourquoi la continuité de Rambouillet est fascinante : rois, empereurs puis présidents utilisent tour à tour la forêt pour des chasses où l’invitation garde une fonction relationnelle. Les régimes ne sont évidemment pas équivalents, mais le paysage continue de servir de scène à la sociabilité du pouvoir.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

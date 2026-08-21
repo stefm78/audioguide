@@ -1,0 +1,55 @@
+{
+  "guide": {
+    "id": "orleans-marly-g03",
+    "title": "Gourmand — Pourquoi Versailles avait-il toujours soif ?",
+    "location": "Orléans → Marly-le-Roi, France",
+    "historical_note": null,
+    "sources": [
+      "https://www.chateaudemaintenon.fr/son-aqueduc-_r_28.html"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "Le paradoxe de Versailles est simple : Louis XIV veut l’un des plus extraordinaires jardins d’eau d’Europe sur un site qui ne dispose pas naturellement d’un grand débit à la hauteur de cette ambition. Les fontaines ne peuvent pas toutes jouer en permanence comme dans notre imaginaire touristique.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 600,
+      "text": "On multiplie donc les solutions : réservoirs, pompes, étangs, réseaux de collecte et projets toujours plus éloignés. Le canal de l’Eure est l’une des réponses les plus spectaculaires. L’enjeu n’est pas l’eau potable de quelques appartements : c’est un programme politique et esthétique où l’eau doit sembler obéir au dessin du jardin.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Cette contrainte produit une belle leçon sur le pouvoir. Plus une monarchie veut donner l’impression que rien ne lui résiste, plus elle révèle parfois les résistances très concrètes qu’elle doit surmonter. Le terrain, la gravité et la distance deviennent presque des personnages de l’histoire de Versailles.",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}

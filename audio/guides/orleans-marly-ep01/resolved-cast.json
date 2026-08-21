@@ -1,0 +1,84 @@
+{
+  "guide": {
+    "id": "orleans-marly-ep01",
+    "title": "Quitter Orléans : après avoir sauvé le royaume, comment fabrique-t-on le pouvoir ?",
+    "location": "D955, Orléans vers Châteaudun, France",
+    "historical_note": "Épisode de liaison avec les séries Val de Loire et Orléans. Les évocations des étapes précédentes servent de repères et n’introduisent aucun fait nouveau non sourcé.",
+    "sources": [
+      "https://www.chateau-chateaudun.fr/decouvrir/qui-etait-jean-de-dunois",
+      "https://www.chateau-chateaudun.fr/decouvrir/un-parcours-de-visite-tactile-et-accessible/un-chateau-perche-sur-le-loir-station-n-1"
+    ]
+  },
+  "segments": [
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Nous quittons Orléans. Et pour la première fois depuis une bonne partie de notre voyage, la Loire va cesser de nous accompagner. Ce n’est pourtant pas une rupture. Depuis Angers, Saumur et les châteaux du Val de Loire, nous avons suivi une même question sans toujours la formuler : comment le pouvoir se rend-il visible ? Au début, il élève des murs pour survivre. Puis il ouvre des fenêtres, dessine des jardins, attire des artistes, construit des palais. Et à Orléans, nous avons retrouvé le moment brutal où tout cela redevient secondaire : en 1429, avant de montrer sa puissance, la monarchie française doit simplement éviter l’effondrement.",
+      "sequence": 1,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Regardez maintenant ce que fait le paysage. La ville s’efface, le fleuve disparaît et l’horizon s’ouvre. Nous entrons dans la Beauce, l’un des grands plateaux céréaliers français. Ici, le spectaculaire n’est pas un monument : c’est le vide apparent. Peu de relief, des terres immenses, des clochers qui deviennent des points de repère. Pour un voyageur d’avant l’automobile, voir loin n’est pas seulement agréable. Cela signifie repérer une ville, une route, une troupe, un clocher, parfois un danger.",
+      "sequence": 2,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Notre première étape va nous permettre de ne pas refermer trop vite le chapitre de Jeanne d’Arc. À Châteaudun nous allons retrouver Jean de Dunois, le capitaine d’Orléans pendant le siège, celui que l’on appelait alors le Bâtard d’Orléans. Il combat avec Jeanne, mais lui survit près de quarante ans. Et c’est précisément ce qui nous intéresse : que devient le monde des capitaines lorsque le royaume cesse peu à peu d’être en permanence au bord de la catastrophe ?",
+      "sequence": 3,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 650,
+      "text": "Le château que nous allons voir contient presque la réponse dans ses pierres. Un donjon du Moyen Âge y côtoie une aile résidentielle du quinzième siècle puis des développements de la Renaissance. Défendre, habiter, représenter son rang : les trois fonctions coexistent. Châteaudun n’est donc pas une parenthèse entre Orléans et Chartres. C’est la charnière qui nous permet de passer du temps de Jeanne au temps où les grands du royaume recommencent à bâtir pour durer.",
+      "sequence": 4,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    },
+    {
+      "character_id": "narrateur",
+      "speaker": "Narrateur",
+      "preset": "narrateur-vif",
+      "pause_after_ms": 700,
+      "text": "Alors, où en sommes-nous ? Nous venons de quitter le fleuve qui organisait notre voyage, mais nous n’avons pas quitté notre histoire. Nous allons maintenant suivre une autre ligne : celle du pouvoir qui se fixe dans les bâtiments, puis prétend agir sur le territoire lui-même. À Châteaudun, cherchez moins un joli château qu’un homme sorti de la guerre et devenu bâtisseur.",
+      "sequence": 5,
+      "resolved_preset": "narrateur-vif",
+      "voice": "fr-FR-RemyMultilingualNeural",
+      "rate": "+8%",
+      "pitch": "+14Hz",
+      "volume": "+5%",
+      "casting_alternatives": []
+    }
+  ]
+}
