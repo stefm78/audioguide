@@ -17,10 +17,12 @@
   const style = document.createElement('style');
   style.textContent = `
     .photo-rail-wrap{display:none!important}
+    .jeanne-story-link{display:flex;align-items:center;gap:11px;background:linear-gradient(135deg,#351b2d,#5b2b46);color:#fff;border-radius:15px;padding:12px 13px;margin:10px 0;text-decoration:none;font:760 .82rem system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;box-shadow:0 6px 16px rgba(53,27,45,.14)}
+    .jeanne-story-link strong{display:block}.jeanne-story-link small{display:block;color:#eadbe4;font-weight:600;margin-top:2px}.jeanne-story-link .arrow{margin-left:auto;font-size:1.3rem;color:#e2bb68}
     .episode-plan-return{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px;padding-top:10px;border-top:1px solid #eceee9;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
     .back-to-plan,.photo-web-link{min-height:44px;display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:8px 13px;border:1px solid #b9c5c3;border-radius:999px;background:#fff;color:#0d3652;text-decoration:none;font-size:.76rem;font-weight:850;box-shadow:0 3px 10px rgba(13,54,82,.06)}
     .photo-web-link{background:#eef4f5;border-color:#c7d7da}
-    .back-to-plan:focus-visible,.photo-web-link:focus-visible{outline:3px solid #d3a12e;outline-offset:3px}
+    .back-to-plan:focus-visible,.photo-web-link:focus-visible,.jeanne-story-link:focus-visible{outline:3px solid #d3a12e;outline-offset:3px}
     .plan-fab{position:fixed;z-index:29;right:12px;bottom:calc(18px + env(safe-area-inset-bottom));min-height:46px;display:none;align-items:center;gap:7px;padding:8px 13px;border:1px solid rgba(255,255,255,.35);border-radius:999px;background:#0d3652;color:#fff;text-decoration:none;font:850 .78rem system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;box-shadow:0 8px 24px rgba(0,0,0,.22)}
     .plan-fab.show{display:inline-flex}
     .player.on ~ .plan-fab{bottom:calc(104px + env(safe-area-inset-bottom))}
@@ -28,6 +30,17 @@
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
   `;
   document.head.appendChild(style);
+
+  function addStoryLink() {
+    if (document.querySelector('.jeanne-story-link')) return;
+    const anchor = document.querySelector('.walklink') || document.querySelector('.notice');
+    if (!anchor) return;
+    const link = document.createElement('a');
+    link.href = '../jeanne-vers-le-roi/';
+    link.className = 'jeanne-story-link';
+    link.innerHTML = '<span>🎭</span><span><strong>Récit complémentaire · Jeanne veut parler au roi</strong><small>Un long épisode dialogué, de Vaucouleurs à Chinon</small></span><span class="arrow">›</span>';
+    anchor.insertAdjacentElement('afterend', link);
+  }
 
   function goToPlan(event) {
     const plan = document.querySelector(PLAN_SELECTOR);
@@ -111,5 +124,6 @@
     const mo = new MutationObserver(addEpisodeButtons);
     mo.observe(episodes, {childList: true, subtree: false});
   }
+  addStoryLink();
   addEpisodeButtons();
 })();

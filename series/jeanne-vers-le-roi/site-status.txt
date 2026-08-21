@@ -1,0 +1,9 @@
+status=source-ready
+series=jeanne-vers-le-roi
+main_episode=1
+scenes=9
+format=fiction-historique
+dialogues=reconstructed
+historical_uncertainty=explicit
+audio_workflow=Generate Jeanne to Chinon audio
+linked_from=series/orleans-cathedral/
