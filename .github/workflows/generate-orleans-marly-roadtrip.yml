@@ -3,7 +3,8 @@ name: Generate Orleans to Marly roadtrip audio
 on:
   pull_request:
     paths:
-      - 'series/orleans-marly-roadtrip/**'
+      - 'series/orleans-marly-roadtrip/longform/**'
+      - 'series/orleans-marly-roadtrip/series.json'
       - 'scripts/voice-palette.json'
       - 'scripts/render_audioguide.py'
       - 'scripts/render_audioguide_fr.py'
@@ -11,7 +12,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'series/orleans-marly-roadtrip/**'
+      - 'series/orleans-marly-roadtrip/longform/**'
+      - 'series/orleans-marly-roadtrip/series.json'
       - 'scripts/voice-palette.json'
       - 'scripts/render_audioguide.py'
       - 'scripts/render_audioguide_fr.py'
